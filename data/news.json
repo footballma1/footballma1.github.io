@@ -1,90 +1,90 @@
 {
   "today_fixtures": [],
-  "updated": "2026-07-27 18:33",
+  "updated": "2026-07-27 18:23",
   "football_news": [
     {
-      "title": "درخشش ستارگان در نیمه وقت فینال جام جهانی",
-      "title_en": "Stars shine at the World Cup final half-time show",
-      "desc": "مدونا، بی تی اس، جاستین بیبر و شکیرا در نیمه نهایی فینال جام جهانی با حضور ویژه رونالدو و رونالدینیو در استادیوم نیوجرسی نیویورک، تماشاگران را سرگرم می کنند.",
-      "desc_en": "Madonna, BTS, Justin Bieber, and Shakira entertain the crowd at half-time in the World Cup final, with a special appearance from Ronaldo and Ronaldinho at the New York New Jersey Stadium.",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/a264/live/959097c0-83b0-11f1-bee8-53ce494e1abc.jpg"
+      "title": "چلسی مذاکرات خود را برای جذب ولبک مهاجم برایتون آغاز کرد",
+      "desc": "چلسی در حال مذاکره برای جذب دنی ولبک، مهاجم برایتون اند هاو آلبیون است و این بازیکن 35 ساله مشتاق پیوستن به سرمربی جدید ژابی آلونسو در استمفوردبریج است.",
+      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/337d/live/5210b680-89bc-11f1-965a-d70ca8fc6275.jpg",
+      "title_en": "چلسی مذاکرات خود را برای جذب ولبک مهاجم برایتون آغاز کرد",
+      "desc_en": "چلسی در حال مذاکره برای جذب دنی ولبک، مهاجم برایتون اند هاو آلبیون است و این بازیکن 35 ساله مشتاق پیوستن به سرمربی جدید ژابی آلونسو در استمفوردبریج است."
     },
     {
-      "title": "انگلیس در بازی مهیج با 10 گل فرانسه را شکست داد و در پلی آف مقام سوم را کسب کرد",
-      "title_en": "England beat France in 10-goal thriller to win third-place play-off",
-      "desc": "بوکایو ساکا در حالی هت تریک کرد که انگلیس 6-4 فرانسه را در یک مسابقه هیجان انگیز شکست داد و بهترین قهرمانی خود را در جام جهانی مردان از سال 1966 به ثبت رساند.",
-      "desc_en": "Bukayo Saka scores a hat-trick as England beat France 6-4 in a thriller to record their best men's World Cup finish since 1966.",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/a259/live/f5a9d0c0-8308-11f1-bee8-53ce494e1abc.jpg"
+      "title": "فوتبال انگلیس با محاکمه برای پایان تایم اوت های تاکتیکی دروازه بان ها موافقت کرد",
+      "desc": "بی‌بی‌سی اسپورت می‌گوید فوتبال انگلیس قرار است یک آزمایش رادیکال را برای از بین بردن تاکتیکی دروازه‌بان در این فصل اجرا کند.",
+      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/441f/live/daf7c2b0-850f-11f1-a08a-6d526d664753.jpg",
+      "title_en": "فوتبال انگلیس با محاکمه برای پایان تایم اوت های تاکتیکی دروازه بان ها موافقت کرد",
+      "desc_en": "بی‌بی‌سی اسپورت می‌گوید فوتبال انگلیس قرار است یک آزمایش رادیکال را برای از بین بردن تاکتیکی دروازه‌بان در این فصل اجرا کند."
     },
     {
-      "title": "نیمه اول درخشان، دوم آشفته - توخل",
-      "title_en": "Brilliant first half, turbulent second - Tuchel",
-      "desc": "سرمربی تیم ملی انگلیس از بازیکنانش تمجید کرد زیرا انگلیس با شکست 6-4 فرانسه به مقام سوم جام جهانی 2026 دست یافت.",
-      "desc_en": "England manager praises his players as England beat France 6-4 for third place in the 2026 World Cup.",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/4434/live/91bbb8b0-8305-11f1-926f-c90d1bcfbc84.jpg"
+      "title": "مذاکرات قرارداد رئال مادرید و علاقه آرسنال - آینده وینیسیوس جونیور چیست؟",
+      "desc": "با تمدید مذاکرات رئال مادرید و ابراز علاقه آرسنال، ممکن است در حال حاضر هیچ موقعیت جذاب تر از آینده وینیسیوس جونیور در نقل و انتقالات وجود نداشته باشد.",
+      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/5d30/live/def92a80-89a0-11f1-b2ab-0dd01740f9f6.jpg",
+      "title_en": "مذاکرات قرارداد رئال مادرید و علاقه آرسنال - آینده وینیسیوس جونیور چیست؟",
+      "desc_en": "با تمدید مذاکرات رئال مادرید و ابراز علاقه آرسنال، ممکن است در حال حاضر هیچ موقعیت جذاب تر از آینده وینیسیوس جونیور در نقل و انتقالات وجود نداشته باشد."
     },
     {
-      "title": "نگرانی های فزاینده قبل از خروج دفو - کارگردان ووکینگ",
-      "title_en": "Growing concerns before Defoe exit - Woking director",
-      "desc": "جودی براون مدیر فوتبال ووکینگ می گوید قبل از جدایی تیم لیگ ملی از جرمین دفو مهاجم سابق انگلیس به عنوان سرمربی، \"نگرانی های فزاینده\" در کل باشگاه وجود داشت.",
-      "desc_en": "Woking director of football Jody Brown says there were \"growing concerns\" across the club before the National League side parted ways with former England striker Jermain Defoe as manager.",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/5336/live/3b8eefb0-8815-11f1-afbe-b9a38c21b1d6.jpg"
+      "title": "به جای نفرت پراکنی مراقبه، دعا کنید یا فوتبال تماشا کنید - اینفانتینو",
+      "desc": "جیانی اینفانتینو، رئیس فیفا به منتقدان می‌گوید به جای «نفرت پراکنی و شایعات نادرست» درباره او و جام جهانی، «مدیتیشن، دعا یا تماشای یک مسابقه فوتبال» را انجام دهند.",
+      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/d0be/live/28678820-8987-11f1-88b2-635548373e92.jpg",
+      "title_en": "به جای نفرت پراکنی مراقبه، دعا کنید یا فوتبال تماشا کنید - اینفانتینو",
+      "desc_en": "جیانی اینفانتینو، رئیس فیفا به منتقدان می‌گوید به جای «نفرت پراکنی و شایعات نادرست» درباره او و جام جهانی، «مدیتیشن، دعا یا تماشای یک مسابقه فوتبال» را انجام دهند."
     },
     {
-      "title": "ایپسویچ مائدا مهاجم ژاپنی را از سلتیک به خدمت گرفت",
-      "title_en": "Ipswich sign Japan forward Maeda from Celtic",
-      "desc": "ایپسویچ تاون دایزن مائدا مهاجم ژاپنی از سلتیک را با قراردادی تا تابستان 2029 به خدمت گرفت.",
-      "desc_en": "Ipswich Town sign Japan forward Daizen Maeda from Celtic on a contract until summer 2029.",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/a6ae/live/3aad5330-881e-11f1-981c-7d4dd1ef3d1d.jpg"
+      "title": "دیوماند با دور شدن پاری سن ژرمن با شرایط رئال مادرید موافقت کرد",
+      "desc": "یان دیوماند، وینگر آر بی لایپزیگ پس از انصراف پاریسن ژرمن، با شرایط شخصی رئال مادرید موافقت کرد.",
+      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/5633/live/e88d1110-8964-11f1-b5c7-f34a712b7d61.jpg",
+      "title_en": "دیوماند با دور شدن پاری سن ژرمن با شرایط رئال مادرید موافقت کرد",
+      "desc_en": "یان دیوماند، وینگر آر بی لایپزیگ پس از انصراف پاریسن ژرمن، با شرایط شخصی رئال مادرید موافقت کرد."
     },
     {
-      "title": "آیا مونت می تواند مهره پایانی در اره منبت کاری اره مویی خط میانی منچستریونایتد باشد؟",
-      "title_en": "Could Mount be final piece in Man Utd midfield jigsaw?",
-      "desc": "میسون مانت در کنار آندری سانتوس جدید برای منچستریونایتد در دو بازی تدارکاتی اول خود فوق العاده بوده است.",
-      "desc_en": "Mason Mount has been outstanding alongside new arrival Andrey Santos for Manchester United in their first two pre-season games.",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/f10e/live/84e71c50-87f2-11f1-b8ee-9b3c26ad07bb.jpg"
+      "title": "رکورد هزینه اسپرز جاه طلبی جدیدی را نشان می دهد - ون دی ون",
+      "desc": "میکی ون دی ون می گوید رکورد هزینه های تاتنهام نشان دهنده یک \"جاه طلبی جدید\" پس از یک فصل \"غیر قابل قبول\" است.",
+      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/f2a2/live/b16d1670-8988-11f1-88b2-635548373e92.jpg",
+      "title_en": "رکورد هزینه اسپرز جاه طلبی جدیدی را نشان می دهد - ون دی ون",
+      "desc_en": "میکی ون دی ون می گوید رکورد هزینه های تاتنهام نشان دهنده یک \"جاه طلبی جدید\" پس از یک فصل \"غیر قابل قبول\" است."
     },
     {
-      "title": "Bodo/Glimt's Hogh برای تست پزشکی سلتیک",
-      "title_en": "Bodo/Glimt's Hogh to have Celtic medical",
-      "desc": "مارتین اونیل، مدیر تیم قهرمان اسکاتلند، فاش کرد که کسپر هوگ، مهاجم بودو/گلیمت قرار است در 24 ساعت آینده آزمایشات پزشکی را برای سلتیک انجام دهد.",
-      "desc_en": "Bodo/Glimt striker Kasper Hogh is due to have a medical with Celtic in the next 24 hours, the Scottish champions' manager, Martin O'Neill, reveals.",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/6298/live/926c24e0-8853-11f1-b5ed-29e4004ddba0.jpg"
+      "title": "راجرز و پالمر می توانند با هم بازی کنند - آلونسو",
+      "desc": "ژابی آلونسو، سرمربی چلسی می‌گوید که برنامه‌ای برای بازی کردن با مورگان راجرز به ارزش 117 میلیون پوند در کنار کول پالمر دارد.",
+      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/bd8d/live/9cd85070-897f-11f1-b8ee-9b3c26ad07bb.jpg",
+      "title_en": "راجرز و پالمر می توانند با هم بازی کنند - آلونسو",
+      "desc_en": "ژابی آلونسو، سرمربی چلسی می‌گوید که برنامه‌ای برای بازی کردن با مورگان راجرز به ارزش 117 میلیون پوند در کنار کول پالمر دارد."
     },
     {
-      "title": "سقوط سنت جانستون در حالی که داندی یونایتد به پایان رسید - دور برگشت جام لیگ",
-      "title_en": "St Johnstone crash out as Dundee Utd squeeze through - League Cup round-up",
-      "desc": "سنت جانستون به لطف گل تساوی دراماتیک ایست فایف، جام پریمیر اسپورت را شکست داد، اما رقبای لیگ برتری یعنی داندی یونایتد پس از اینکه مونتروز شانس خود را به ثمر رساند، از رقابت خارج شد.",
-      "desc_en": "St Johnstone crash out the Premier Sports Cup thanks to East Fife's dramatic stoppage-time equaliser, but Premiership rivals Dundee United squeeze through after Montrose blow their chance.",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/9c6e/live/0e8a01d0-8851-11f1-b8ee-9b3c26ad07bb.jpg"
+      "title": "پیرلو به دلیل ارتباط با شرکت شرط بندی روسی، برای استخدام در ایتالیا نامزد نمی شود",
+      "desc": "آندره آ پیرلو پس از چند روز بحث و جدل بر سر ارتباطش با یک شرکت شرط بندی روسی، می گوید که دیگر نامزد سرمربیگری ایتالیا نیست.",
+      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/01fc/live/7b3dc190-89a5-11f1-8a9d-b9e590fcf96d.jpg",
+      "title_en": "پیرلو به دلیل ارتباط با شرکت شرط بندی روسی، برای استخدام در ایتالیا نامزد نمی شود",
+      "desc_en": "آندره آ پیرلو پس از چند روز بحث و جدل بر سر ارتباطش با یک شرکت شرط بندی روسی، می گوید که دیگر نامزد سرمربیگری ایتالیا نیست."
     },
     {
-      "title": "کودینا در مورد اینکه چرا به پروژه وستهام پیوست",
-      "title_en": "Codina on why she joined West Ham project",
-      "desc": "لایا کودینا در طول سه سال حضور خود در آرسنال جام ها را به دست آورد و \"خانواده جدیدی\" پیدا کرد - اما او آماده تغییر با وستهم بود.",
-      "desc_en": "Laia Codina won trophies and found a \"new family\" during her three-year spell at Arsenal - but she was ready for a change with West Ham.",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/c49f/live/20de2000-8680-11f1-b60e-a7e0943a9c78.png"
+      "title": "مارتین و روباه باید پس از مبارزات \"راه خود را پیدا کنند\".",
+      "desc": "راسل مارتین، سرمربی لسترسیتی می گوید که نباید از تاریخ برای قضاوت در مورد دستاوردهای او با قهرمان سابق لیگ برتر استفاده کرد.",
+      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/23ee/live/9c9c8ab0-89a5-11f1-8a9d-b9e590fcf96d.jpg",
+      "title_en": "مارتین و روباه باید پس از مبارزات \"راه خود را پیدا کنند\".",
+      "desc_en": "راسل مارتین، سرمربی لسترسیتی می گوید که نباید از تاریخ برای قضاوت در مورد دستاوردهای او با قهرمان سابق لیگ برتر استفاده کرد."
     },
     {
-      "title": "برنهام به عنوان نخست وزیر چه معنایی برای فوتبال می تواند داشته باشد؟",
-      "title_en": "What could Burnham as PM mean for football?",
-      "desc": "اندی برنهام تنها دومین روز خود را به عنوان نخست‌وزیر بریتانیا وارد می‌کند، اما مردم در حال تعجب هستند که این می‌تواند چه معنایی برای ورزش داشته باشد.",
-      "desc_en": "Andy Burnham is only into his second day as the UK's Prime Minister, but already people are wondering what this could mean for sport.",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/864b/live/6eaf4430-84f5-11f1-ae95-69a18db8092b.jpg"
+      "title": "من کی هستم؟ ستاره شماره 7 لیگ برتر را حدس بزنید",
+      "desc": "آیا بازیکن امروز را در کمترین تلاش ممکن به دست خواهید آورد؟",
+      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/bbc4/live/8fe12a80-85b1-11f1-926f-c90d1bcfbc84.png",
+      "title_en": "من کی هستم؟ ستاره شماره 7 لیگ برتر را حدس بزنید",
+      "desc_en": "آیا بازیکن امروز را در کمترین تلاش ممکن به دست خواهید آورد؟"
     },
     {
-      "title": "گارناچو، راجرز و دو باشگاه در تلاش برای متعادل کردن کتاب هستند",
-      "title_en": "Garnacho, Rogers and two clubs trying to balance the books",
-      "desc": "چلسی چگونه می تواند مورگان راجرز را بپردازد؟ و چرا استون ویلا به جای خریدن آلخاندرو گارناچو به دنبال قرضی برای آلخاندرو گارناچو است؟",
-      "desc_en": "How can Chelsea afford Morgan Rogers? And why are Aston Villa pursuing a loan for Alejandro Garnacho rather than buying him?",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/0408/live/025b9280-85d5-11f1-bee8-53ce494e1abc.png"
+      "title": "رنجرز پس از تابستان شلوغ استخدام به چند هافبک نیاز دارد؟",
+      "desc": "رنجرز تیمی پر از هافبک میانی دارد، اما آیا آنقدر خوب هستند که مهمات کافی برای مهاجمان خود فراهم کنند؟",
+      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/39c1/live/ad6cffb0-8940-11f1-b8ee-9b3c26ad07bb.png",
+      "title_en": "رنجرز پس از تابستان شلوغ استخدام به چند هافبک نیاز دارد؟",
+      "desc_en": "رنجرز تیمی پر از هافبک میانی دارد، اما آیا آنقدر خوب هستند که مهمات کافی برای مهاجمان خود فراهم کنند؟"
     },
     {
-      "title": "جدیدترین چلسی: رای دهید! آیا ولبک نوع مهاجم مناسبی در استمفوردبریج است؟",
-      "title_en": "Chelsea latest: VOTE! Is Welbeck the right type of striker at Stamford Bridge?",
-      "desc": "",
-      "desc_en": "",
-      "img": "https://e2.365dm.com/26/06/1920x1080/skysports-chelsea-premier-league_7281528.jpg?20260624101452"
+      "title": "سیموندز کاپیتان برایتون قرارداد بلندمدت جدیدی امضا کرد",
+      "desc": "میزی سیموندز، کاپیتان برایتون، قرارداد جدیدی را امضا کرد که باشگاه آن را بلندمدت توصیف کرد.",
+      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/7ca0/live/00c939c0-89a6-11f1-a85a-79136c2d298e.jpg",
+      "title_en": "سیموندز کاپیتان برایتون قرارداد بلندمدت جدیدی امضا کرد",
+      "desc_en": "میزی سیموندز، کاپیتان برایتون، قرارداد جدیدی را امضا کرد که باشگاه آن را بلندمدت توصیف کرد."
     }
   ],
   "fixtures": [
