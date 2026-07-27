@@ -1351,5 +1351,28 @@
       "desc_en": "Newly-promoted Birmingham City sign goalkeeper Sophie Baggaley as a free agent after she leaves Brighton.",
       "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/9a72/live/1deb7560-875b-11f1-95ec-a30de4e448c4.jpg"
     }
-  ]
+  ],
+  "team_logos": {
+    "آرسنال": "https://img.pikbest.com/emoji/20200706/1268/1.png",
+    "لیورپول": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Liverpool_FC.svg/120px-Liverpool_FC.svg.png",
+    "چلسی": "https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/Chelsea_FC.svg/120px-Chelsea_FC.svg.png",
+    "منچسترسیتی": "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Manchester_City_FC_badge.svg/120px-Manchester_City_FC_badge.svg.png",
+    "منچستریونایتد": "https://upload.wikimedia.org/wikipedia/en/thumb/7/7a/Manchester_United_FC_crest.svg/120px-Manchester_United_FC_crest.svg.png",
+    "تاتنهام": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Tottenham_Hotspur.svg/120px-Tottenham_Hotspur.svg.png",
+    "نیوکاسل": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Newcastle_United_Logo.svg/120px-Newcastle_United_Logo.svg.png",
+    "استون ویلا": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Aston_Villa_FC_crest_%282023%29.svg/120px-Aston_Villa_FC_crest_%282023%29.svg.png",
+    "رئال مادرید": "https://upload.wikimedia.org/wikipedia/en/thumb/5/56/Real_Madrid_CF.svg/120px-Real_Madrid_CF.svg.png",
+    "بارسلونا": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/120px-FC_Barcelona_%28crest%29.svg.png",
+    "اتلتیکو مادرید": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Atletico_Madrid_logo_%282024%29.svg/120px-Atletico_Madrid_logo_%282024%29.svg.png",
+    "اینترمیلان": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Inter_Milano_Logo.svg/120px-Inter_Milano_Logo.svg.png",
+    "آث میلان": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d0/AC_Milan_%28crest%29.svg/120px-AC_Milan_%28crest%29.svg.png",
+    "یوونتوس": "https://upload.wikimedia.org/wikipedia/en/thumb/b/bc/Juventus_Turin_2017_logo.svg/120px-Juventus_Turin_2017_logo.svg.png",
+    "ناپولی": "https://upload.wikimedia.org/wikipedia/en/thumb/2/20/SSC_Napoli_logo_%282024%29.svg/120px-SSC_Napoli_logo_%282024%29.svg.png",
+    "بایرن مونیخ": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg/120px-FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg.png",
+    "دورتموند": "https://upload.wikimedia.org/wikipedia/en/thumb/6/67/Borussia_Dortmund_logo.svg/120px-Borussia_Dortmund_logo.svg.png",
+    "لورکوزن": "https://upload.wikimedia.org/wikipedia/en/thumb/5/59/Bayer_04_Leverkusen_logo.svg/120px-Bayer_04_Leverkusen_logo.svg.png",
+    "پاریسن‌ژرمن": "https://upload.wikimedia.org/wikipedia/en/thumb/7/77/Paris_Saint-Germain_F.C..svg/120px-Paris_Saint-Germain_F.C..svg.png",
+    "پرسپولیس": "https://upload.wikimedia.org/en/6/61/Persepolis_F.C._Logo.png",
+    "استقلال": "https://upload.wikimedia.org/en/a/a2/Esteghlal_Te.png"
+  }
 }
