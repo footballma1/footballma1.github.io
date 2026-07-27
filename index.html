@@ -166,7 +166,7 @@ document.getElementById('sr').classList.remove('on');
 let timerSec=60;
 function updateTimer(){timerSec--;if(timerSec<=0){timerSec=60;load();}
 const el=document.getElementById('timerNum');if(el)el.textContent=timerSec+'s';}
-setInterval(updateTimer,1000);
+
 
 // Favorites
 function gf(){try{return JSON.parse(localStorage.getItem('fm_fav'))||{teams:[],players:[]};}catch(e){return{teams:[],players:[]};}}
@@ -306,6 +306,18 @@ if(rel.length){h+='<div class="ds2"><h3>📰 '+L('related')+'</h3>';rel.slice(0,
 document.getElementById('detBody').innerHTML=h;document.getElementById('detTitle').textContent=name;document.getElementById('det').classList.add('on');}
 
 async function load(){try{const r=await fetch('/data/news.json?'+Date.now());D=await r.json();rFav();rMatch();rNews();rMore();}catch(e){}}
+// Real timer based on Date.now()
+var FM_KEY='fm_lastupdate';
+if(!localStorage.getItem(FM_KEY))localStorage.setItem(FM_KEY,Date.now());
+function tickTimer(){
+var last=parseInt(localStorage.getItem(FM_KEY)||Date.now());
+var diff=Math.floor((Date.now()-last)/1000);
+var remain=Math.max(0,60-diff);
+var el=document.getElementById('timerNum');
+if(el)el.textContent=remain+'s';
+if(remain<=0){localStorage.setItem(FM_KEY,Date.now());load();}
+}
+setInterval(tickTimer,1000);
 load();setInterval(load,60000);
 </script>
 </body>
