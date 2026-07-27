@@ -111,9 +111,13 @@ body{font-family:'Vazirmatn',sans-serif;background:#000;color:#fff;max-width:480
 .timer{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.06);border-radius:14px;padding:16px;text-align:center;margin-top:16px;backdrop-filter:blur(12px)}
 .timer .num{font-size:32px;font-weight:900;color:#3b82f6;font-variant-numeric:tabular-nums}
 .timer .lbl{font-size:10px;color:#666;margin-top:4px}
+
+/* Anti copy */
+body{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+img{-webkit-user-drag:none;user-drag:none}
 </style>
 </head>
-<body>
+<body oncontextmenu="return false">
 <div class="hd">
 <div class="logo">⚽ Football<b>MA</b></div>
 <div class="search"><input id="si" placeholder="🔍 جستجوی تیم یا بازیکن..." oninput="doSearch(this.value)"></div>
@@ -175,7 +179,7 @@ h+='</div><div class="st">⭐ '+L('favp')+'</div><div class="fav-tags">';
 AP.forEach(p=>{h+='<div class="fav-tag g'+(f.players.includes(p)?' on':'')+'" onclick="togPlayer(\''+p+'\')">'+p+'</div>';});
 h+='</div>';
 if(f.teams.length&&n.length){h+='<div class="st">📰 '+L('favnews')+'</div>';
-n.filter(x=>f.teams.some(t=>(x.title+' '+(x.title_en||'')).includes(t))).slice(0,4).forEach(x=>{h+='<div class="nh" onclick="oN(this)" data-i="'+n.indexOf(x)+'">'+(x.img?'<img src="'+x.img+'" onerror="this.style.display=\'none\'">':'')+'<div class="nh-body"><div class="nh-t">'+tn(x)+'</div><div class="nh-d">'+td(x)+'</div></div></div>');}
+n.filter(x=>f.teams.some(t=>(x.title+' '+(x.title_en||'')).includes(t))).slice(0,4).forEach(x=>{h+='<div class="nh" onclick="oN(this)" data-i="'+n.indexOf(x)+'">'+(x.img?'<img src="'+x.img+'" onerror="this.style.display=\'none\'">':'')+'<div class="nh-body"><div class="nh-t">'+tn(x)+'</div><div class="nh-d">'+td(x)+'</div></div></div>';});}
 if(f.teams.length&&fx.length){h+='<div class="st">🏟️ '+L('favfix')+'</div>';
 fx.filter(m=>f.teams.some(t=>m.home.includes(t)||m.away.includes(t))).slice(0,4).forEach(m=>{h+='<div class="mc"><div class="mc-lg">'+m.league+'</div><div class="mc-row"><div class="mc-team">'+tl(m.home)+'<div class="mc-nm">'+m.home+'</div></div><div class="mc-ct"><div class="mc-tm">'+m.time+'</div></div><div class="mc-team" style="justify-content:flex-end"><div class="mc-nm">'+m.away+'</div>'+tl(m.away)+'</div></div></div>';});}
 document.getElementById('fvc').innerHTML=h;}
