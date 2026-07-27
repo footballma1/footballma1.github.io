@@ -1,46 +1,90 @@
 {
   "today_fixtures": [],
-  "updated": "2026-07-27 17:43",
+  "updated": "2026-07-27 17:54",
   "football_news": [
     {
-      "title": "دروازه بان استارتاپ به تیم تازه وارد WSL بیرمنگام می پیوندد",
-      "desc": "بیرمنگام سیتی دروازه بان کیتی استارتاپ را پس از جدایی از منچسترسیتی پس از پایان قراردادش به خدمت گرفت.",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/0684/live/ea90ff60-869b-11f1-9e03-bdd14c1ce63a.png"
+      "title": "چلسی مذاکرات خود را برای جذب ولبک مهاجم برایتون آغاز کرد",
+      "title_en": "Chelsea open talks to sign Brighton striker Welbeck",
+      "desc": "چلسی در حال مذاکره برای جذب دنی ولبک، مهاجم برایتون اند هاو آلبیون است و این بازیکن 35 ساله مشتاق پیوستن به سرمربی جدید ژابی آلونسو در استمفوردبریج است.",
+      "desc_en": "Chelsea are in talks to sign Brighton & Hove Albion striker Danny Welbeck, with the 35-year-old keen to join new manager Xabi Alonso at Stamford Bridge.",
+      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/337d/live/5210b680-89bc-11f1-965a-d70ca8fc6275.jpg"
     },
     {
-      "title": "آرسنال رودریگز دروازه بان اسپانیایی را به صورت رایگان به خدمت گرفت",
-      "desc": "آرسنال میسا رودریگز دروازه بان اسپانیایی را با انتقال آزاد به خدمت گرفت - ششمین خرید تابستانی سوپرلیگ زنان.",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/1d09/live/57f5cb00-8550-11f1-82c8-79209299e29b.jpg"
+      "title": "فوتبال انگلیس با محاکمه برای پایان تایم اوت های تاکتیکی دروازه بان ها موافقت کرد",
+      "title_en": "English football agrees trial to end goalkeeper tactical timeouts",
+      "desc": "بی‌بی‌سی اسپورت می‌گوید فوتبال انگلیس قرار است یک آزمایش رادیکال را برای از بین بردن تاکتیکی دروازه‌بان در این فصل اجرا کند.",
+      "desc_en": "English football is set to implement a radical trial to try to eradicate the goalkeeper tactical timeout this season, BBC Sport can reveal.",
+      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/441f/live/daf7c2b0-850f-11f1-a08a-6d526d664753.jpg"
     },
     {
-      "title": "در کانون توجه اما پرهیز از کانون توجه - صعود منحصر به فرد Olise به اوج",
-      "desc": "فوتبالیستی که از توجه بیش از حد رسانه ها بدش می آید، اما مایکل اولیز اگر قهرمانی های خود در جام جهانی را ادامه دهد، ممکن است انتخاب زیادی نداشته باشد.",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/ec37/live/30515480-77ad-11f1-b21a-9d51504ec77b.jpg"
+      "title": "مذاکرات قرارداد رئال مادرید و علاقه آرسنال - آینده وینیسیوس جونیور چیست؟",
+      "title_en": "Real Madrid contract talks and Arsenal interest - what is Vinicius Jr's future?",
+      "desc": "با تمدید مذاکرات رئال مادرید و ابراز علاقه آرسنال، ممکن است در حال حاضر هیچ موقعیت جذاب تر از آینده وینیسیوس جونیور در نقل و انتقالات وجود نداشته باشد.",
+      "desc_en": "With Real Madrid renewing contract talks and Arsenal showing interest, there may be no more intriguing transfer situation right now than Vinicius Jr's future.",
+      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/5d30/live/def92a80-89a0-11f1-b2ab-0dd01740f9f6.jpg"
     },
     {
-      "title": "چگونه معدنچیان کورنیش فوتبال را به مکزیک آوردند",
-      "desc": "در حالی که مکزیک در حال آماده شدن برای تبدیل شدن به اولین کشوری است که سه بار میزبان یا میزبان جام جهانی می شود، BBC Sport به ریشه های فوتبال کورنیش نگاه می کند.",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/e08d/live/51c98ee0-5aaa-11f1-b277-cd187c78657d.jpg"
+      "title": "به جای نفرت پراکنی مراقبه، دعا کنید یا فوتبال تماشا کنید - اینفانتینو",
+      "title_en": "Meditate, pray or watch football instead of spreading hate - Infantino",
+      "desc": "جیانی اینفانتینو، رئیس فیفا به منتقدان می‌گوید به جای «نفرت پراکنی و شایعات نادرست» درباره او و جام جهانی، «مدیتیشن، دعا یا تماشای یک مسابقه فوتبال» را انجام دهند.",
+      "desc_en": "Fifa president Gianni Infantino tells critics to \"meditate, pray or watch a football match\" instead of \"spreading hate and false rumours\" about him and the World Cup.",
+      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/d0be/live/28678820-8987-11f1-88b2-635548373e92.jpg"
     },
     {
-      "title": "تابستان یک نسل طلایی درخشش خود را از دست داد",
-      "desc": "تابستان 2006 قرار بود لحظه لحظه انگلستان باشد. یک تیم در سطح جهانی، شرکای مشهور و هواداران مطمئن - تبلیغات بسیار زیاد بود و سقوط سخت بود.",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/37ef/live/d6ebab20-4cfa-11f1-ac78-2112837ce2aa.jpg"
+      "title": "دیوماند با دور شدن پاری سن ژرمن با شرایط رئال مادرید موافقت کرد",
+      "title_en": "Diomande agrees Real Madrid terms as PSG step away",
+      "desc": "یان دیوماند، وینگر آر بی لایپزیگ پس از انصراف پاریسن ژرمن، با شرایط شخصی رئال مادرید موافقت کرد.",
+      "desc_en": "RB Leipzig winger Yan Diomande agrees personal terms with Real Madrid after Paris St-Germain withdraw their interest.",
+      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/5633/live/e88d1110-8964-11f1-b5c7-f34a712b7d61.jpg"
     },
     {
-      "title": "چگونه تونه غم و اندوه را از طریق فوتبال عبور می دهد",
-      "desc": "الا تون، هافبک تیم ملی انگلیس و منچستریونایتد در مستندی جدید از بی بی سی درباره غم، فوتبال و آماده شدن برای عروسی خود بدون پدرش صحبت می کند.",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/43ab/live/2f90d850-55fb-11f1-9773-43c89bcb1e91.jpg"
+      "title": "رکورد هزینه اسپرز جاه طلبی جدیدی را نشان می دهد - ون دی ون",
+      "title_en": "Record Spurs spend shows new ambition - Van de Ven",
+      "desc": "میکی ون دی ون می گوید رکورد هزینه های تاتنهام نشان دهنده یک \"جاه طلبی جدید\" پس از یک فصل \"غیر قابل قبول\" است.",
+      "desc_en": "Micky van de Ven says Tottenham's record spending highlights a \"new ambition\" after an \"unacceptable\" season.",
+      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/f2a2/live/b16d1670-8988-11f1-88b2-635548373e92.jpg"
     },
     {
-      "title": "زمانی که فوتبال برای پایان دادن به سیستم \"بی رحمانه\" به پنالتی تبدیل شد",
-      "desc": "هیچ کس نمی دانست در اولین ضربات پنالتی رسمی فوتبال چه انتظاری داشته باشد - و هیچ کس نمی خواست به عنوان اولین کسی که از دست می دهد در تاریخ ثبت شود.",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/6f4e/live/4dd6e3e0-2905-11f1-8d7b-c7ea0e92917e.jpg"
+      "title": "راجرز و پالمر می توانند با هم بازی کنند - آلونسو",
+      "title_en": "Rogers and Palmer can play together - Alonso",
+      "desc": "ژابی آلونسو، سرمربی چلسی می‌گوید که برنامه‌ای برای بازی کردن با مورگان راجرز به ارزش 117 میلیون پوند در کنار کول پالمر دارد.",
+      "desc_en": "Chelsea manager Xabi Alonso says he has a \"plan\" to play club record £117m signing Morgan Rogers alongside Cole Palmer.",
+      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/bd8d/live/9cd85070-897f-11f1-b8ee-9b3c26ad07bb.jpg"
     },
     {
-      "title": "سقوط فرانک: درون مبارزه او برای جذب بازیکنان و هواداران",
-      "desc": "توماس فرانک پس از تنها 8 ماه سرمربیگری تاتنهام از سمت خود برکنار شد. سامی موکبل، خبرنگار بی‌بی‌سی اسپورت، نگاهی دقیق‌تر به دوران تصدی خود دارد.",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/93eb/live/9869ca30-0803-11f1-9972-d3f265c101c6.png"
+      "title": "پیرلو به دلیل ارتباط با شرکت شرط بندی روسی، برای استخدام در ایتالیا نامزد نمی شود",
+      "title_en": "Pirlo out of running for Italy job over link to Russian betting company",
+      "desc": "آندره آ پیرلو پس از چند روز بحث و جدل بر سر ارتباطش با یک شرکت شرط بندی روسی، می گوید که دیگر نامزد سرمربیگری ایتالیا نیست.",
+      "desc_en": "Andrea Pirlo says he is no longer a candidate to coach Italy following days of controversy over his link to a Russian betting company.",
+      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/01fc/live/7b3dc190-89a5-11f1-8a9d-b9e590fcf96d.jpg"
+    },
+    {
+      "title": "مارتین و روباه باید پس از مبارزات \"راه خود را پیدا کنند\".",
+      "title_en": "Martin & Foxes must 'find own way' after struggles",
+      "desc": "راسل مارتین، سرمربی لسترسیتی می گوید که نباید از تاریخ برای قضاوت در مورد دستاوردهای او با قهرمان سابق لیگ برتر استفاده کرد.",
+      "desc_en": "Leicester City manager Russell Martin says history should not be used to judge what he can achieve with the former Premier League champions.",
+      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/23ee/live/9c9c8ab0-89a5-11f1-8a9d-b9e590fcf96d.jpg"
+    },
+    {
+      "title": "من کی هستم؟ ستاره شماره 7 لیگ برتر را حدس بزنید",
+      "title_en": "Who am I? Guess Premier League star No 7",
+      "desc": "آیا بازیکن امروز را در کمترین تلاش ممکن به دست خواهید آورد؟",
+      "desc_en": "Will you get today's player in as few attempts as possible?",
+      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/bbc4/live/8fe12a80-85b1-11f1-926f-c90d1bcfbc84.png"
+    },
+    {
+      "title": "رنجرز پس از تابستان شلوغ استخدام به چند هافبک نیاز دارد؟",
+      "title_en": "How many midfielders do Rangers need after busy summer of recruitment?",
+      "desc": "رنجرز تیمی پر از هافبک میانی دارد، اما آیا آنقدر خوب هستند که مهمات کافی برای مهاجمان خود فراهم کنند؟",
+      "desc_en": "Rangers have a team full of central midfielders, but are they good enough to provide enough ammunition for their strikers?",
+      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/39c1/live/ad6cffb0-8940-11f1-b8ee-9b3c26ad07bb.png"
+    },
+    {
+      "title": "سیموندز کاپیتان برایتون قرارداد بلندمدت جدیدی امضا کرد",
+      "title_en": "Brighton captain Symonds signs new 'long-term' deal",
+      "desc": "میزی سیموندز، کاپیتان برایتون، قرارداد جدیدی را امضا کرد که باشگاه آن را بلندمدت توصیف کرد.",
+      "desc_en": "Brighton captain Maisie Symonds signs a new contract, described by the club as long-term.",
+      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/7ca0/live/00c939c0-89a6-11f1-a85a-79136c2d298e.jpg"
     }
   ],
   "fixtures": [
@@ -1113,42 +1157,58 @@
   "transfers": [
     {
       "title": "چلسی مذاکرات خود را برای جذب ولبک مهاجم برایتون آغاز کرد",
+      "title_en": "Chelsea open talks to sign Brighton striker Welbeck",
       "desc": "چلسی در حال مذاکره برای جذب دنی ولبک، مهاجم برایتون اند هاو آلبیون است و این بازیکن 35 ساله مشتاق پیوستن به سرمربی جدید ژابی آلونسو در استمفوردبریج است.",
+      "desc_en": "Chelsea are in talks to sign Brighton & Hove Albion striker Danny Welbeck, with the 35-year-old keen to join new manager Xabi Alonso at Stamford Bridge.",
       "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/337d/live/5210b680-89bc-11f1-965a-d70ca8fc6275.jpg"
     },
     {
       "title": "فوتبال انگلیس با محاکمه برای پایان تایم اوت های تاکتیکی دروازه بان ها موافقت کرد",
+      "title_en": "English football agrees trial to end goalkeeper tactical timeouts",
       "desc": "بی‌بی‌سی اسپورت می‌گوید فوتبال انگلیس قرار است یک آزمایش رادیکال را برای از بین بردن تاکتیکی دروازه‌بان در این فصل اجرا کند.",
+      "desc_en": "English football is set to implement a radical trial to try to eradicate the goalkeeper tactical timeout this season, BBC Sport can reveal.",
       "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/441f/live/daf7c2b0-850f-11f1-a08a-6d526d664753.jpg"
     },
     {
       "title": "مذاکرات قرارداد رئال مادرید و علاقه آرسنال - آینده وینیسیوس جونیور چیست؟",
+      "title_en": "Real Madrid contract talks and Arsenal interest - what is Vinicius Jr's future?",
       "desc": "با تمدید مذاکرات رئال مادرید و ابراز علاقه آرسنال، ممکن است در حال حاضر هیچ موقعیت جذاب تر از آینده وینیسیوس جونیور در نقل و انتقالات وجود نداشته باشد.",
+      "desc_en": "With Real Madrid renewing contract talks and Arsenal showing interest, there may be no more intriguing transfer situation right now than Vinicius Jr's future.",
       "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/5d30/live/def92a80-89a0-11f1-b2ab-0dd01740f9f6.jpg"
     },
     {
       "title": "دیوماند با دور شدن پاری سن ژرمن با شرایط رئال مادرید موافقت کرد",
+      "title_en": "Diomande agrees Real Madrid terms as PSG step away",
       "desc": "یان دیوماند، وینگر آر بی لایپزیگ پس از انصراف پاریسن ژرمن، با شرایط شخصی رئال مادرید موافقت کرد.",
+      "desc_en": "RB Leipzig winger Yan Diomande agrees personal terms with Real Madrid after Paris St-Germain withdraw their interest.",
       "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/5633/live/e88d1110-8964-11f1-b5c7-f34a712b7d61.jpg"
     },
     {
       "title": "سیموندز کاپیتان برایتون قرارداد بلندمدت جدیدی امضا کرد",
+      "title_en": "Brighton captain Symonds signs new 'long-term' deal",
       "desc": "میزی سیموندز، کاپیتان برایتون، قرارداد جدیدی را امضا کرد که باشگاه آن را بلندمدت توصیف کرد.",
+      "desc_en": "Brighton captain Maisie Symonds signs a new contract, described by the club as long-term.",
       "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/7ca0/live/00c939c0-89a6-11f1-a85a-79136c2d298e.jpg"
     },
     {
       "title": "اسکالونی، سرمربی آرژانتین کنفرانس مطبوعاتی را با گریه ترک کرد",
+      "title_en": "Argentina boss Scaloni leaves press conference in tears",
       "desc": "لیونل اسکالونی، سرمربی تیم ملی آرژانتین، پس از شکست روز یکشنبه در فینال جام جهانی مقابل اسپانیا، کنفرانس خبری پس از بازی خود را با گریه ترک کرد و درباره آینده خود صحبت کرد.",
+      "desc_en": "Argentina manager Lionel Scaloni leaves his post-match news conference in tears when talking about his future after Sunday's World Cup final defeat by Spain.",
       "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/0fe8/live/acf179d0-842c-11f1-bee8-53ce494e1abc.jpg"
     },
     {
       "title": "در حال حرکت - جوانترین کارآموزان فوتبال",
+      "title_en": "On the move - football's youngest journeymen",
       "desc": "بازیکنانی که تا تولد 23 سالگی خود در تعداد قابل توجهی از باشگاه ها ظاهر شده بودند.",
+      "desc_en": "The players who had appeared for a remarkable number of clubs by their 23rd birthday.",
       "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/2415/live/043bf610-87a8-11f1-b4f4-2f10373ed74c.jpg"
     },
     {
       "title": "مک‌اینز به رنجرز مبنی بر امضای قرارداد ظرف 48 ساعت اذیت می‌کند",
+      "title_en": "McInnes teases Rangers signing within 48 hours",
       "desc": "رنجرز امیدوار است تا ظرف 48 ساعت آینده یک خرید دیگر را اعلام کند، و درک مک‌اینز، سرمربی تیم، یک ثانیه هم تا زمانی که تیمش فصل خود را در خارج از خانه مقابل داندی یونایتد در روز جمعه باز می‌کند، یک ثانیه اذیت می‌کند.",
+      "desc_en": "Rangers hope to announce another signing within 48 hours, with manager Derek McInnes teasing a second by the time his side open their season away to Dundee United on Friday.",
       "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/f5a8/live/8a2f6cd0-8932-11f1-8854-83ac9c49426d.jpg"
     }
   ]
