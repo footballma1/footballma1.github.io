@@ -299,7 +299,7 @@ const rel=n.filter(x=>(x.title+' '+(x.title_en||'')).includes(name)||(x.title+' 
 if(rel.length){h+='<div class="ds2"><h3>📰 '+L('related')+'</h3>';rel.slice(0,3).forEach(x=>{h+='<div class="di2"><strong>'+tn(x)+'</strong><br>'+td(x)+'</div>';});h+='</div>';}
 document.getElementById('detBody').innerHTML=h;document.getElementById('detTitle').textContent=name;document.getElementById('det').classList.add('on');}
 
-async function load(){try{const r=await fetch('/data/news.json?'+Date.now());D=await r.json();rFav();rMatch();rNews();rMore();}catch(e){}}
+async function load(){try{const r=await fetch('/data/d.json?'+Date.now());D=await r.json();rFav();rMatch();rNews();rMore();}catch(e){}}
 load();setInterval(load,60000);
 </script>
 </body>
