@@ -1,146 +1,104 @@
 {
   "today_fixtures": [],
-  "updated": "2026-07-27 19:13",
+  "updated": "2026-07-27 19:49",
   "football_news": [
     {
-      "title": "چلسی مذاکرات خود را برای جذب ولبک مهاجم برایتون آغاز کرد",
-      "title_en": "Chelsea open talks to sign Brighton striker Welbeck",
-      "desc": "چلسی در حال مذاکره برای جذب دنی ولبک، مهاجم برایتون اند هاو آلبیون است و این بازیکن 35 ساله مشتاق پیوستن به سرمربی جدید ژابی آلونسو در استمفوردبریج است.",
-      "desc_en": "Chelsea are in talks to sign Brighton & Hove Albion striker Danny Welbeck, with the 35-year-old keen to join new manager Xabi Alonso at Stamford Bridge.",
+      "title": "حکم براندل در مورد نوریس \"بی امان\"، حادثه پیاستری-ساینز و بازگشت مالزی",
+      "title_en": "Brundle's verdict on 'relentless' Norris, Piastri-Sainz incident and Malaysia return",
+      "desc": "گرندپری مجارستان راهی سرگرم‌کننده برای به پایان رساندن قسمت اول فصل F1 2026 قبل از تعطیلات تابستانی بود. چهار یا پنج دونده برتر اغلب همه در یک عکس دوربین قابل مشاهده بودند",
+      "desc_en": "The Hungarian Grand Prix was an entertaining way to finish the first part of the 2026 F1 season before the summer break. The top four or five runners were often all visible in the same camera shot, an",
       "img": "/img/n0.jpg"
     },
     {
-      "title": "فوتبال انگلیس با محاکمه برای پایان تایم اوت های تاکتیکی دروازه بان ها موافقت کرد",
-      "title_en": "English football agrees trial to end goalkeeper tactical timeouts",
-      "desc": "بی‌بی‌سی اسپورت می‌گوید فوتبال انگلیس قرار است یک آزمایش رادیکال را برای از بین بردن تاکتیکی دروازه‌بان در این فصل اجرا کند.",
-      "desc_en": "English football is set to implement a radical trial to try to eradicate the goalkeeper tactical timeout this season, BBC Sport can reveal.",
+      "title": "انگلیس با عبور از مالاوی در گلاسکو از شکست استرالیا برگشت",
+      "title_en": "England bounce back from Australia defeat by breezing past Malawi in Glasgow",
+      "desc": "انگلیس پس از شکست بازی های مشترک المنافع خود در نت بال مقابل استرالیا با پیروزی بسیار مورد نیاز مقابل مالاوی در گلاسکو برگشت.",
+      "desc_en": "England bounced back from their Commonwealth Games Netball defeat at the hands of Australia with a much-needed victory against Malawi in Glasgow.",
       "img": "/img/n1.jpg"
     },
     {
-      "title": "مذاکرات قرارداد رئال مادرید و علاقه آرسنال - آینده وینیسیوس جونیور چیست؟",
-      "title_en": "Real Madrid contract talks and Arsenal interest - what is Vinicius Jr's future?",
-      "desc": "با تمدید مذاکرات رئال مادرید و ابراز علاقه آرسنال، ممکن است در حال حاضر هیچ موقعیت جذاب تر از آینده وینیسیوس جونیور در نقل و انتقالات وجود نداشته باشد.",
-      "desc_en": "With Real Madrid renewing contract talks and Arsenal showing interest, there may be no more intriguing transfer situation right now than Vinicius Jr's future.",
+      "title": "\"فشار روی آنتونلی است\" - نوریس احتمال مبارزه با عنوان قهرمانی را رد نمی کند",
+      "title_en": "'Pressure is on Antonelli' - Norris not ruling out title fightback",
+      "desc": "لاندو نوریس احتمال مبارزه با عنوان قهرمانی را رد نکرده است و می گوید تمام فشارها روی رهبر قهرمانی فرمول 1، کیمی آنتونلی است.",
+      "desc_en": "Lando Norris has not ruled out mounting a title fightback and says all the pressure is on Formula 1 championship leader Kimi Antonelli.",
       "img": "/img/n2.jpg"
     },
     {
-      "title": "به جای نفرت پراکنی مراقبه، دعا کنید یا فوتبال تماشا کنید - اینفانتینو",
-      "title_en": "Meditate, pray or watch football instead of spreading hate - Infantino",
-      "desc": "جیانی اینفانتینو، رئیس فیفا به منتقدان می‌گوید به جای «نفرت پراکنی و شایعات نادرست» درباره او و جام جهانی، «مدیتیشن، دعا یا تماشای یک مسابقه فوتبال» را انجام دهند.",
-      "desc_en": "Fifa president Gianni Infantino tells critics to \"meditate, pray or watch a football match\" instead of \"spreading hate and false rumours\" about him and the World Cup.",
+      "title": "علاقه آرسنال و پیگیری دیوماند از رئال چه معنایی برای وینی جونیور دارد",
+      "title_en": "What Arsenal's interest and Real's Diomande pursuit mean for Vini Jr",
+      "desc": "آینده وینیسیوس جونیور در رئال مادرید موضوع شایعات اخیر بوده و آرسنال در حال بررسی قراردادی برای این مهاجم است، اما در ادامه چه اتفاقی می‌افتد؟",
+      "desc_en": "Vinicius Junior's Real Madrid future has been the subject of recent speculation, with Arsenal exploring a deal for the forward, but what could happen next?",
       "img": "/img/n3.jpg"
     },
     {
-      "title": "دیوماند با دور شدن پاری سن ژرمن با شرایط رئال مادرید موافقت کرد",
-      "title_en": "Diomande agrees Real Madrid terms as PSG step away",
-      "desc": "یان دیوماند، وینگر آر بی لایپزیگ پس از انصراف پاریسن ژرمن، با شرایط شخصی رئال مادرید موافقت کرد.",
-      "desc_en": "RB Leipzig winger Yan Diomande agrees personal terms with Real Madrid after Paris St-Germain withdraw their interest.",
+      "title": "چلسی مذاکرات مثبتی با برایتون بر سر ولبک دارد",
+      "title_en": "Chelsea hold positive talks with Brighton over Welbeck",
+      "desc": "چلسی مذاکرات اولیه مثبتی با برایتون در مورد قرارداد دنی ولبک داشته است.",
+      "desc_en": "Chelsea have held positive initial talks with Brighton about a deal for Danny Welbeck.",
       "img": "/img/n4.jpg"
     },
     {
-      "title": "رکورد هزینه اسپرز جاه طلبی جدیدی را نشان می دهد - ون دی ون",
-      "title_en": "Record Spurs spend shows new ambition - Van de Ven",
-      "desc": "میکی ون دی ون می گوید رکورد هزینه های تاتنهام نشان دهنده یک \"جاه طلبی جدید\" پس از یک فصل \"غیر قابل قبول\" است.",
-      "desc_en": "Micky van de Ven says Tottenham's record spending highlights a \"new ambition\" after an \"unacceptable\" season.",
-      "img": "/img/n5.jpg"
-    },
-    {
-      "title": "راجرز و پالمر می توانند با هم بازی کنند - آلونسو",
-      "title_en": "Rogers and Palmer can play together - Alonso",
-      "desc": "ژابی آلونسو، سرمربی چلسی می‌گوید که برنامه‌ای برای بازی کردن با مورگان راجرز به ارزش 117 میلیون پوند در کنار کول پالمر دارد.",
-      "desc_en": "Chelsea manager Xabi Alonso says he has a \"plan\" to play club record £117m signing Morgan Rogers alongside Cole Palmer.",
+      "title": "اخبار فوتبال: اینفانتینو به منتقدان جام جهانی می‌گوید \"مدیتیشن و دعا کنید\"",
+      "title_en": "Football news: Infantino tells World Cup critics to 'meditate and pray'",
+      "desc": "",
+      "desc_en": "",
       "img": "/img/n6.jpg"
     },
     {
-      "title": "پیرلو به دلیل ارتباط با شرکت شرط بندی روسی، برای استخدام در ایتالیا نامزد نمی شود",
-      "title_en": "Pirlo out of running for Italy job over link to Russian betting company",
-      "desc": "آندره آ پیرلو پس از چند روز بحث و جدل بر سر ارتباطش با یک شرکت شرط بندی روسی، می گوید که دیگر نامزد سرمربیگری ایتالیا نیست.",
-      "desc_en": "Andrea Pirlo says he is no longer a candidate to coach Italy following days of controversy over his link to a Russian betting company.",
+      "title": "داستان \"ورکسام غیر لیگ\" که اکنون رویای EFL را دنبال می کند",
+      "title_en": "The story of the 'non-League Wrexham' now chasing the EFL dream",
+      "desc": "هری هوگو با فروش 40 درصد از آژانس اینفلوئنسر مارکتینگ، Goat، در سال 2021، در 26 سالگی ثروت خود را به دست آورد - و او متوجه شد که در سن 30 سالگی، تجملات نادری را خواهد داشت که نیازی به این کار نداشته باشد.",
+      "desc_en": "Having sold 40 per cent of influencer marketing agency, Goat, in 2021, Harry Hugo had made his fortune at 26 - and he realised that, by the age of 30, he would have the rare luxury of not needing to w",
       "img": "/img/n7.jpg"
     },
     {
-      "title": "مارتین و روباه باید پس از مبارزات \"راه خود را پیدا کنند\".",
-      "title_en": "Martin & Foxes must 'find own way' after struggles",
-      "desc": "راسل مارتین، سرمربی لسترسیتی می گوید که نباید از تاریخ برای قضاوت در مورد دستاوردهای او با قهرمان سابق لیگ برتر استفاده کرد.",
-      "desc_en": "Leicester City manager Russell Martin says history should not be used to judge what he can achieve with the former Premier League champions.",
-      "img": "/img/n8.jpg"
-    },
-    {
-      "title": "من کی هستم؟ ستاره شماره 7 لیگ برتر را حدس بزنید",
-      "title_en": "Who am I? Guess Premier League star No 7",
-      "desc": "آیا بازیکن امروز را در کمترین تلاش ممکن به دست خواهید آورد؟",
-      "desc_en": "Will you get today's player in as few attempts as possible?",
+      "title": "دویل: اسکاندیناوی می تواند با قهرمانی در جام گودوود از کیپریوس تقلید کند",
+      "title_en": "Doyle: Scandinavia can emulate Kyprios with Goodwood Cup win",
+      "desc": "سفیر ما در حال پیش‌نمایش تمام پنج روز گودوود است که با یک روز افتتاحیه جذاب در روز سه‌شنبه آغاز می‌شود که شامل جام گودوود است.",
+      "desc_en": "Our ambassador is previewing all five days of the Goodwood, beginning with an enthralling opening day on Tuesday, featuring the Goodwood Cup.",
       "img": "/img/n9.jpg"
     },
     {
-      "title": "رنجرز پس از تابستان شلوغ استخدام به چند هافبک نیاز دارد؟",
-      "title_en": "How many midfielders do Rangers need after busy summer of recruitment?",
-      "desc": "رنجرز تیمی پر از هافبک میانی دارد، اما آیا آنقدر خوب هستند که مهمات کافی برای مهاجمان خود فراهم کنند؟",
-      "desc_en": "Rangers have a team full of central midfielders, but are they good enough to provide enough ammunition for their strikers?",
+      "title": "جدیدترین چلسی: رای دهید! آیا ولبک نوع مهاجم مناسبی در استمفوردبریج است؟",
+      "title_en": "Chelsea latest: VOTE! Is Welbeck the right type of striker at Stamford Bridge?",
+      "desc": "",
+      "desc_en": "",
       "img": "/img/n10.jpg"
     },
     {
-      "title": "سیموندز کاپیتان برایتون قرارداد بلندمدت جدیدی امضا کرد",
-      "title_en": "Brighton captain Symonds signs new 'long-term' deal",
-      "desc": "میزی سیموندز، کاپیتان برایتون، قرارداد جدیدی را امضا کرد که باشگاه آن را بلندمدت توصیف کرد.",
-      "desc_en": "Brighton captain Maisie Symonds signs a new contract, described by the club as long-term.",
-      "img": "/img/n11.jpg"
-    },
-    {
-      "title": "\"من به آن افتخار می کنم\" - کیگان به نکات برجسته و میراث حرفه ای نگاه می کند",
-      "title_en": "'I'm proud of it' - Keegan looks back on career highlights and legacy",
-      "desc": "کوین کیگان با دن واکر از Football Focus در سال 2018 در مورد برخی از لحظات برجسته دوران حرفه ای خود صحبت می کند - از دو بار بردن بهترین بازیکن سال جهان تا مدیریت انگلیس و نماد \"I would l\"",
-      "desc_en": "Kevin Keegan talks to Football Focus' Dan Walker in 2018 about some of the standout moments from his career - from winning World Player of the Year twice, to managing England and the iconic \"I would love it\" remark from the 1995–96 season.",
+      "title": "آیا جوانترین سرمربی پریمیرشیپ می تواند مادرول را به موفقیت برساند؟",
+      "title_en": "Can Premiership's youngest manager lead Motherwell to success?",
+      "desc": "آلفرد یوهانسون تنها 35 سال دارد، اما چه انتظاری از مادرول زیر نظر جوان ترین سرمربی در لیگ برتر اسکاتلند می توان داشت؟",
+      "desc_en": "Alfred Johansson is only 35, but what can be expected from Motherwell under the youngest manager in the Scottish Premiership?",
       "img": "/img/n12.jpg"
     },
     {
-      "title": "لحظات تعیین کننده جام جهانی 2026",
-      "title_en": "The defining moments of the 2026 World Cup",
-      "desc": "از اولین بازی های تاریخی جام جهانی و اولین پیروزی های احساسی گرفته تا ستاره های جدید و درخشش افسانه ها - لحظات تعیین کننده جام جهانی فوتبال 2026 را دوباره زنده کنید.",
-      "desc_en": "From historic World Cup debuts and emotional first victories, to new stars and the brilliance of legends - relive the defining moments of the 2026 FIFA World Cup.",
-      "img": "/img/n13.jpg"
+      "title": "منچسترسیتی امیدوار است رودری با بررسی پیشنهاد رئال مادرید، قرارداد جدیدی امضا کند",
+      "title_en": "Manchester City hope Rodri will sign new deal as Real Madrid weigh up offer",
+      "desc": "رئال مادرید علاقه مند به اجرای جام جهانی است. قرارداد هافبک با سیتی در ژوئن 2027 به پایان می رسد منچسترسیتی امیدوار است رودری قرارداد جدیدی را امضا کند، اما باشگاه برای پیشنهادی آماده است.",
+      "desc_en": "Real Madrid interested after World Cup performanceMidfielder’s contract at City expires in June 2027Manchester City are hopeful that Rodri will sign a new contract, but the club are braced for a bid f",
+      "img": "/img/n20.jpg"
     },
     {
-      "title": "دوبل کیگان الهام بخش لیورپول در جام حذفی 1974 شد",
-      "title_en": "Keegan's double inspires Liverpool to 1974 FA Cup glory",
-      "desc": "کوین کیگان دو گل زد و لیورپول در فینال جام حذفی 1974 نیوکاسل یونایتد را 3-0 شکست داد.",
-      "desc_en": "Kevin Keegan scores twice as Liverpool defeat Newcastle United 3-0 in the 1974 FA Cup final.",
-      "img": "/img/n14.jpg"
+      "title": "چلسی در حال بررسی اقدام غافلگیرکننده برای جذب دنی ولبک از برایتون است",
+      "title_en": "Chelsea explore surprise move to sign Danny Welbeck from Brighton",
+      "desc": "کهنه سرباز فصل گذشته در 37 بازی لیگ 13 گل به ثمر رساند. علایق نشان می دهد که استراتژی نقل و انتقالات استمفوردبریج تغییر کرده است چلسی در حال مذاکره برای جذب دنی ولبک از برایتون است.",
+      "desc_en": "Veteran scored 13 goals in 37 league games last seasonInterest signals shift in Stamford Bridge transfer strategyChelsea are understood to be in talks over a move to sign Danny Welbeck from Brighton.W",
+      "img": "/img/n21.jpg"
     },
     {
-      "title": "مونتاژ پایانی جام جهانی بی بی سی را تماشا کنید",
-      "title_en": "Watch the BBC's closing World Cup montage",
-      "desc": "مونتاژ پایانی پوشش بی‌بی‌سی از جام جهانی فوتبال 2026 را تماشا کنید که تمام اوج‌ها، پست‌ها و رنگ‌های بزرگ‌ترین جام جهانی تا کنون را نشان می‌دهد.",
-      "desc_en": "Watch the closing montage of the BBC's coverage of the 2026 Fifa World Cup featuring all the highs, lows and colour from the biggest World Cup ever.",
-      "img": "/img/n15.jpg"
+      "title": "فوتبال روزانه | وینیسیوس به آرسنال؟ مجموعه صنعتی نظامی فوتبال باشگاهی دوباره شروع به کار کرد",
+      "title_en": "Football Daily | Vinícius to Arsenal? Club football’s military industrial complex kicks back into gear",
+      "desc": "اکنون ثبت نام کنید! اکنون ثبت نام کنید! اکنون ثبت نام کنید؟ هم اکنون ثبت نام کنید! اگر این یک اقتصاد توجه است، هیچ توجه جوینده ای بیشتر از فوتبال باشگاهی وجود ندارد. به تسلط بر برنامه ورزشی برای 11 ماه راضی نیستم",
+      "desc_en": "Sign up now! Sign up now! Sign up now? Sign up now!If this is an attention economy, there is no greater attention-seeker than club football. Not content with dominating the sporting agenda for 11 mont",
+      "img": "/img/n23.jpg"
     },
     {
-      "title": "اسکالونی، سرمربی آرژانتین کنفرانس مطبوعاتی را با گریه ترک کرد",
-      "title_en": "Argentina boss Scaloni leaves press conference in tears",
-      "desc": "لیونل اسکالونی، سرمربی تیم ملی آرژانتین، پس از شکست روز یکشنبه در فینال جام جهانی مقابل اسپانیا، کنفرانس خبری پس از بازی خود را با گریه ترک کرد و درباره آینده خود صحبت کرد.",
-      "desc_en": "Argentina manager Lionel Scaloni leaves his post-match news conference in tears when talking about his future after Sunday's World Cup final defeat by Spain.",
-      "img": "/img/n16.jpg"
-    },
-    {
-      "title": "صلاح، استونز و سانچو - بازیکنان آزاد لیگ برتر",
-      "title_en": "Salah, Stones & Sancho - Premier League free agents",
-      "desc": "بی بی سی اسپورت نگاهی دارد به برخی از بازیکنان قابل توجه خارج از قرارداد که فصل گذشته در لیگ برتر انگلیس بازی می کردند.",
-      "desc_en": "BBC Sport takes a look at some of the notable out-of-contract players who playing in the English top flight last season.",
-      "img": "/img/n17.jpg"
-    },
-    {
-      "title": "ستاره های آکادمی چلسی به دنبال شکستن هستند",
-      "title_en": "The Chelsea academy stars looking to break through",
-      "desc": "BBC Sport نگاهی به هفت بازیکن آکادمی دارد که چلسی در تور پیش فصل خود به نمایش گذاشته است.",
-      "desc_en": "BBC Sport takes a look at the seven academy players Chelsea are showcasing on their pre-season tour.",
-      "img": "/img/n18.jpg"
-    },
-    {
-      "title": "اسطوره ژاپنی میورا، 59 ساله، اولین گل را از سال 2022 به ثمر رساند",
-      "title_en": "Japan legend Miura, 59, scores first goal since 2022",
-      "desc": "کازویوشی میورا، مسن‌ترین فوتبالیست حرفه‌ای جهان، اولین گل خود را پس از نزدیک به چهار سال در سن 59 سالگی برای تیم دسته سوم ژاپنی فوکوشیما یونایتد به ثمر رساند.",
-      "desc_en": "Kazuyoshi Miura, the world's oldest professional footballer, scores his first goal in nearly four years at the age of 59 for Japanese third-tier side Fukushima United.",
-      "img": "/img/n19.jpg"
+      "title": "جیانی اینفانتینو، رئیس فیفا، منتقدان را به گسترش نفرت در جام جهانی متهم کرد",
+      "title_en": "Fifa president Gianni Infantino accuses critics of spreading hate at World Cup",
+      "desc": "اینفانتینو مدعی شد منتقدان جام جهانی «همه چیز را از دست داده اند» او باز هم از ماجرای بالوگون و رفتار با ایران دفاع می کند.",
+      "desc_en": "Infantino claims critics of World Cup ‘missed it all’ He again defends Balogun affair and treatment of IranThe Fifa president, Gianni Infantino, has hit back at critics of the World Cup, accusing them",
+      "img": "/img/n24.jpg"
     }
   ],
   "fixtures": [
@@ -426,572 +384,704 @@
       {
         "name": "آرسنال",
         "p": 38,
-        "pts": 89
+        "pts": 0
       },
       {
         "name": "لیورپول",
         "p": 38,
-        "pts": 84
+        "pts": 0
       },
       {
         "name": "منچسترسیتی",
         "p": 38,
-        "pts": 78
+        "pts": 0
       },
       {
         "name": "چلسی",
         "p": 38,
-        "pts": 69
+        "pts": 0
       },
       {
         "name": "استون ویلا",
         "p": 38,
-        "pts": 66
+        "pts": 0
       },
       {
         "name": "تاتنهام",
         "p": 38,
-        "pts": 63
+        "pts": 0
       },
       {
         "name": "نیوکاسل",
         "p": 38,
-        "pts": 60
+        "pts": 0
       },
       {
         "name": "برایتون",
         "p": 38,
-        "pts": 55
+        "pts": 0
       },
       {
         "name": "وستهام",
         "p": 38,
-        "pts": 52
+        "pts": 0
       },
       {
         "name": "منچستریونایتد",
         "p": 38,
-        "pts": 48
+        "pts": 0
       },
       {
         "name": "ورکسام",
         "p": 38,
-        "pts": 45
+        "pts": 0
       },
       {
         "name": "فورست",
         "p": 38,
-        "pts": 42
+        "pts": 0
       },
       {
         "name": "بورنموث",
         "p": 38,
-        "pts": 40
+        "pts": 0
       },
       {
         "name": "تورنتور",
         "p": 38,
-        "pts": 38
+        "pts": 0
       },
       {
         "name": "برنتفورد",
         "p": 38,
-        "pts": 36
+        "pts": 0
       },
       {
         "name": "کریستال پالاس",
         "p": 38,
-        "pts": 34
+        "pts": 0
       },
       {
         "name": "ولورهمپتون",
         "p": 38,
-        "pts": 32
+        "pts": 0
       },
       {
         "name": "ابورتون",
         "p": 38,
-        "pts": 30
+        "pts": 0
       },
       {
         "name": "لسترسیتی",
         "p": 38,
-        "pts": 28
+        "pts": 0
       },
       {
         "name": "ساتهمپتون",
         "p": 38,
-        "pts": 24
+        "pts": 0
       }
     ],
     "لالیگا اسپانیا": [
       {
         "name": "رئال مادرید",
         "p": 38,
-        "pts": 92
+        "pts": 0
       },
       {
         "name": "بارسلونا",
         "p": 38,
-        "pts": 85
+        "pts": 0
       },
       {
         "name": "اتلتیکو مادرید",
         "p": 38,
-        "pts": 74
+        "pts": 0
       },
       {
         "name": "رئال سوسیداد",
         "p": 38,
-        "pts": 62
+        "pts": 0
       },
       {
         "name": "ویارئال",
         "p": 38,
-        "pts": 58
+        "pts": 0
       },
       {
         "name": "سویا",
         "p": 38,
-        "pts": 54
+        "pts": 0
       },
       {
         "name": "اتلتیک بیلبائو",
         "p": 38,
-        "pts": 52
+        "pts": 0
       },
       {
         "name": "بتیس",
         "p": 38,
-        "pts": 50
+        "pts": 0
       },
       {
         "name": "ختافه",
         "p": 38,
-        "pts": 45
+        "pts": 0
       },
       {
         "name": "مایورکا",
         "p": 38,
-        "pts": 42
+        "pts": 0
       },
       {
         "name": "لاس پالمس",
         "p": 38,
-        "pts": 40
+        "pts": 0
       },
       {
         "name": "آلاوس",
         "p": 38,
-        "pts": 38
+        "pts": 0
       },
       {
         "name": "اسپانیول",
         "p": 38,
-        "pts": 36
+        "pts": 0
       },
       {
         "name": "سلتا ویگو",
         "p": 38,
-        "pts": 34
+        "pts": 0
       },
       {
         "name": "رایو وایکانو",
         "p": 38,
-        "pts": 32
+        "pts": 0
       },
       {
         "name": "ژیرونا",
         "p": 38,
-        "pts": 30
+        "pts": 0
       },
       {
         "name": "اوئسکا",
         "p": 38,
-        "pts": 28
+        "pts": 0
       },
       {
         "name": "لگانس",
         "p": 38,
-        "pts": 26
+        "pts": 0
       },
       {
         "name": "وایادولید",
         "p": 38,
-        "pts": 24
+        "pts": 0
       },
       {
         "name": "کادیس",
         "p": 38,
-        "pts": 20
+        "pts": 0
       }
     ],
     "سری آ ایتالیا": [
       {
         "name": "اینترمیلان",
         "p": 38,
-        "pts": 90
+        "pts": 0
       },
       {
         "name": "آث میلان",
         "p": 38,
-        "pts": 79
+        "pts": 0
       },
       {
         "name": "ناپولی",
         "p": 38,
-        "pts": 75
+        "pts": 0
       },
       {
         "name": "یوونتوس",
         "p": 38,
-        "pts": 68
+        "pts": 0
       },
       {
         "name": "آتالانتا",
         "p": 38,
-        "pts": 65
+        "pts": 0
       },
       {
         "name": "آ اس رم",
         "p": 38,
-        "pts": 58
+        "pts": 0
       },
       {
         "name": "لاتزیو",
         "p": 38,
-        "pts": 55
+        "pts": 0
       },
       {
         "name": "佛罗伦萨",
         "p": 38,
-        "pts": 52
+        "pts": 0
       },
       {
         "name": "بولونیا",
         "p": 38,
-        "pts": 48
+        "pts": 0
       },
       {
         "name": "تورینو",
         "p": 38,
-        "pts": 45
+        "pts": 0
       },
       {
         "name": "مونزا",
         "p": 38,
-        "pts": 42
+        "pts": 0
       },
       {
         "name": "جنوا",
         "p": 38,
-        "pts": 40
+        "pts": 0
       },
       {
         "name": "امپولی",
         "p": 38,
-        "pts": 38
+        "pts": 0
       },
       {
         "name": "کالیاری",
         "p": 38,
-        "pts": 36
+        "pts": 0
       },
       {
         "name": "هلاس ورونا",
         "p": 38,
-        "pts": 34
+        "pts": 0
       },
       {
         "name": "فروزینونه",
         "p": 38,
-        "pts": 32
+        "pts": 0
       },
       {
         "name": "萨索洛",
         "p": 38,
-        "pts": 30
+        "pts": 0
       },
       {
         "name": "لچه",
         "p": 38,
-        "pts": 28
+        "pts": 0
       },
       {
         "name": "ساسولو",
         "p": 38,
-        "pts": 24
+        "pts": 0
       },
       {
         "name": "اودینزه",
         "p": 38,
-        "pts": 22
+        "pts": 0
       }
     ],
     "بوندس‌لیگا آلمان": [
       {
         "name": "بایرن مونیخ",
         "p": 34,
-        "pts": 78
+        "pts": 0
       },
       {
         "name": "دورتموند",
         "p": 34,
-        "pts": 72
+        "pts": 0
       },
       {
         "name": "لورکوزن",
         "p": 34,
-        "pts": 68
+        "pts": 0
       },
       {
         "name": "لایپزیگ",
         "p": 34,
-        "pts": 60
+        "pts": 0
       },
       {
         "name": "فرانکفورت",
         "p": 34,
-        "pts": 55
+        "pts": 0
       },
       {
         "name": "استuttgart",
         "p": 34,
-        "pts": 52
+        "pts": 0
       },
       {
         "name": "هافنهایم",
         "p": 34,
-        "pts": 48
+        "pts": 0
       },
       {
         "name": "فرایبورگ",
         "p": 34,
-        "pts": 45
+        "pts": 0
       },
       {
         "name": "آگسبورگ",
         "p": 34,
-        "pts": 42
+        "pts": 0
       },
       {
         "name": "وردربرمن",
         "p": 34,
-        "pts": 40
+        "pts": 0
       },
       {
         "name": "وولفسبورگ",
         "p": 34,
-        "pts": 38
+        "pts": 0
       },
       {
         "name": "مونشن‌گلادباخ",
         "p": 34,
-        "pts": 36
+        "pts": 0
       },
       {
         "name": "یونیون برلین",
         "p": 34,
-        "pts": 34
+        "pts": 0
       },
       {
         "name": "ماینتس",
         "p": 34,
-        "pts": 32
+        "pts": 0
       },
       {
         "name": "بوخوم",
         "p": 34,
-        "pts": 30
+        "pts": 0
       },
       {
         "name": "هاله",
         "p": 34,
-        "pts": 28
+        "pts": 0
       },
       {
         "name": "کلن",
         "p": 34,
-        "pts": 24
+        "pts": 0
       },
       {
         "name": "دارمشتات",
         "p": 34,
-        "pts": 20
+        "pts": 0
       }
     ],
     "لیگ ۱ فرانسه": [
       {
         "name": "پاریسن‌ژرمن",
         "p": 34,
-        "pts": 82
+        "pts": 0
       },
       {
         "name": "مارسی",
         "p": 34,
-        "pts": 65
+        "pts": 0
       },
       {
         "name": "موناکو",
         "p": 34,
-        "pts": 60
+        "pts": 0
       },
       {
         "name": "لیل",
         "p": 34,
-        "pts": 58
+        "pts": 0
       },
       {
         "name": "لیون",
         "p": 34,
-        "pts": 52
+        "pts": 0
       },
       {
         "name": "نیس",
         "p": 34,
-        "pts": 48
+        "pts": 0
       },
       {
         "name": "رن",
         "p": 34,
-        "pts": 45
+        "pts": 0
       },
       {
         "name": "استراسبورگ",
         "p": 34,
-        "pts": 42
+        "pts": 0
       },
       {
         "name": "لنز",
         "p": 34,
-        "pts": 40
+        "pts": 0
       },
       {
         "name": "تولوز",
         "p": 34,
-        "pts": 38
+        "pts": 0
       },
       {
         "name": "مونتپلیه",
         "p": 34,
-        "pts": 36
+        "pts": 0
       },
       {
         "name": "نانت",
         "p": 34,
-        "pts": 34
+        "pts": 0
       },
       {
         "name": " لو آرور",
         "p": 34,
-        "pts": 32
+        "pts": 0
       },
       {
         "name": "برست",
         "p": 34,
-        "pts": 30
+        "pts": 0
       },
       {
         "name": "لوریان",
         "p": 34,
-        "pts": 28
+        "pts": 0
       },
       {
         "name": "کلرمون",
         "p": 34,
-        "pts": 24
+        "pts": 0
       },
       {
         "name": "متس",
         "p": 34,
-        "pts": 22
+        "pts": 0
       },
       {
         "name": "ترابزون",
         "p": 34,
-        "pts": 20
+        "pts": 0
       }
     ],
     "لیگ ایران": [
       {
         "name": "پرسپولیس",
         "p": 30,
-        "pts": 68
+        "pts": 0
       },
       {
         "name": "استقلال",
         "p": 30,
-        "pts": 62
+        "pts": 0
       },
       {
         "name": "سپاهان",
         "p": 30,
-        "pts": 58
+        "pts": 0
       },
       {
         "name": "تراکتور",
         "p": 30,
-        "pts": 52
+        "pts": 0
       },
       {
         "name": "فولاد",
         "p": 30,
-        "pts": 48
+        "pts": 0
       },
       {
         "name": "گل‌گهر",
         "p": 30,
-        "pts": 45
+        "pts": 0
       },
       {
         "name": "مس رفسنجان",
         "p": 30,
-        "pts": 42
+        "pts": 0
       },
       {
         "name": " آلومینیوم",
         "p": 30,
-        "pts": 40
+        "pts": 0
       },
       {
         "name": "صنعت نفت",
         "p": 30,
-        "pts": 38
+        "pts": 0
       },
       {
         "name": "پیکان",
         "p": 30,
-        "pts": 36
+        "pts": 0
       },
       {
         "name": "نساجی",
         "p": 30,
-        "pts": 34
+        "pts": 0
       },
       {
         "name": "هوادار",
         "p": 30,
-        "pts": 32
+        "pts": 0
       },
       {
         "name": "فولاد خوزستان",
         "p": 30,
-        "pts": 30
+        "pts": 0
       },
       {
         "name": "شمس آذر",
         "p": 30,
-        "pts": 28
+        "pts": 0
       },
       {
         "name": " خیبر",
         "p": 30,
-        "pts": 26
+        "pts": 0
       },
       {
         "name": "مس کرمان",
         "p": 30,
-        "pts": 24
+        "pts": 0
+      }
+    ],
+    "لیگ پرتغال": [
+      {
+        "name": "بنفیکا",
+        "pts": 0
+      },
+      {
+        "name": "پورتو",
+        "pts": 0
+      },
+      {
+        "name": "اسپورتینگ",
+        "pts": 0
+      },
+      {
+        "name": "براگا",
+        "pts": 0
+      },
+      {
+        "name": "ویتوریا گیمارش",
+        "pts": 0
+      }
+    ],
+    "لیگ هلند": [
+      {
+        "name": "آژاکس",
+        "pts": 0
+      },
+      {
+        "name": "فاینورد",
+        "pts": 0
+      },
+      {
+        "name": "آیندهوون",
+        "pts": 0
+      },
+      {
+        "name": "AZ آلکمار",
+        "pts": 0
+      },
+      {
+        "name": "توئنته",
+        "pts": 0
+      }
+    ],
+    "لیگ ترکیه": [
+      {
+        "name": "گالاتاسرای",
+        "pts": 0
+      },
+      {
+        "name": "فنرباغچه",
+        "pts": 0
+      },
+      {
+        "name": "بشیکتاش",
+        "pts": 0
+      },
+      {
+        "name": "ایستانبول",
+        "pts": 0
+      },
+      {
+        "name": "ترابزون‌اسپور",
+        "pts": 0
+      }
+    ],
+    "لیگ عربستان": [
+      {
+        "name": "الهلال",
+        "pts": 0
+      },
+      {
+        "name": "النصر",
+        "pts": 0
+      },
+      {
+        "name": "الاهلی",
+        "pts": 0
+      },
+      {
+        "name": "الاتحاد",
+        "pts": 0
+      },
+      {
+        "name": "الشباب",
+        "pts": 0
+      }
+    ],
+    "لیگ آرژانتین": [
+      {
+        "name": "ریورپلیت",
+        "pts": 0
+      },
+      {
+        "name": "بوکا جونیورز",
+        "pts": 0
+      },
+      {
+        "name": "الدورادو",
+        "pts": 0
+      },
+      {
+        "name": "ریسینگ",
+        "pts": 0
+      },
+      {
+        "name": "سان لورنزو",
+        "pts": 0
+      }
+    ],
+    "لیگ برزیل": [
+      {
+        "name": "فلامینگو",
+        "pts": 0
+      },
+      {
+        "name": "پالمیراس",
+        "pts": 0
+      },
+      {
+        "name": "سائوپائولو",
+        "pts": 0
+      },
+      {
+        "name": "کورینتیانس",
+        "pts": 0
+      },
+      {
+        "name": "بوتافوگو",
+        "pts": 0
       }
     ]
   },
@@ -1210,78 +1300,7 @@
       ]
     }
   },
-  "transfers": [
-    {
-      "title": "چلسی مذاکرات خود را برای جذب ولبک مهاجم برایتون آغاز کرد",
-      "title_en": "Chelsea open talks to sign Brighton striker Welbeck",
-      "desc": "چلسی در حال مذاکره برای جذب دنی ولبک، مهاجم برایتون اند هاو آلبیون است و این بازیکن 35 ساله مشتاق پیوستن به سرمربی جدید ژابی آلونسو در استمفوردبریج است.",
-      "desc_en": "Chelsea are in talks to sign Brighton & Hove Albion striker Danny Welbeck, with the 35-year-old keen to join new manager Xabi Alonso at Stamford Bridge.",
-      "img": "/img/t0.jpg"
-    },
-    {
-      "title": "فوتبال انگلیس با محاکمه برای پایان تایم اوت های تاکتیکی دروازه بان ها موافقت کرد",
-      "title_en": "English football agrees trial to end goalkeeper tactical timeouts",
-      "desc": "بی‌بی‌سی اسپورت می‌گوید فوتبال انگلیس قرار است یک آزمایش رادیکال را برای از بین بردن تاکتیکی دروازه‌بان در این فصل اجرا کند.",
-      "desc_en": "English football is set to implement a radical trial to try to eradicate the goalkeeper tactical timeout this season, BBC Sport can reveal.",
-      "img": "/img/t1.jpg"
-    },
-    {
-      "title": "مذاکرات قرارداد رئال مادرید و علاقه آرسنال - آینده وینیسیوس جونیور چیست؟",
-      "title_en": "Real Madrid contract talks and Arsenal interest - what is Vinicius Jr's future?",
-      "desc": "با تمدید مذاکرات رئال مادرید و ابراز علاقه آرسنال، ممکن است در حال حاضر هیچ موقعیت جذاب تر از آینده وینیسیوس جونیور در نقل و انتقالات وجود نداشته باشد.",
-      "desc_en": "With Real Madrid renewing contract talks and Arsenal showing interest, there may be no more intriguing transfer situation right now than Vinicius Jr's future.",
-      "img": "/img/t2.jpg"
-    },
-    {
-      "title": "دیوماند با دور شدن پاری سن ژرمن با شرایط رئال مادرید موافقت کرد",
-      "title_en": "Diomande agrees Real Madrid terms as PSG step away",
-      "desc": "یان دیوماند، وینگر آر بی لایپزیگ پس از انصراف پاریسن ژرمن، با شرایط شخصی رئال مادرید موافقت کرد.",
-      "desc_en": "RB Leipzig winger Yan Diomande agrees personal terms with Real Madrid after Paris St-Germain withdraw their interest.",
-      "img": "/img/t3.jpg"
-    },
-    {
-      "title": "سیموندز کاپیتان برایتون قرارداد بلندمدت جدیدی امضا کرد",
-      "title_en": "Brighton captain Symonds signs new 'long-term' deal",
-      "desc": "میزی سیموندز، کاپیتان برایتون، قرارداد جدیدی را امضا کرد که باشگاه آن را بلندمدت توصیف کرد.",
-      "desc_en": "Brighton captain Maisie Symonds signs a new contract, described by the club as long-term.",
-      "img": "/img/t4.jpg"
-    },
-    {
-      "title": "اسکالونی، سرمربی آرژانتین کنفرانس مطبوعاتی را با گریه ترک کرد",
-      "title_en": "Argentina boss Scaloni leaves press conference in tears",
-      "desc": "لیونل اسکالونی، سرمربی تیم ملی آرژانتین، پس از شکست روز یکشنبه در فینال جام جهانی مقابل اسپانیا، کنفرانس خبری پس از بازی خود را با گریه ترک کرد و درباره آینده خود صحبت کرد.",
-      "desc_en": "Argentina manager Lionel Scaloni leaves his post-match news conference in tears when talking about his future after Sunday's World Cup final defeat by Spain.",
-      "img": "/img/t5.jpg"
-    },
-    {
-      "title": "در حال حرکت - جوانترین کارآموزان فوتبال",
-      "title_en": "On the move - football's youngest journeymen",
-      "desc": "بازیکنانی که تا تولد 23 سالگی خود در تعداد قابل توجهی از باشگاه ها ظاهر شده بودند.",
-      "desc_en": "The players who had appeared for a remarkable number of clubs by their 23rd birthday.",
-      "img": "/img/t6.jpg"
-    },
-    {
-      "title": "مک‌اینز به رنجرز مبنی بر امضای قرارداد ظرف 48 ساعت اذیت می‌کند",
-      "title_en": "McInnes teases Rangers signing within 48 hours",
-      "desc": "رنجرز امیدوار است تا ظرف 48 ساعت آینده یک خرید دیگر را اعلام کند، و درک مک‌اینز، سرمربی تیم، یک ثانیه هم تا زمانی که تیمش فصل خود را در خارج از خانه مقابل داندی یونایتد در روز جمعه باز می‌کند، یک ثانیه اذیت می‌کند.",
-      "desc_en": "Rangers hope to announce another signing within 48 hours, with manager Derek McInnes teasing a second by the time his side open their season away to Dundee United on Friday.",
-      "img": "/img/t7.jpg"
-    },
-    {
-      "title": "ایپسویچ مائدا مهاجم ژاپنی را از سلتیک به خدمت گرفت",
-      "title_en": "Ipswich sign Japan forward Maeda from Celtic",
-      "desc": "ایپسویچ تاون دایزن مائدا مهاجم ژاپنی از سلتیک را با قراردادی تا تابستان 2029 به خدمت گرفت.",
-      "desc_en": "Ipswich Town sign Japan forward Daizen Maeda from Celtic on a contract until summer 2029.",
-      "img": "/img/t8.jpg"
-    },
-    {
-      "title": "بازیکنان ناراضی تاتنهام باید بروند - دزربی",
-      "title_en": "Unhappy Tottenham players should leave - De Zerbi",
-      "desc": "روبرتو دزربی، سرمربی تاتنهام می‌گوید بازیکنانی که از ماندن در این باشگاه افتخار نمی‌کنند و خوشحال نیستند، باید این باشگاه را ترک کنند.",
-      "desc_en": "Tottenham Hotspur manager Roberto de Zerbi says players who are not \"proud and happy to stay\" at the club should leave.",
-      "img": "/img/t9.jpg"
-    }
-  ],
+  "transfers": [],
   "team_logos": {
     "آرسنال": "/logos/Arsenal_FC.svg",
     "لیورپول": "/logos/Liverpool_FC.svg",
@@ -1296,6 +1315,8 @@
     "اینترمیلان": "/logos/Inter_Milano_Logo.svg",
     "آث میلان": "/logos/AC_Milan_%28crest%29.svg",
     "یوونتوس": "/logos/Juventus_Turin_2017_logo.svg",
+    "ناپولی": "/logos/SSC_Napoli_logo_%282024%29.svg",
+    "بایرن مونیخ": "/logos/FC_Bayern_M%C3%BCnchen_logo_%2.svg",
     "دورتموند": "/logos/Borussia_Dortmund_logo.svg",
     "لورکوزن": "/logos/Bayer_04_Leverkusen_logo.svg",
     "پاریسن‌ژرمن": "/logos/Paris_Saint-Germain_F.C..svg"
