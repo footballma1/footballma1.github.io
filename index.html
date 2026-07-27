@@ -311,19 +311,16 @@ async function load(){try{const r=await fetch('/data/news.json?'+Date.now());D=a
 </body>
 </html>
  - counts down from 60, persists via timestamp
-var FM_TS_KEY='fm_ts';
-function getRemain(){
-  var last=parseInt(localStorage.getItem(FM_TS_KEY)||'0');
-  if(!last){last=Date.now();localStorage.setItem(FM_TS_KEY,last);}
-  var diff=Math.floor((Date.now()-last)/1000);
-  return Math.max(0,60-(diff%60));
-}
-function resetTimer(){localStorage.setItem(FM_TS_KEY,Date.now());}
+
+var TS_KEY='fm_ts';
+if(!localStorage.getItem(TS_KEY))localStorage.setItem(TS_KEY,Date.now());
 function tickTimer(){
-  var r=getRemain();
-  var el=document.getElementById('timerNum');
-  if(el)el.textContent=r+'s';
-  if(r<=0){resetTimer();load();}
+var last=parseInt(localStorage.getItem(TS_KEY)||Date.now());
+var diff=Math.floor((Date.now()-last)/1000);
+var r=Math.max(0,60-(diff%60));
+var el=document.getElementById('timerNum');
+if(el)el.textContent=r+'s';
+if(r<=0){localStorage.setItem(TS_KEY,Date.now());load();}
 }
 setInterval(tickTimer,1000);
 load();setInterval(load,60000);
