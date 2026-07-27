@@ -1,6 +1,6 @@
 {
   "today_fixtures": [],
-  "updated": "2026-07-27 19:49",
+  "updated": "2026-07-27 20:31",
   "football_news": [
     {
       "title": "حکم براندل در مورد نوریس \"بی امان\"، حادثه پیاستری-ساینز و بازگشت مالزی",
@@ -38,6 +38,13 @@
       "img": "/img/n4.jpg"
     },
     {
+      "title": "راننده مرسدس، لاگرو را جستجو می کند تا به عنوان جانشین مارکو به ردبول بپیوندد",
+      "title_en": "Mercedes driver scout Lagrue to join Red Bull as Marko replacement",
+      "desc": "",
+      "desc_en": "",
+      "img": "/img/n5.jpg"
+    },
+    {
       "title": "اخبار فوتبال: اینفانتینو به منتقدان جام جهانی می‌گوید \"مدیتیشن و دعا کنید\"",
       "title_en": "Football news: Infantino tells World Cup critics to 'meditate and pray'",
       "desc": "",
@@ -52,25 +59,88 @@
       "img": "/img/n7.jpg"
     },
     {
+      "title": "رئال این هفته مذاکرات بیشتری در مورد آینده وینیسیوس جونیور انجام خواهد داد",
+      "title_en": "Real to hold further talks over Vinicius Jr's future this week",
+      "desc": "رئال مادرید در این هفته با نمایندگان وینسیوس جونیور درباره آینده او مذاکرات بیشتری خواهد داشت.",
+      "desc_en": "Real Madrid will hold further talks with Vincius Junior's representatives about his future this week.",
+      "img": "/img/n8.jpg"
+    },
+    {
+      "title": "بری برای رویارویی با تلز در آندرکارد مایر در مقابل کامرون، زنده از اسکای",
+      "title_en": "Barry to face Tellez on Mayer vs Cameron undercard, live on Sky",
+      "desc": "جسیکا بری، بوکسور بریتانیایی، در 29 اوت در بیرمنگام، زنده از اسکای اسپورت، با نامزد اصلی تگزاسی، رینا تلز، در آندرکارت برای میکائلا مایر در برابر شانتل کامرون مبارزه خواهد کرد.",
+      "desc_en": "British boxer Jessica Barry will fight Texan top contender Reina Tellez on the undercard for Mikaela Mayer against Chantelle Cameron on August 29 in Birmingham, live on Sky Sports.",
+      "img": "/img/n9.jpg"
+    },
+    {
       "title": "دویل: اسکاندیناوی می تواند با قهرمانی در جام گودوود از کیپریوس تقلید کند",
       "title_en": "Doyle: Scandinavia can emulate Kyprios with Goodwood Cup win",
       "desc": "سفیر ما در حال پیش‌نمایش تمام پنج روز گودوود است که با یک روز افتتاحیه جذاب در روز سه‌شنبه آغاز می‌شود که شامل جام گودوود است.",
       "desc_en": "Our ambassador is previewing all five days of the Goodwood, beginning with an enthralling opening day on Tuesday, featuring the Goodwood Cup.",
-      "img": "/img/n9.jpg"
+      "img": "/img/n10.jpg"
     },
     {
       "title": "جدیدترین چلسی: رای دهید! آیا ولبک نوع مهاجم مناسبی در استمفوردبریج است؟",
       "title_en": "Chelsea latest: VOTE! Is Welbeck the right type of striker at Stamford Bridge?",
       "desc": "",
       "desc_en": "",
-      "img": "/img/n10.jpg"
+      "img": "/img/n11.jpg"
+    },
+    {
+      "title": "شگفت انگیز! | بهترین شوت های باز زنان AIG تا کنون!",
+      "title_en": "'AMAZING!' | The best ever AIG Women's Open shots!",
+      "desc": "بهترین شوت‌های تاریخ مسابقات، از جمله Lottie Woad، Mimi Rhodes و Anna Nordqvist را تماشا کنید.",
+      "desc_en": "Watch our pick of the best shots in the history of tournament, including Lottie Woad, Mimi Rhodes and Anna Nordqvist.",
+      "img": "/img/n12.jpg"
     },
     {
       "title": "آیا جوانترین سرمربی پریمیرشیپ می تواند مادرول را به موفقیت برساند؟",
       "title_en": "Can Premiership's youngest manager lead Motherwell to success?",
       "desc": "آلفرد یوهانسون تنها 35 سال دارد، اما چه انتظاری از مادرول زیر نظر جوان ترین سرمربی در لیگ برتر اسکاتلند می توان داشت؟",
       "desc_en": "Alfred Johansson is only 35, but what can be expected from Motherwell under the youngest manager in the Scottish Premiership?",
-      "img": "/img/n12.jpg"
+      "img": "/img/n13.jpg"
+    },
+    {
+      "title": "هم تیمی F1 2026 رودررو در تعطیلات تابستانی",
+      "title_en": "F1 2026 team-mate head-to-heads at summer break",
+      "desc": "رودرروی فرمول 1 2026 با تمام آخرین امتیازات مسابقات مقدماتی، اسپرینت و جایزه بزرگ در هر یک از 11 تیم.",
+      "desc_en": "The 2026 Formula 1 head-to-heads with all of the latest Qualifying, Sprint and Grand Prix scores in each of the 11 teams.",
+      "img": "/img/n14.jpg"
+    },
+    {
+      "title": "نلسون: Fury vs AJ من را بیشتر از همیشه هیجان زده می کند و فیوری برتری دارد",
+      "title_en": "Nelson: Fury vs AJ excites me more than ever and Fury has the edge",
+      "desc": "این مبارزه بیش از هر زمان دیگری مرا هیجان زده می کند و فکر می کنم تایسون فیوری برتری دارد.",
+      "desc_en": "This fight excites me more than it ever has, and I think Tyson Fury has the edge.",
+      "img": "/img/n15.jpg"
+    },
+    {
+      "title": "حماسه سرمربی ایتالیا در حالی ادامه دارد که پیرلو در بحبوحه پیوندهای قرارداد شرط بندی روسیه از بازی خارج شد",
+      "title_en": "Italy head coach saga continues as Pirlo ruled out amid Russian betting deal links",
+      "desc": "آندره آ پیرلو پس از انتقاد از روابط تجاری اش با یک شرکت شرط بندی روسی اعلام کرد که دیگر برای سرمربیگری بعدی ایتالیا رقابتی ندارد.",
+      "desc_en": "Andrea Pirlo has announced he is no longer in contention to become the next Italy head coach following criticism of his commercial links with a Russian betting company.",
+      "img": "/img/n16.jpg"
+    },
+    {
+      "title": "به نظر می رسد رویای آمازون در ویندزور پشت سر هم باز شود",
+      "title_en": "Amazonian Dream looks to go back-to-back at Windsor",
+      "desc": "ما در روز دوشنبه یک مسابقه پرمشغله داریم با اکشن مسطح از Ripon، Southwell و Windsor، به صورت زنده در Sky Sports Racing...",
+      "desc_en": "We have a busy day&#8217;s racing on Monday with flat action from Ripon, Southwell and Windsor, live on Sky Sports Racing...",
+      "img": "/img/n17.jpg"
+    },
+    {
+      "title": "لیتلر می خواهد \"بزرگترین بازیکن دارت تا کنون\" باشد - چقدر به تیلور نزدیک است؟",
+      "title_en": "Littler wants to be 'greatest darts player ever' - how close is he to Taylor?",
+      "desc": "لوک لیتلر رویای خود را برای تبدیل شدن به \"بزرگترین بازیکن دارت تا کنون\" پس از دفاع غالب خود در مسابقات جهانی بتفرد، با آخرین برد شماره 1 جهان تکرار کرده است.",
+      "desc_en": "Luke Littler has reiterated his dream to become the &#8216;greatest darts player ever&#8217; after his dominant Betfred World Matchplay title defence, with the world No 1&#8217;s latest win drawing fu",
+      "img": "/img/n18.jpg"
+    },
+    {
+      "title": "ستاره نوظهور Koivun از Scheffler جلوگیری می کند تا در سومین تور PGA به عنوان یک حرفه ای برنده شود",
+      "title_en": "Rising star Koivun holds off Scheffler to win on third PGA Tour start as a pro",
+      "desc": "جکسون کویوون از اسکاتی شفلر شماره 1 جهان جلوگیری کرد و اولین عنوان تور PGA خود را تنها در سومین شروع حرفه ای خود به دست آورد و با سه ضربه در مسابقات آزاد 3M در مینه سوت پیروز شد.",
+      "desc_en": "Jackson Koivun held off a charge from world No 1 Scottie Scheffler to win his first PGA Tour title in just his third start as a professional as he triumphed by three strokes at the 3M Open in Minnesot",
+      "img": "/img/n19.jpg"
     },
     {
       "title": "منچسترسیتی امیدوار است رودری با بررسی پیشنهاد رئال مادرید، قرارداد جدیدی امضا کند",
@@ -85,6 +155,13 @@
       "desc": "کهنه سرباز فصل گذشته در 37 بازی لیگ 13 گل به ثمر رساند. علایق نشان می دهد که استراتژی نقل و انتقالات استمفوردبریج تغییر کرده است چلسی در حال مذاکره برای جذب دنی ولبک از برایتون است.",
       "desc_en": "Veteran scored 13 goals in 37 league games last seasonInterest signals shift in Stamford Bridge transfer strategyChelsea are understood to be in talks over a move to sign Danny Welbeck from Brighton.W",
       "img": "/img/n21.jpg"
+    },
+    {
+      "title": "چرا زنان تاتنهام باعث حواس پرتی از تاریکی تماشای تیم مردان شده اند | مارک برتون",
+      "title_en": "Why Tottenham Women have provided distraction from the gloom of watching men’s team | Mark Burton",
+      "desc": "ارتباط رو به رشد با هواداران به تیم زنان کمک کرده است تا لذت بخش ترین بخش حمایت از اسپرز باشد.",
+      "desc_en": "A growing connection with fans has helped make the women’s team by far the most enjoyable part of supporting SpursThe exciting football played by Tottenham’s women last season provided a much-needed a",
+      "img": "/img/n22.jpg"
     },
     {
       "title": "فوتبال روزانه | وینیسیوس به آرسنال؟ مجموعه صنعتی نظامی فوتبال باشگاهی دوباره شروع به کار کرد",
@@ -384,704 +461,572 @@
       {
         "name": "آرسنال",
         "p": 38,
-        "pts": 0
+        "pts": 89
       },
       {
         "name": "لیورپول",
         "p": 38,
-        "pts": 0
+        "pts": 84
       },
       {
         "name": "منچسترسیتی",
         "p": 38,
-        "pts": 0
+        "pts": 78
       },
       {
         "name": "چلسی",
         "p": 38,
-        "pts": 0
+        "pts": 69
       },
       {
         "name": "استون ویلا",
         "p": 38,
-        "pts": 0
+        "pts": 66
       },
       {
         "name": "تاتنهام",
         "p": 38,
-        "pts": 0
+        "pts": 63
       },
       {
         "name": "نیوکاسل",
         "p": 38,
-        "pts": 0
+        "pts": 60
       },
       {
         "name": "برایتون",
         "p": 38,
-        "pts": 0
+        "pts": 55
       },
       {
         "name": "وستهام",
         "p": 38,
-        "pts": 0
+        "pts": 52
       },
       {
         "name": "منچستریونایتد",
         "p": 38,
-        "pts": 0
+        "pts": 48
       },
       {
         "name": "ورکسام",
         "p": 38,
-        "pts": 0
+        "pts": 45
       },
       {
         "name": "فورست",
         "p": 38,
-        "pts": 0
+        "pts": 42
       },
       {
         "name": "بورنموث",
         "p": 38,
-        "pts": 0
+        "pts": 40
       },
       {
         "name": "تورنتور",
         "p": 38,
-        "pts": 0
+        "pts": 38
       },
       {
         "name": "برنتفورد",
         "p": 38,
-        "pts": 0
+        "pts": 36
       },
       {
         "name": "کریستال پالاس",
         "p": 38,
-        "pts": 0
+        "pts": 34
       },
       {
         "name": "ولورهمپتون",
         "p": 38,
-        "pts": 0
+        "pts": 32
       },
       {
         "name": "ابورتون",
         "p": 38,
-        "pts": 0
+        "pts": 30
       },
       {
         "name": "لسترسیتی",
         "p": 38,
-        "pts": 0
+        "pts": 28
       },
       {
         "name": "ساتهمپتون",
         "p": 38,
-        "pts": 0
+        "pts": 24
       }
     ],
     "لالیگا اسپانیا": [
       {
         "name": "رئال مادرید",
         "p": 38,
-        "pts": 0
+        "pts": 92
       },
       {
         "name": "بارسلونا",
         "p": 38,
-        "pts": 0
+        "pts": 85
       },
       {
         "name": "اتلتیکو مادرید",
         "p": 38,
-        "pts": 0
+        "pts": 74
       },
       {
         "name": "رئال سوسیداد",
         "p": 38,
-        "pts": 0
+        "pts": 62
       },
       {
         "name": "ویارئال",
         "p": 38,
-        "pts": 0
+        "pts": 58
       },
       {
         "name": "سویا",
         "p": 38,
-        "pts": 0
+        "pts": 54
       },
       {
         "name": "اتلتیک بیلبائو",
         "p": 38,
-        "pts": 0
+        "pts": 52
       },
       {
         "name": "بتیس",
         "p": 38,
-        "pts": 0
+        "pts": 50
       },
       {
         "name": "ختافه",
         "p": 38,
-        "pts": 0
+        "pts": 45
       },
       {
         "name": "مایورکا",
         "p": 38,
-        "pts": 0
+        "pts": 42
       },
       {
         "name": "لاس پالمس",
         "p": 38,
-        "pts": 0
+        "pts": 40
       },
       {
         "name": "آلاوس",
         "p": 38,
-        "pts": 0
+        "pts": 38
       },
       {
         "name": "اسپانیول",
         "p": 38,
-        "pts": 0
+        "pts": 36
       },
       {
         "name": "سلتا ویگو",
         "p": 38,
-        "pts": 0
+        "pts": 34
       },
       {
         "name": "رایو وایکانو",
         "p": 38,
-        "pts": 0
+        "pts": 32
       },
       {
         "name": "ژیرونا",
         "p": 38,
-        "pts": 0
+        "pts": 30
       },
       {
         "name": "اوئسکا",
         "p": 38,
-        "pts": 0
+        "pts": 28
       },
       {
         "name": "لگانس",
         "p": 38,
-        "pts": 0
+        "pts": 26
       },
       {
         "name": "وایادولید",
         "p": 38,
-        "pts": 0
+        "pts": 24
       },
       {
         "name": "کادیس",
         "p": 38,
-        "pts": 0
+        "pts": 20
       }
     ],
     "سری آ ایتالیا": [
       {
         "name": "اینترمیلان",
         "p": 38,
-        "pts": 0
+        "pts": 90
       },
       {
         "name": "آث میلان",
         "p": 38,
-        "pts": 0
+        "pts": 79
       },
       {
         "name": "ناپولی",
         "p": 38,
-        "pts": 0
+        "pts": 75
       },
       {
         "name": "یوونتوس",
         "p": 38,
-        "pts": 0
+        "pts": 68
       },
       {
         "name": "آتالانتا",
         "p": 38,
-        "pts": 0
+        "pts": 65
       },
       {
         "name": "آ اس رم",
         "p": 38,
-        "pts": 0
+        "pts": 58
       },
       {
         "name": "لاتزیو",
         "p": 38,
-        "pts": 0
+        "pts": 55
       },
       {
         "name": "佛罗伦萨",
         "p": 38,
-        "pts": 0
+        "pts": 52
       },
       {
         "name": "بولونیا",
         "p": 38,
-        "pts": 0
+        "pts": 48
       },
       {
         "name": "تورینو",
         "p": 38,
-        "pts": 0
+        "pts": 45
       },
       {
         "name": "مونزا",
         "p": 38,
-        "pts": 0
+        "pts": 42
       },
       {
         "name": "جنوا",
         "p": 38,
-        "pts": 0
+        "pts": 40
       },
       {
         "name": "امپولی",
         "p": 38,
-        "pts": 0
+        "pts": 38
       },
       {
         "name": "کالیاری",
         "p": 38,
-        "pts": 0
+        "pts": 36
       },
       {
         "name": "هلاس ورونا",
         "p": 38,
-        "pts": 0
+        "pts": 34
       },
       {
         "name": "فروزینونه",
         "p": 38,
-        "pts": 0
+        "pts": 32
       },
       {
         "name": "萨索洛",
         "p": 38,
-        "pts": 0
+        "pts": 30
       },
       {
         "name": "لچه",
         "p": 38,
-        "pts": 0
+        "pts": 28
       },
       {
         "name": "ساسولو",
         "p": 38,
-        "pts": 0
+        "pts": 24
       },
       {
         "name": "اودینزه",
         "p": 38,
-        "pts": 0
+        "pts": 22
       }
     ],
     "بوندس‌لیگا آلمان": [
       {
         "name": "بایرن مونیخ",
         "p": 34,
-        "pts": 0
+        "pts": 78
       },
       {
         "name": "دورتموند",
         "p": 34,
-        "pts": 0
+        "pts": 72
       },
       {
         "name": "لورکوزن",
         "p": 34,
-        "pts": 0
+        "pts": 68
       },
       {
         "name": "لایپزیگ",
         "p": 34,
-        "pts": 0
+        "pts": 60
       },
       {
         "name": "فرانکفورت",
         "p": 34,
-        "pts": 0
+        "pts": 55
       },
       {
         "name": "استuttgart",
         "p": 34,
-        "pts": 0
+        "pts": 52
       },
       {
         "name": "هافنهایم",
         "p": 34,
-        "pts": 0
+        "pts": 48
       },
       {
         "name": "فرایبورگ",
         "p": 34,
-        "pts": 0
+        "pts": 45
       },
       {
         "name": "آگسبورگ",
         "p": 34,
-        "pts": 0
+        "pts": 42
       },
       {
         "name": "وردربرمن",
         "p": 34,
-        "pts": 0
+        "pts": 40
       },
       {
         "name": "وولفسبورگ",
         "p": 34,
-        "pts": 0
+        "pts": 38
       },
       {
         "name": "مونشن‌گلادباخ",
         "p": 34,
-        "pts": 0
+        "pts": 36
       },
       {
         "name": "یونیون برلین",
         "p": 34,
-        "pts": 0
+        "pts": 34
       },
       {
         "name": "ماینتس",
         "p": 34,
-        "pts": 0
+        "pts": 32
       },
       {
         "name": "بوخوم",
         "p": 34,
-        "pts": 0
+        "pts": 30
       },
       {
         "name": "هاله",
         "p": 34,
-        "pts": 0
+        "pts": 28
       },
       {
         "name": "کلن",
         "p": 34,
-        "pts": 0
+        "pts": 24
       },
       {
         "name": "دارمشتات",
         "p": 34,
-        "pts": 0
+        "pts": 20
       }
     ],
     "لیگ ۱ فرانسه": [
       {
         "name": "پاریسن‌ژرمن",
         "p": 34,
-        "pts": 0
+        "pts": 82
       },
       {
         "name": "مارسی",
         "p": 34,
-        "pts": 0
+        "pts": 65
       },
       {
         "name": "موناکو",
         "p": 34,
-        "pts": 0
+        "pts": 60
       },
       {
         "name": "لیل",
         "p": 34,
-        "pts": 0
+        "pts": 58
       },
       {
         "name": "لیون",
         "p": 34,
-        "pts": 0
+        "pts": 52
       },
       {
         "name": "نیس",
         "p": 34,
-        "pts": 0
+        "pts": 48
       },
       {
         "name": "رن",
         "p": 34,
-        "pts": 0
+        "pts": 45
       },
       {
         "name": "استراسبورگ",
         "p": 34,
-        "pts": 0
+        "pts": 42
       },
       {
         "name": "لنز",
         "p": 34,
-        "pts": 0
+        "pts": 40
       },
       {
         "name": "تولوز",
         "p": 34,
-        "pts": 0
+        "pts": 38
       },
       {
         "name": "مونتپلیه",
         "p": 34,
-        "pts": 0
+        "pts": 36
       },
       {
         "name": "نانت",
         "p": 34,
-        "pts": 0
+        "pts": 34
       },
       {
         "name": " لو آرور",
         "p": 34,
-        "pts": 0
+        "pts": 32
       },
       {
         "name": "برست",
         "p": 34,
-        "pts": 0
+        "pts": 30
       },
       {
         "name": "لوریان",
         "p": 34,
-        "pts": 0
+        "pts": 28
       },
       {
         "name": "کلرمون",
         "p": 34,
-        "pts": 0
+        "pts": 24
       },
       {
         "name": "متس",
         "p": 34,
-        "pts": 0
+        "pts": 22
       },
       {
         "name": "ترابزون",
         "p": 34,
-        "pts": 0
+        "pts": 20
       }
     ],
     "لیگ ایران": [
       {
         "name": "پرسپولیس",
         "p": 30,
-        "pts": 0
+        "pts": 68
       },
       {
         "name": "استقلال",
         "p": 30,
-        "pts": 0
+        "pts": 62
       },
       {
         "name": "سپاهان",
         "p": 30,
-        "pts": 0
+        "pts": 58
       },
       {
         "name": "تراکتور",
         "p": 30,
-        "pts": 0
+        "pts": 52
       },
       {
         "name": "فولاد",
         "p": 30,
-        "pts": 0
+        "pts": 48
       },
       {
         "name": "گل‌گهر",
         "p": 30,
-        "pts": 0
+        "pts": 45
       },
       {
         "name": "مس رفسنجان",
         "p": 30,
-        "pts": 0
+        "pts": 42
       },
       {
         "name": " آلومینیوم",
         "p": 30,
-        "pts": 0
+        "pts": 40
       },
       {
         "name": "صنعت نفت",
         "p": 30,
-        "pts": 0
+        "pts": 38
       },
       {
         "name": "پیکان",
         "p": 30,
-        "pts": 0
+        "pts": 36
       },
       {
         "name": "نساجی",
         "p": 30,
-        "pts": 0
+        "pts": 34
       },
       {
         "name": "هوادار",
         "p": 30,
-        "pts": 0
+        "pts": 32
       },
       {
         "name": "فولاد خوزستان",
         "p": 30,
-        "pts": 0
+        "pts": 30
       },
       {
         "name": "شمس آذر",
         "p": 30,
-        "pts": 0
+        "pts": 28
       },
       {
         "name": " خیبر",
         "p": 30,
-        "pts": 0
+        "pts": 26
       },
       {
         "name": "مس کرمان",
         "p": 30,
-        "pts": 0
-      }
-    ],
-    "لیگ پرتغال": [
-      {
-        "name": "بنفیکا",
-        "pts": 0
-      },
-      {
-        "name": "پورتو",
-        "pts": 0
-      },
-      {
-        "name": "اسپورتینگ",
-        "pts": 0
-      },
-      {
-        "name": "براگا",
-        "pts": 0
-      },
-      {
-        "name": "ویتوریا گیمارش",
-        "pts": 0
-      }
-    ],
-    "لیگ هلند": [
-      {
-        "name": "آژاکس",
-        "pts": 0
-      },
-      {
-        "name": "فاینورد",
-        "pts": 0
-      },
-      {
-        "name": "آیندهوون",
-        "pts": 0
-      },
-      {
-        "name": "AZ آلکمار",
-        "pts": 0
-      },
-      {
-        "name": "توئنته",
-        "pts": 0
-      }
-    ],
-    "لیگ ترکیه": [
-      {
-        "name": "گالاتاسرای",
-        "pts": 0
-      },
-      {
-        "name": "فنرباغچه",
-        "pts": 0
-      },
-      {
-        "name": "بشیکتاش",
-        "pts": 0
-      },
-      {
-        "name": "ایستانبول",
-        "pts": 0
-      },
-      {
-        "name": "ترابزون‌اسپور",
-        "pts": 0
-      }
-    ],
-    "لیگ عربستان": [
-      {
-        "name": "الهلال",
-        "pts": 0
-      },
-      {
-        "name": "النصر",
-        "pts": 0
-      },
-      {
-        "name": "الاهلی",
-        "pts": 0
-      },
-      {
-        "name": "الاتحاد",
-        "pts": 0
-      },
-      {
-        "name": "الشباب",
-        "pts": 0
-      }
-    ],
-    "لیگ آرژانتین": [
-      {
-        "name": "ریورپلیت",
-        "pts": 0
-      },
-      {
-        "name": "بوکا جونیورز",
-        "pts": 0
-      },
-      {
-        "name": "الدورادو",
-        "pts": 0
-      },
-      {
-        "name": "ریسینگ",
-        "pts": 0
-      },
-      {
-        "name": "سان لورنزو",
-        "pts": 0
-      }
-    ],
-    "لیگ برزیل": [
-      {
-        "name": "فلامینگو",
-        "pts": 0
-      },
-      {
-        "name": "پالمیراس",
-        "pts": 0
-      },
-      {
-        "name": "سائوپائولو",
-        "pts": 0
-      },
-      {
-        "name": "کورینتیانس",
-        "pts": 0
-      },
-      {
-        "name": "بوتافوگو",
-        "pts": 0
+        "pts": 24
       }
     ]
   },
@@ -1300,7 +1245,20 @@
       ]
     }
   },
-  "transfers": [],
+  "transfers": [
+    {
+      "title": "Sources: Madrid to sign Diomande in $153m deal",
+      "desc": "Real Madrid expect to complete a deal to sign Yan Diomande from RB Leipzig in the coming hours, sources have told ESPN."
+    },
+    {
+      "title": "Transfer rumors, news: Liverpool and PSG to open B...",
+      "desc": "Paris Saint-Germain are set to open talks with Liverpool over Bradley Barcola's potential transfer to Anfield Transfer Talk has the latest."
+    },
+    {
+      "title": "Men's transfer grades: Man City get B- for club-re...",
+      "desc": "The 2026 summer transfer window is open. Here is how we rated the biggest deals."
+    }
+  ],
   "team_logos": {
     "آرسنال": "/logos/Arsenal_FC.svg",
     "لیورپول": "/logos/Liverpool_FC.svg",
