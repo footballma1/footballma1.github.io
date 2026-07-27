@@ -1,96 +1,56 @@
 {
   "today_fixtures": [],
-  "updated": "2026-07-27 15:35",
+  "updated": "2026-07-27 16:24",
   "football_news": [
     {
-      "title": "همه معاملات انجام شده در جولای 2026",
-      "desc": "خریدها و جدایی های قابل توجه در لیگ برتر، لیگ برتر اسکاتلند، EFL و سوپر لیگ زنان را بررسی کنید.",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/aec0/live/fd14b290-e25e-11ef-a819-277e390a7a08.jpg",
-      "source": "BBC Sport"
+      "title": "مذاکرات قرارداد رئال مادرید و علاقه آرسنال - آینده وینیسیوس جونیور چیست؟",
+      "desc": "With Real Madrid renewing contract talks and Arsenal showing interest, there may be no more intriguing transfer situation right now than Vinicius Jr's future.",
+      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/5d30/live/def92a80-89a0-11f1-b2ab-0dd01740f9f6.jpg"
     },
     {
-      "title": "مو صلاح: هرگز تسلیم نشو",
-      "desc": "داستان صعود غیر محتمل مو صلاح به یک ستاره جهانی.",
-      "img": "https://ichef.bbci.co.uk/images/ic/240x135/p0mmh2yg.jpg",
-      "source": "BBC Sport"
+      "title": "به جای نفرت پراکنی مراقبه، دعا کنید یا فوتبال تماشا کنید - اینفانتینو",
+      "desc": "Fifa president Gianni Infantino tells critics to \"meditate, pray or watch a football match\" instead of \"spreading hate and false rumours\" about him and the World Cup.",
+      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/d0be/live/28678820-8987-11f1-88b2-635548373e92.jpg"
     },
     {
-      "title": "چرا رویای انگلستان در جام جهانی 2006 با عذاب تمام شد؟",
-      "desc": "چرا تیم فوتبال انگلیس در جام جهانی 2006 از پتانسیل خود استفاده نکرد؟",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/ce77/live/44bad560-60b8-11f1-b682-cf91850925ea.jpg",
-      "source": "BBC Sport"
+      "title": "دیوماند با دور شدن پاری سن ژرمن با شرایط رئال مادرید موافقت کرد",
+      "desc": "RB Leipzig winger Yan Diomande agrees personal terms with Real Madrid after Paris St-Germain withdraw their interest.",
+      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/5633/live/e88d1110-8964-11f1-b5c7-f34a712b7d61.jpg"
     },
     {
-      "title": "آیا بازی پلی آف سوم جام جهانی جزو کفش طلا محسوب می شود؟",
-      "desc": "تیم Ask Me Anything از BBC Sport به تاریخچه برندگان کفش طلای جام جهانی و پلی آف مقام سوم نگاه می کند.",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/ed00/live/bfa608d0-80ed-11f1-bee8-53ce494e1abc.jpg",
-      "source": "BBC Sport"
+      "title": "رکورد هزینه اسپرز جاه طلبی جدیدی را نشان می دهد - ون دی ون",
+      "desc": "Micky van de Ven says Tottenham's record spending highlights a \"new ambition\" after an \"unacceptable\" season.",
+      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/f2a2/live/b16d1670-8988-11f1-88b2-635548373e92.jpg"
     },
     {
-      "title": "جایزه جام جهانی چقدر است؟",
-      "desc": "تیم Ask Me Anything ما مبلغ جایزه پیشنهادی در جام جهانی 2026 را تقسیم می کند.",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/9cf4/live/c8dba200-6f06-11f1-b1db-af71d47507d6.png",
-      "source": "BBC Sport"
+      "title": "راجرز و پالمر می توانند با هم بازی کنند - آلونسو",
+      "desc": "Chelsea manager Xabi Alonso says he has a \"plan\" to play club record £117m signing Morgan Rogers alongside Cole Palmer.",
+      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/bd8d/live/9cd85070-897f-11f1-b8ee-9b3c26ad07bb.jpg"
     },
     {
-      "title": "تاریخ های کلیدی برای فصل فوتبال 2026-27 چیست؟",
-      "desc": "بی بی سی اسپورت Ask Me Anything لیست کامل تاریخ های کلیدی فصل فوتبال مردان 2026-2027 را توضیح می دهد.",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/c2d3/live/7dfe1b00-7bb8-11f1-9510-1546718f668b.jpg",
-      "source": "BBC Sport"
+      "title": "پیرلو به دلیل ارتباط با شرکت شرط بندی روسی، برای استخدام در ایتالیا نامزد نمی شود",
+      "desc": "Andrea Pirlo says he is no longer a candidate to coach Italy following days of controversy over his link to a Russian betting company.",
+      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/01fc/live/7b3dc190-89a5-11f1-8a9d-b9e590fcf96d.jpg"
     },
     {
-      "title": "آیا تیم ها باید فقط برای ضربات پنالتی بازیکن بیاورند؟",
-      "desc": "تیم Ask Me Anything از BBC Sport به اعدادی که در ضربات پنالتی‌های دیرهنگام پنالتی می‌گیرند نگاه می‌کند.",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/1958/live/b1033df0-7488-11f1-8546-8f19e4fe30f4.jpg",
-      "source": "BBC Sport"
+      "title": "مارتین و روباه باید پس از مبارزات \"راه خود را پیدا کنند\".",
+      "desc": "Leicester City manager Russell Martin says history should not be used to judge what he can achieve with the former Premier League champions.",
+      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/23ee/live/9c9c8ab0-89a5-11f1-8a9d-b9e590fcf96d.jpg"
     },
     {
-      "title": "چه کسی از جام جهانی حذف شد؟",
-      "desc": "تیم Ask Me Anything از BBC Sport مجموعه کاملی از کشورهایی را که تاکنون از جام جهانی 2026 حذف شده اند فهرست می کند.",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/bb04/live/5cf18660-80e3-11f1-bee8-53ce494e1abc.jpg",
-      "source": "BBC Sport"
+      "title": "اسطوره ژاپنی میورا، 59 ساله، اولین گل را از سال 2022 به ثمر رساند",
+      "desc": "Kazuyoshi Miura, the world's oldest professional footballer, scores his first goal in nearly four years at the age of 59 for Japanese third-tier side Fukushima United.",
+      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/e19d/live/3a982b90-8931-11f1-b684-d3f861a1f4cf.jpg"
     },
     {
-      "title": "انتخاب های تلویزیونی برای دور سی و دوم جام جهانی چگونه تعیین می شود؟",
-      "desc": "تیم Ask Me Anything از BBC Sport پیچیدگی های پشت انتخاب های تلویزیونی برای دور 32 بازی جام جهانی 2026 را توضیح می دهد.",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/9e5f/live/46664770-714b-11f1-8546-8f19e4fe30f4.jpg",
-      "source": "BBC Sport"
+      "title": "یورک لیندسی را پس از اخراج مینارد شوکه کننده منصوب می کند",
+      "desc": "York City appoint former Crawley Town boss Scott Lindsey as their new head coach, one day after sacking title-winning Stuart Maynard.",
+      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/0aec/live/bbf00890-89a7-11f1-a85a-79136c2d298e.jpg"
     },
     {
-      "title": "پادربورن پیشنهاد 4 میلیون پوندی سلتیک برای باور را رد کرد - شایعات",
-      "desc": "پیشنهاد سلتیک برای جذب هافبک در میان اخبار متناقض در مورد پیشنهاد پیشنهادی وینگر به قهرمان اسکاتلند رد شد.",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/6fba/live/7ff4ee90-8985-11f1-a7ab-8b30adf0800a.png",
-      "source": "BBC Sport"
-    },
-    {
-      "title": "آیا مونت می تواند مهره پایانی در اره منبت کاری اره مویی خط میانی منچستریونایتد باشد؟",
-      "desc": "میسون مانت در کنار آندری سانتوس جدید برای منچستریونایتد در دو بازی تدارکاتی اول خود فوق العاده بوده است.",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/f10e/live/84e71c50-87f2-11f1-b8ee-9b3c26ad07bb.jpg",
-      "source": "BBC Sport"
-    },
-    {
-      "title": "سقوط سنت جانستون در حالی که داندی یونایتد به پایان رسید - دور برگشت جام لیگ",
-      "desc": "سنت جانستون به لطف گل تساوی دراماتیک ایست فایف، جام پریمیر اسپورت را شکست داد، اما رقبای لیگ برتری یعنی داندی یونایتد پس از اینکه مونتروز شانس خود را به ثمر رساند، از رقابت خارج شد.",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/9c6e/live/0e8a01d0-8851-11f1-b8ee-9b3c26ad07bb.jpg",
-      "source": "BBC Sport"
-    },
-    {
-      "title": "چلسی در حال مذاکره برای مک فی، مربی تیم ویلا است",
-      "desc": "چلسی به دنبال جذب آستین مکفی سرمربی بسیار مورد توجه استون ویلا است اما آنها با رقابتی از لیگ برتر و باشگاه های لیگ حرفه ای عربستان روبرو هستند.",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/3b4c/live/d2ff5fe0-880d-11f1-afbe-b9a38c21b1d6.jpg",
-      "source": "BBC Sport"
-    },
-    {
-      "title": "کلوپ با تهدید به ترک سلطنت آلمان را آغاز کرد",
-      "desc": "یورگن کلوپ دوران سرمربیگری آلمان را با تهدید به استعفا در صورت تهاجم رسانه ها به حریم خصوصی خانواده اش آغاز کرد.",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/6a61/live/077e1fd0-8747-11f1-80f4-b5921bc87065.jpg",
-      "source": "BBC Sport"
-    },
-    {
-      "title": "گواردیولا سرمربیگری ایتالیا را رد کرد",
-      "desc": "پپ گواردیولا، سرمربی سابق منچسترسیتی شانس سرمربیگری ایتالیا را رد کرد.",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/88f9/live/81e5a190-8741-11f1-bee8-53ce494e1abc.jpg",
-      "source": "BBC Sport"
+      "title": "من کی هستم؟ ستاره شماره 7 لیگ برتر را حدس بزنید",
+      "desc": "Will you get today's player in as few attempts as possible?",
+      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/bbc4/live/8fe12a80-85b1-11f1-926f-c90d1bcfbc84.png"
     }
   ],
   "fixtures": [
@@ -98,19 +58,183 @@
       "league": "بازی دوستانه",
       "home": "رئال مادرید",
       "away": "Leganés",
-      "time": "13:00"
+      "time": "13:00",
+      "date": "2026-07-28"
     },
     {
       "league": "بازی دوستانه",
       "home": "استون ویلا",
-      "away": "رئال سوسیداد",
-      "time": "22:00"
+      "away": "Real Sociedad",
+      "time": "22:00",
+      "date": "2026-07-28"
     },
     {
       "league": "بازی دوستانه",
       "home": "چلسی",
       "away": "Western Sydney Wanderers",
-      "time": "13:15"
+      "time": "13:15",
+      "date": "2026-07-28"
+    },
+    {
+      "league": "بازی دوستانه",
+      "home": "Cerezo Osaka",
+      "away": "دورتموند",
+      "time": "13:30",
+      "date": "2026-07-29"
+    },
+    {
+      "league": "بازی دوستانه",
+      "home": "لورکوزن",
+      "away": "Genk",
+      "time": "16:30",
+      "date": "2026-07-29"
+    },
+    {
+      "league": "بازی دوستانه",
+      "home": "Real Betis",
+      "away": "Olympique Lyonnais",
+      "time": "21:30",
+      "date": "2026-07-29"
+    },
+    {
+      "league": "بازی دوستانه",
+      "home": "Bristol City",
+      "away": "Newcastle United",
+      "time": "22:00",
+      "date": "2026-07-29"
+    },
+    {
+      "league": "سری آ ایتالیا",
+      "home": "Tottenham Hotspur",
+      "away": "Sydney",
+      "time": "13:15",
+      "date": "2026-07-29"
+    },
+    {
+      "league": "بازی دوستانه",
+      "home": "لیورپول",
+      "away": "Wrexham",
+      "time": "03:00",
+      "date": "2026-07-30"
+    },
+    {
+      "league": "بازی دوستانه",
+      "home": "مارسی",
+      "away": "Nîmes",
+      "time": "19:30",
+      "date": "2026-07-30"
+    },
+    {
+      "league": "بازی دوستانه",
+      "home": "یوونتوس",
+      "away": "Nice",
+      "time": "19:30",
+      "date": "2026-07-31"
+    },
+    {
+      "league": "بازی دوستانه",
+      "home": "Birmingham City",
+      "away": "بارسلونا",
+      "time": "22:15",
+      "date": "2026-07-31"
+    },
+    {
+      "league": "بازی دوستانه",
+      "home": "موناکو",
+      "away": "Cercle Brugge",
+      "time": "18:30",
+      "date": "2026-07-31"
+    },
+    {
+      "league": "بازی دوستانه",
+      "home": "NEC",
+      "away": "سویا",
+      "time": "20:30",
+      "date": "2026-07-31"
+    },
+    {
+      "league": "بازی دوستانه",
+      "home": "Albacete",
+      "away": "Real Madrid II",
+      "time": "21:30",
+      "date": "2026-07-31"
+    },
+    {
+      "league": "Norwegian Eliteserien",
+      "home": "Bodø / Glimt",
+      "away": "Lillestrøm",
+      "time": "22:30",
+      "date": "2026-07-31"
+    },
+    {
+      "league": "بازی دوستانه",
+      "home": "Tokyo",
+      "away": "دورتموند",
+      "time": "13:30",
+      "date": "2026-08-01"
+    },
+    {
+      "league": "بازی دوستانه",
+      "home": "Manchester City",
+      "away": "اینترمیلان",
+      "time": "15:00",
+      "date": "2026-08-01"
+    },
+    {
+      "league": "بازی دوستانه",
+      "home": "Manchester United",
+      "away": "اتلتیکو مادرید",
+      "time": "16:30",
+      "date": "2026-08-01"
+    },
+    {
+      "league": "بازی دوستانه",
+      "home": "رئال مادرید",
+      "away": "Fiorentina",
+      "time": "19:30",
+      "date": "2026-08-01"
+    },
+    {
+      "league": "بازی دوستانه",
+      "home": "Girona",
+      "away": "آرسنال",
+      "time": "21:30",
+      "date": "2026-08-01"
+    },
+    {
+      "league": "بازی دوستانه",
+      "home": "لورکوزن",
+      "away": "Rot-Weiss Essen",
+      "time": "12:30",
+      "date": "2026-08-01"
+    },
+    {
+      "league": "بازی دوستانه",
+      "home": "لایپزیگ",
+      "away": "Verl",
+      "time": "13:30",
+      "date": "2026-08-01"
+    },
+    {
+      "league": "بازی دوستانه",
+      "home": "Club Brugge II",
+      "away": "لیل",
+      "time": "17:30",
+      "date": "2026-08-01"
+    },
+    {
+      "league": "بازی دوستانه",
+      "home": "OH Leuven",
+      "away": "لیل",
+      "time": "18:30",
+      "date": "2026-08-01"
+    },
+    {
+      "league": "Allsvenskan",
+      "home": "چلسی",
+      "away": "Tottenham Hotspur",
+      "time": "13:15",
+      "date": "2026-08-01"
     }
   ],
   "world_news": [
@@ -163,16 +287,16 @@
       "desc": "مقامات آلمانی اعلام کردند که مظنون اصلی این جنایت که آنها آن را یک اقدام تروریستی می‌دانند، در یک حمله پلیس عصر یکشنبه کشته شده است."
     },
     {
+      "title": "دانش آموز غزه علیرغم جنگ و آوارگی در آزمون های سراسری موفق شد",
+      "desc": "صباح رباح غزه رتبه اول امتحانات دبیرستان ملی فلسطین را در بحبوحه جنگ نسل کشی اسرائیل کسب کرد."
+    },
+    {
+      "title": "دانشجویان و کارکنان برای احیای دانشگاه اسلامی غزه تلاش می کنند",
+      "desc": "این دانشگاه به دنبال ادامه آموزش فلسطینیان در بحبوحه جنگ نسل کشی اسرائیل علیه غزه است."
+    },
+    {
       "title": "آتش سوزی های جنگلی در جنوب غربی اروپا: آنچه تاکنون می دانیم",
       "desc": "بیش از 300000 نفر در فرانسه و اسپانیا از خانه های خود تخلیه شده اند."
-    },
-    {
-      "title": "تمجید سوریاوانشی توسط لاکسمن پس از ستاره های نوجوان مقابل زیمباوه در T20",
-      "desc": "سوریاوانشی، نوجوان نابغه، پس از شروعی دشوار در فوتبال بین المللی خود در انگلیس، به مصاف زیمبابوه رفت."
-    },
-    {
-      "title": "عکس ها: فرانسه و اسپانیا با افزایش گرما با آتش سوزی های جنگلی \"هیولا\" مبارزه می کنند",
-      "desc": "فرانسه و اسپانیا در حال مبارزه با آتش سوزی های گسترده هستند که بیش از 325000 نفر را مجبور به فرار کرده است، زیرا موج گرما جدید در حال رخ دادن است."
     }
   ],
   "league_info": [
@@ -781,5 +905,219 @@
       }
     ]
   },
-  "standings_note": "فصل جدید هنوز شروع نشده - به‌زودی..."
+  "standings_note": "فصل جدید هنوز شروع نشده - به‌زودی...",
+  "fixtures_by_date": {
+    "2026-07-28": {
+      "day": "سه‌شنبه 28 7",
+      "is_today": false,
+      "matches": [
+        {
+          "league": "بازی دوستانه",
+          "home": "رئال مادرید",
+          "away": "Leganés",
+          "time": "13:00",
+          "date": "2026-07-28"
+        },
+        {
+          "league": "بازی دوستانه",
+          "home": "استون ویلا",
+          "away": "Real Sociedad",
+          "time": "22:00",
+          "date": "2026-07-28"
+        },
+        {
+          "league": "بازی دوستانه",
+          "home": "چلسی",
+          "away": "Western Sydney Wanderers",
+          "time": "13:15",
+          "date": "2026-07-28"
+        }
+      ]
+    },
+    "2026-07-29": {
+      "day": "چهارشنبه 29 7",
+      "is_today": false,
+      "matches": [
+        {
+          "league": "بازی دوستانه",
+          "home": "Cerezo Osaka",
+          "away": "دورتموند",
+          "time": "13:30",
+          "date": "2026-07-29"
+        },
+        {
+          "league": "بازی دوستانه",
+          "home": "لورکوزن",
+          "away": "Genk",
+          "time": "16:30",
+          "date": "2026-07-29"
+        },
+        {
+          "league": "بازی دوستانه",
+          "home": "Real Betis",
+          "away": "Olympique Lyonnais",
+          "time": "21:30",
+          "date": "2026-07-29"
+        },
+        {
+          "league": "بازی دوستانه",
+          "home": "Bristol City",
+          "away": "Newcastle United",
+          "time": "22:00",
+          "date": "2026-07-29"
+        },
+        {
+          "league": "سری آ ایتالیا",
+          "home": "Tottenham Hotspur",
+          "away": "Sydney",
+          "time": "13:15",
+          "date": "2026-07-29"
+        }
+      ]
+    },
+    "2026-07-30": {
+      "day": "پنجشنبه 30 7",
+      "is_today": false,
+      "matches": [
+        {
+          "league": "بازی دوستانه",
+          "home": "لیورپول",
+          "away": "Wrexham",
+          "time": "03:00",
+          "date": "2026-07-30"
+        },
+        {
+          "league": "بازی دوستانه",
+          "home": "مارسی",
+          "away": "Nîmes",
+          "time": "19:30",
+          "date": "2026-07-30"
+        }
+      ]
+    },
+    "2026-07-31": {
+      "day": "جمعه 31 7",
+      "is_today": false,
+      "matches": [
+        {
+          "league": "بازی دوستانه",
+          "home": "یوونتوس",
+          "away": "Nice",
+          "time": "19:30",
+          "date": "2026-07-31"
+        },
+        {
+          "league": "بازی دوستانه",
+          "home": "Birmingham City",
+          "away": "بارسلونا",
+          "time": "22:15",
+          "date": "2026-07-31"
+        },
+        {
+          "league": "بازی دوستانه",
+          "home": "موناکو",
+          "away": "Cercle Brugge",
+          "time": "18:30",
+          "date": "2026-07-31"
+        },
+        {
+          "league": "بازی دوستانه",
+          "home": "NEC",
+          "away": "سویا",
+          "time": "20:30",
+          "date": "2026-07-31"
+        },
+        {
+          "league": "بازی دوستانه",
+          "home": "Albacete",
+          "away": "Real Madrid II",
+          "time": "21:30",
+          "date": "2026-07-31"
+        },
+        {
+          "league": "Norwegian Eliteserien",
+          "home": "Bodø / Glimt",
+          "away": "Lillestrøm",
+          "time": "22:30",
+          "date": "2026-07-31"
+        }
+      ]
+    },
+    "2026-08-01": {
+      "day": "شنبه 1 8",
+      "is_today": false,
+      "matches": [
+        {
+          "league": "بازی دوستانه",
+          "home": "Tokyo",
+          "away": "دورتموند",
+          "time": "13:30",
+          "date": "2026-08-01"
+        },
+        {
+          "league": "بازی دوستانه",
+          "home": "Manchester City",
+          "away": "اینترمیلان",
+          "time": "15:00",
+          "date": "2026-08-01"
+        },
+        {
+          "league": "بازی دوستانه",
+          "home": "Manchester United",
+          "away": "اتلتیکو مادرید",
+          "time": "16:30",
+          "date": "2026-08-01"
+        },
+        {
+          "league": "بازی دوستانه",
+          "home": "رئال مادرید",
+          "away": "Fiorentina",
+          "time": "19:30",
+          "date": "2026-08-01"
+        },
+        {
+          "league": "بازی دوستانه",
+          "home": "Girona",
+          "away": "آرسنال",
+          "time": "21:30",
+          "date": "2026-08-01"
+        },
+        {
+          "league": "بازی دوستانه",
+          "home": "لورکوزن",
+          "away": "Rot-Weiss Essen",
+          "time": "12:30",
+          "date": "2026-08-01"
+        },
+        {
+          "league": "بازی دوستانه",
+          "home": "لایپزیگ",
+          "away": "Verl",
+          "time": "13:30",
+          "date": "2026-08-01"
+        },
+        {
+          "league": "بازی دوستانه",
+          "home": "Club Brugge II",
+          "away": "لیل",
+          "time": "17:30",
+          "date": "2026-08-01"
+        },
+        {
+          "league": "بازی دوستانه",
+          "home": "OH Leuven",
+          "away": "لیل",
+          "time": "18:30",
+          "date": "2026-08-01"
+        },
+        {
+          "league": "Allsvenskan",
+          "home": "چلسی",
+          "away": "Tottenham Hotspur",
+          "time": "13:15",
+          "date": "2026-08-01"
+        }
+      ]
+    }
+  }
 }
