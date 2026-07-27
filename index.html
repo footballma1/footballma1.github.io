@@ -161,9 +161,9 @@ document.getElementById('sr').classList.remove('on');
 
 // Timer
 let timerSec=60;
-
+function updateTimer(){timerSec--;if(timerSec<=0){timerSec=60;load();}
 const el=document.getElementById('timerNum');if(el)el.textContent=timerSec+'s';}
-
+setInterval(updateTimer,1000);
 
 // Favorites
 function gf(){try{return JSON.parse(localStorage.getItem('fm_fav'))||{teams:[],players:[]};}catch(e){return{teams:[],players:[]};}}
@@ -216,8 +216,12 @@ function rMore(){let h='<div class="st" style="margin-top:16px">'+L('more')+'</d
 h+='<div class="sg-item" onclick="showTransfers()"><span class="icon">🔄</span><span class="label">'+L('transfers')+'</span><span class="arrow">←</span></div>';
 h+='<div class="sg-item" onclick="showStandings2()"><span class="icon">🏆</span><span class="label">'+L('standings')+'</span><span class="arrow">←</span></div>';
 h+='<div class="sg-item" onclick="openLang()"><span class="icon">🌐</span><span class="label">'+L('lang')+'</span><span class="arrow">←</span></div>';
-h+='<div class="timer"><div class="num" id="lastUpdate">...</div><div class="lbl">آخرین آپدیت</div></div>';
+h+='<div class="timer"><div class="num" id="timerNum">60s</div><div class="lbl">آخرین آپدیت</div></div>';
 h+='<div class="about">FootballMA v0.0.3.1<br>Made in Alireza 🔥</div>';
+// Show last update time
+var lu=localStorage.getItem('fm_lastupd')||'';
+var el=document.getElementById('lastUpdTime');
+if(el&&lu)el.textContent=lu;
 document.getElementById('moc').innerHTML=h;}
 
 function showTransfers(){const tr=D.transfers||[];
@@ -243,6 +247,10 @@ h+='<div class="tc-arrow">→</div>';
 h+='<div class="tc-to">'+tl(toClub,20)+'<div class="nm">'+(toClub||'')+'</div></div>';
 h+='</div>';});
 h+='<div style="margin-top:14px"><button onclick="rMore()" style="width:100%;padding:12px;background:rgba(255,255,255,.06);color:#fff;border:1px solid rgba(255,255,255,.08);border-radius:14px;font-family:Vazirmatn;cursor:pointer;font-size:13px">'+L('back')+'</button></div>';
+// Show last update time
+var lu=localStorage.getItem('fm_lastupd')||'';
+var el=document.getElementById('lastUpdTime');
+if(el&&lu)el.textContent=lu;
 document.getElementById('moc').innerHTML=h;}
 
 function showStandings2(){const t=D.standings||{};
@@ -250,12 +258,20 @@ let h='<div class="st" style="margin-top:16px">🏆 '+L('standings')+'</div>';
 for(const[l,ts] of Object.entries(t)){h+='<div class="ds2"><h3>'+l+'</h3>';
 ts.forEach((x,i)=>{h+='<div style="display:flex;align-items:center;padding:4px 0;border-bottom:1px solid rgba(255,255,255,.04);font-size:10px"><div style="width:18px;text-align:center;color:#666">'+(i+1)+'</div><div style="flex:1;display:flex;align-items:center;gap:5px">'+tl(x.name,16)+' '+x.name+'</div><div style="width:22px;text-align:center">'+(x.p||0)+'</div><div style="width:22px;text-align:center">'+(x.w||0)+'</div><div style="width:22px;text-align:center">'+(x.d||0)+'</div><div style="width:22px;text-align:center">'+(x.l||0)+'</div><div style="width:22px;text-align:center;font-weight:700">'+(x.pts||0)+'</div></div>';});h+='</div>';}
 h+='<div style="margin-top:14px"><button onclick="rMore()" style="width:100%;padding:12px;background:rgba(255,255,255,.06);color:#fff;border:1px solid rgba(255,255,255,.08);border-radius:14px;font-family:Vazirmatn;cursor:pointer;font-size:13px">'+L('back')+'</button></div>';
+// Show last update time
+var lu=localStorage.getItem('fm_lastupd')||'';
+var el=document.getElementById('lastUpdTime');
+if(el&&lu)el.textContent=lu;
 document.getElementById('moc').innerHTML=h;}
 
 function openLang(){let h='<div class="st" style="margin-top:16px">🌐 '+L('lang')+'</div>';
 h+='<div class="sg-item" onclick="setLang(\'fa\')"><span class="icon">🇮🇷</span><span class="label">فارسی</span><span class="arrow">'+(curLang==='fa'?'✓':'')+'</span></div>';
 h+='<div class="sg-item" onclick="setLang(\'en\')"><span class="icon">🇬🇧</span><span class="label">English</span><span class="arrow">'+(curLang==='en'?'✓':'')+'</span></div>';
 h+='<div style="margin-top:14px"><button onclick="rMore()" style="width:100%;padding:12px;background:rgba(255,255,255,.06);color:#fff;border:1px solid rgba(255,255,255,.08);border-radius:14px;font-family:Vazirmatn;cursor:pointer;font-size:13px">'+L('back')+'</button></div>';
+// Show last update time
+var lu=localStorage.getItem('fm_lastupd')||'';
+var el=document.getElementById('lastUpdTime');
+if(el&&lu)el.textContent=lu;
 document.getElementById('moc').innerHTML=h;}
 function setLang(l){curLang=l;rMore();rFav();rNews();
 document.getElementById('si').placeholder=L('search');
@@ -302,6 +318,33 @@ document.getElementById('detBody').innerHTML=h;document.getElementById('detTitle
 
 async function load(){try{const r=await fetch('/data/news.json?'+Date.now());D=await r.json();rFav();rMatch();rNews();rMore();}catch(e){}}
 load();setInterval(load,60000);
+
+// Goal notifications
+if('Notification' in window && Notification.permission==='default'){
+  Notification.requestPermission();
+}
+function notifyGoal(home,away,score){
+  if(Notification.permission==='granted'){
+    new Notification('⚽ گل!',{body:home+' '+score+' '+away,icon:'/icon-192.png'});
+  }
+}
+var _prevScores={};
+function checkGoals(){
+  var fx=D.fixtures_by_date||{};
+  Object.values(fx).forEach(function(d){
+    (d.matches||[]).forEach(function(m){
+      var k=m.home+'|'+m.away;
+      if(m.time&&m.time.indexOf('-')>-1){
+        if(_prevScores[k]&&_prevScores[k]!==m.time){
+          notifyGoal(m.home,m.away,m.time);
+        }
+        _prevScores[k]=m.time;
+      }
+    });
+  });
+}
+setInterval(checkGoals,30000);
+
 </script>
 </body>
 </html>
