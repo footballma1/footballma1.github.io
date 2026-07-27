@@ -135,7 +135,7 @@ img{-webkit-user-drag:none;user-drag:none}
 <div class="bn">
 <div class="bi on" data-p="fav"><svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg><div class="bl">Your Fav</div></div>
 <div class="bi" data-p="match"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 2v20M2 12h20" stroke="currentColor" stroke-width="1"/></svg><div class="bl">مسابقات</div></div>
-<div class="bi" data-p="comp"><svg viewBox="0 0 24 24"><path d="M12 2L1 12h3v9h6v-6h4v6h6v-9h3L12 2z" fill="none" stroke="currentColor" stroke-width="2"/></svg><div class="bl">🏆 رقابت‌ها</div></div>
+<div class="bi" data-p="comp"><svg viewBox="0 0 24 24"><path d="M12 2L1 12h3v9h6v-6h4v6h6v-9h3L12 2z" fill="none" stroke="currentColor" stroke-width="2"/></svg><div class="bl">D83cDfc6 0631064206270628062a200c06470627</div></div>
 	<div class="bi" data-p="news"><svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg><div class="bl">اخبار</div></div>
 <div class="bi" data-p="more"><svg viewBox="0 0 24 24"><circle cx="5" cy="12" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="12" r="2"/></svg><div class="bl">بیشتر</div></div>
 </div>
@@ -157,12 +157,11 @@ function closeDetail(){document.getElementById('det').classList.remove('on');}
 document.querySelectorAll('.bi').forEach(b=>{b.onclick=()=>{
 document.querySelectorAll('.bi').forEach(x=>x.classList.remove('on'));b.classList.add('on');
 document.querySelectorAll('.pg').forEach(p=>p.classList.remove('on'));
-document.getElementById('pg-'+b.dataset.p).classList.add('on');
-if(b.dataset.p==='comp')rComp();
+document.getElementById('pg-'+b.dataset.p).classList.add('on');if(b.dataset.p==='comp')rComp();
 document.getElementById('sr').classList.remove('on');
 }});
 
-
+// Timer
 
 // Favorites
 function gf(){try{return JSON.parse(localStorage.getItem('fm_fav'))||{teams:[],players:[]};}catch(e){return{teams:[],players:[]};}}
@@ -211,20 +210,12 @@ h+='<h2 style="font-size:16px;line-height:1.8;margin-bottom:10px">'+tn(n)+'</h2>
 document.getElementById('detBody').innerHTML=h;document.getElementById('detTitle').textContent=L('fullnews');document.getElementById('det').classList.add('on');}
 
 // More
-function rComp(){var st=D.standings||{};var h='';var lc={};
-lc['لیگ برتر انگلیس']='#3d195b';
-lc['لالیگا اسپانیا']='#ee8707';
-lc['سری آ ایتالیا']='#024494';
-lc['بوندس‌لیگا آلمان']='#d20515';
-lc['لیگ ۱ فرانسه']='#091c3e';
-lc['لیگ ایران']='#006633';
-Object.keys(st).forEach(function(lg){var teams=st[lg]||[];var color=lc[lg]||'#1a1a2e';h+='<div class="card" style="overflow:hidden;margin-bottom:12px"><div style="background:'+color+';padding:12px 14px;font-weight:700;color:#fff;font-size:14px">'+lg+'</div><div style="padding:4px 14px">';teams.forEach(function(t,i){h+='<div style="display:flex;align-items:center;padding:8px 0;border-bottom:1px solid rgba(255,255,255,.06)"><div style="width:24px;text-align:center;color:#666;font-size:12px">'+(i+1)+'</div>'+tl(t.name,22)+'<div style="flex:1;font-size:13px;margin-right:8px">'+t.name+'</div><div style="font-size:13px;font-weight:700;color:#3b82f6">'+(t.pts||0)+'</div></div>';});h+='</div></div>';});document.getElementById('cmpc').innerHTML=h;}
+function rComp(){var st=D.standings||{};var h='';var lc={};lc['\u0644\u06cc\u06af \u0628\u0631\u062a\u0631 \u0627\u0646\u06af\u0644\u06cc\u0633']='#3d195b';lc['\u0644\u0627\u0644\u06cc\u06af\u0627 \u0627\u0633\u067e\u0627\u0646\u06cc\u0627']='#ee8707';lc['\u0633\u0631\u06cc \u0622 \u0627\u06cc\u062a\u0627\u0644\u06cc\u0627']='#024494';lc['\u0628\u0648\u0646\u062f\u0633\u200c\u0644\u06cc\u06af\u0627 \u0622\u0644\u0645\u0627\u0646']='#d20515';lc['\u0644\u06cc\u06af \u06f1 \u0641\u0631\u0627\u0646\u0633\u0647']='#091c3e';lc['\u0644\u06cc\u06af \u0627\u06cc\u0631\u0627\u0646']='#006633';Object.keys(st).forEach(function(lg){var teams=st[lg]||[];var color=lc[lg]||'#1a1a2e';h+='<div class="card" style="overflow:hidden;margin-bottom:12px"><div style="background:'+color+';padding:12px 14px;font-weight:700;color:#fff;font-size:14px">'+lg+'</div><div style="padding:4px 14px">';teams.forEach(function(t,i){h+='<div style="display:flex;align-items:center;padding:8px 0;border-bottom:1px solid rgba(255,255,255,.06)"><div style="width:24px;text-align:center;color:#666;font-size:12px">'+(i+1)+'</div>'+tl(t.name,22)+'<div style="flex:1;font-size:13px;margin-right:8px">'+t.name+'</div><div style="font-size:13px;font-weight:700;color:#3b82f6">'+(t.pts||0)+'</div></div>';});h+='</div></div>';});document.getElementById('cmpc').innerHTML=h;}
 
 function rMore(){let h='<div class="st" style="margin-top:16px">'+L('more')+'</div>';
 h+='<div class="sg-item" onclick="showTransfers()"><span class="icon">🔄</span><span class="label">'+L('transfers')+'</span><span class="arrow">←</span></div>';
 h+='<div class="sg-item" onclick="showStandings2()"><span class="icon">🏆</span><span class="label">'+L('standings')+'</span><span class="arrow">←</span></div>';
 h+='<div class="sg-item" onclick="openLang()"><span class="icon">🌐</span><span class="label">'+L('lang')+'</span><span class="arrow">←</span></div>';
-h+='<div class="timer"><div class="num">...</div><div class="lbl">آخرین آپدیت</div></div>';
 h+='<div class="about">FootballMA v0.0.3.1<br>Made in Alireza 🔥</div>';
 document.getElementById('moc').innerHTML=h;}
 
@@ -308,7 +299,7 @@ const rel=n.filter(x=>(x.title+' '+(x.title_en||'')).includes(name)||(x.title+' 
 if(rel.length){h+='<div class="ds2"><h3>📰 '+L('related')+'</h3>';rel.slice(0,3).forEach(x=>{h+='<div class="di2"><strong>'+tn(x)+'</strong><br>'+td(x)+'</div>';});h+='</div>';}
 document.getElementById('detBody').innerHTML=h;document.getElementById('detTitle').textContent=name;document.getElementById('det').classList.add('on');}
 
-async function load(){try{const r=await fetch('/data/v2.json?t=1785177986?'+Date.now());D=await r.json();rFav();rMatch();rNews();rMore();}catch(e){}}
+async function load(){try{const r=await fetch('/data/news.json?'+Date.now());D=await r.json();rFav();rMatch();rNews();rMore();}catch(e){}}
 load();setInterval(load,60000);
 </script>
 </body>
