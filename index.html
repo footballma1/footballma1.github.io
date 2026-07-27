@@ -203,7 +203,7 @@ function renderFav() {
     h += '<div class="st">' + L.fav + '</div>';
     h += '<div class="logos">';
     fav.forEach(function(t) {
-      h += '<div onclick="toggleFav(\'' + t + '\')" title="' + t + '">' + tl(t, 48) + '</div>';
+      h += '<div onclick="toggleFav(\'' + t + '\')" title="' + t + '">' + tl(t, 64) + '</div>';
     });
     h += '</div>';
     fav.forEach(function(team) {
@@ -406,7 +406,7 @@ function startTimer() {
 function setLang(l) {
   curLang = l;
   document.querySelectorAll('.lang-btn').forEach(function(b) {
-    b.classList.toggle('active', b.textContent.trim() === (l === 'fa' ? 'فارسی' : 'English'));
+    document.querySelectorAll('.lang-btn').forEach(function(b,i){b.classList.toggle('active',i===(l==='fa'?0:1));});
   });
   L.fav = l === 'fa' ? 'علاقه‌مندی' : 'Favorites';
   L.search = l === 'fa' ? 'جستجو' : 'Search';
