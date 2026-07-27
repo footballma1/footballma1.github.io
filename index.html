@@ -147,7 +147,10 @@ fa:{home:'خانه',match:'مسابقات',news:'اخبار',more:'بیشتر',s
 en:{home:'Home',match:'Matches',news:'News',more:'More',search:'🔍 Search team or player...',fav:'Favorite Teams',favp:'Favorite Players',favnews:'News from your teams',favfix:'Matches from your teams',transfers:'World Transfers',standings:'League Tables',lang:'زبان / Language',league:'🏆 League:',time:'⏰ Time:',host:'🏠 Home:',guest:'✈️ Away:',vs:'Match Info',related:'Related News',noresult:'No results',nonews:'No news',nolive:'No live matches',back:'← Back',honors:'Honors',noinfo:'No info',detail:'Details',fullnews:'Full News'}
 };
 function L(key){return T[curLang][key]||key;}
-function tl(t,s){s=s||24;return '<div class="tl" style="width:'+s+'px;height:'+s+'px;background:'+(C[t]||'#333')+';font-size:'+(s*.4)+'px">'+t.charAt(0)+'</div>';}
+var LOGOS=D.team_logos||{};
+function tl(t,s){s=s||26;var bg=C[t]||'#333';
+if(LOGOS[t]){return '<img src="'+LOGOS[t]+'" style="width:'+s+'px;height:'+s+'px;border-radius:50%;object-fit:cover;border:1px solid rgba(255,255,255,.1);background:'+bg+'" onerror="this.style.display=\'none\'">';}
+return '<div class="tl" style="width:'+s+'px;height:'+s+'px;background:'+bg+';font-size:'+(s*.4)+'px">'+t.charAt(0)+'</div>';}
 function tn(x){return curLang==='en'?(x.title_en||x.title):x.title;}
 function td(x){return curLang==='en'?(x.desc_en||x.desc):x.desc;}
 function closeDetail(){document.getElementById('det').classList.remove('on');}
@@ -200,11 +203,13 @@ if(rel.length){h+='<div class="ds2"><h3>📰 '+L('related')+'</h3>';rel.slice(0,
 document.getElementById('detBody').innerHTML=h;document.getElementById('detTitle').textContent=home+' vs '+away;document.getElementById('det').classList.add('on');}
 
 // News
-function rNews(){const n=D.football_news||[],tr=D.transfers||[];
-if(!n.length){document.getElementById('nc').innerHTML='<div class="empty">'+L('nonews')+'</div>';return;}
-let h='';
-if(n[0]){const x=n[0];h+='<div class="nf glass" onclick="oN(0)">'+(x.img?'<img src="'+x.img+'" onerror="this.style.display=\'none\'">':'')+'<div class="ov"><div class="tg">📰 '+(curLang==='en'?'Featured':'خبر ویژه')+'</div><div class="tt">'+tn(x)+'</div></div></div>';}
-n.slice(1,8).forEach((x,i)=>{h+='<div class="nh" onclick="oN('+(i+1)+')">'+(x.img?'<img src="'+x.img+'" loading="lazy" onerror="this.style.display=\'none\'">':'')+'<div class="nh-body"><div class="nh-t">'+tn(x)+'</div><div class="nh-d">'+td(x)+'</div></div></div>';});
+var newsShow=8;
+function rNews(){var n=D.football_news||[];var tr=D.transfers||[];
+if(n.length===0){document.getElementById('nc').innerHTML='<div class="empty">'+(curLang==='en'?'No news yet':'خبری نیست')+'</div>';return;}
+var h='';
+if(n[0]){var x=n[0];h+='<div class="nf glass" onclick="oN(0)">'+(x.img?'<img src="'+x.img+'">':'')+'<div class="ov"><div class="tg">📰 '+(curLang==='en'?'Featured':'خبر ویژه')+'</div><div class="tt">'+tn(x)+'</div></div></div>';}
+for(var i=1;i<Math.min(newsShow,n.length);i++){var x=n[i];h+='<div class="nh glass3" onclick="oN('+i+')">'+(x.img?'<img src="'+x.img+'">':'')+'<div class="nh-body"><div class="nh-t">'+tn(x)+'</div><div class="nh-d">'+td(x)+'</div></div></div>';}
+if(newsShow<n.length){h+='<button onclick="newsShow+=10;rNews()" style="width:100%;padding:12px;background:rgba(59,130,246,.2);color:#3b82f6;border:1px solid rgba(59,130,246,.3);border-radius:14px;font-family:Vazirmatn;cursor:pointer;font-size:13px;margin-top:8px">'+(curLang==='en'?'Load More':'ادامه اخبار')+' ↓</button>';}
 document.getElementById('nc').innerHTML=h;}
 function oN(i){const all=[...(D.football_news||[]),...(D.transfers||[])];const n=all[i];if(!n)return;
 let h='';if(n.img)h+='<img src="'+n.img+'" style="width:100%;max-height:250px;object-fit:cover;border-radius:14px;margin-bottom:12px" onerror="this.style.display=\'none\'">';
@@ -257,7 +262,7 @@ h+='<div class="sg-item" onclick="setLang(\'fa\')"><span class="icon">🇮🇷</
 h+='<div class="sg-item" onclick="setLang(\'en\')"><span class="icon">🇬🇧</span><span class="label">English</span><span class="arrow">'+(curLang==='en'?'✓':'')+'</span></div>';
 h+='<div style="margin-top:14px"><button onclick="rMore()" style="width:100%;padding:12px;background:rgba(255,255,255,.06);color:#fff;border:1px solid rgba(255,255,255,.08);border-radius:14px;font-family:Vazirmatn;cursor:pointer;font-size:13px">'+L('back')+'</button></div>';
 document.getElementById('moc').innerHTML=h;}
-function setLang(l){curLang=l;rMore();rFav();rNews();
+function setLang(l){curLang=l;newsShow=8;rMore();rFav();rNews();rMatch();
 document.getElementById('si').placeholder=L('search');
 // Update nav labels
 document.querySelectorAll('.bl')[0].textContent=L('home');}
