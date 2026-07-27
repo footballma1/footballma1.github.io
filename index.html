@@ -158,6 +158,7 @@ document.querySelectorAll('.bi').forEach(b=>{b.onclick=()=>{
 document.querySelectorAll('.bi').forEach(x=>x.classList.remove('on'));b.classList.add('on');
 document.querySelectorAll('.pg').forEach(p=>p.classList.remove('on'));
 document.getElementById('pg-'+b.dataset.p).classList.add('on');
+if(b.dataset.p==='comp')rComp();
 document.getElementById('sr').classList.remove('on');
 }});
 
