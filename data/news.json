@@ -1,6 +1,6 @@
 {
   "today_fixtures": [],
-  "updated": "2026-07-27 20:39",
+  "updated": "2026-07-27 20:45",
   "football_news": [
     {
       "title": "حکم براندل در مورد نوریس \"بی امان\"، حادثه پیاستری-ساینز و بازگشت مالزی",
@@ -1245,40 +1245,7 @@
       ]
     }
   },
-  "transfers": [
-    {
-      "title": "Sources: Madrid to sign Diomande in $153m deal",
-      "desc": "Real Madrid expect to complete a deal to sign Yan Diomande from RB Leipzig in the coming hours, sources have told ESPN."
-    },
-    {
-      "title": "Source: Barça interested in Bournemouth's Kroupi",
-      "desc": "Barcelona have sounded out the possibility of signing Bournemouth striker Eli Junior Kroupi, although Julián Álvarez remains the Spanish champions' top target this summer, a source told ESPN."
-    },
-    {
-      "title": "Gotham, González agree to terminate contract",
-      "desc": "Gotham FC, Esther González agree to mutually terminate contract"
-    },
-    {
-      "title": "Transfer rumors, news: Liverpool and PSG to open B...",
-      "desc": "Paris Saint-Germain are set to open talks with Liverpool over Bradley Barcola's potential transfer to Anfield Transfer Talk has the latest."
-    },
-    {
-      "title": "Men's transfer grades: Man City get B- for club-re...",
-      "desc": "The 2026 summer transfer window is open. Here is how we rated the biggest deals."
-    },
-    {
-      "title": "Mercedes driver scout Lagrue to join Red Bull as Marko replacement",
-      "desc": ""
-    },
-    {
-      "title": "Italy head coach saga continues as Pirlo ruled out amid Russian betting deal links",
-      "desc": "Andrea Pirlo has announced he is no longer in contention to become the next Italy head coach following criticism of his commercial links with a Russian betting company."
-    },
-    {
-      "title": "Littler wants to be 'greatest darts player ever' - how close is he to Taylor?",
-      "desc": "Luke Littler has reiterated his dream to become the &#8216;greatest darts player ever&#8217; after his dominant Betfred World Matchplay title defence, with the world No 1&#8217;s latest win drawing fu"
-    }
-  ],
+  "transfers": [],
   "team_logos": {
     "آرسنال": "/logos/Arsenal_FC.svg",
     "لیورپول": "/logos/Liverpool_FC.svg",
