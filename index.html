@@ -301,6 +301,43 @@ document.getElementById('detBody').innerHTML=h;document.getElementById('detTitle
 
 async function load(){try{const r=await fetch('/data/d.json?'+Date.now());D=await r.json();rFav();rMatch();rNews();rMore();}catch(e){}}
 load();setInterval(load,60000);
+
+function openMatch(idx){
+var fx=D.fixtures_by_date||{};
+var all=[];
+Object.keys(fx).sort().forEach(function(d){(fx[d].matches||[]).forEach(function(m){all.push(m);m._date=d;});});
+var m=all[idx];if(!m)return;
+var h='';
+// Team logos + time
+h+='<div style="display:flex;align-items:center;justify-content:space-between;padding:20px 0">';
+h+='<div style="text-align:center;flex:1">'+tl(m.home,60)+'<div style="font-size:13px;margin-top:8px;font-weight:600">'+m.home+'</div></div>';
+h+='<div style="text-align:center;min-width:80px"><div style="font-size:24px;font-weight:800;color:#3b82f6">'+(m.time||'??:??')+'</div><div style="font-size:11px;color:#6b7280;margin-top:4px">'+m._date+'</div><div style="font-size:11px;color:#22c55e;margin-top:4px">'+(m.league||'')+'</div></div>';
+h+='<div style="text-align:center;flex:1">'+tl(m.away,60)+'<div style="font-size:13px;margin-top:8px;font-weight:600">'+m.away+'</div></div>';
+h+='</div>';
+// Info cards
+h+='<div class="card" style="padding:14px;margin-top:12px">';
+h+='<div style="font-size:12px;color:#6b7280;margin-bottom:6px">📋 اطلاعات بازی</div>';
+h+='<div style="font-size:13px">🏠 میزبان: '+m.home+'</div>';
+h+='<div style="font-size:13px">✈️ مهمان: '+m.away+'</div>';
+h+='<div style="font-size:13px">⏰ ساعت: '+(m.time||'نامشخص')+'</div>';
+h+='<div style="font-size:13px">🏆 '+m._date+' | '+(m.league||'')+'</div>';
+h+='</div>';
+// Related news
+var rel=(D.football_news||[]).filter(function(n){return(n.title+' '+(n.title_en||'')).indexOf(m.home)>=0||(n.title+' '+(n.title_en||'')).indexOf(m.away)>=0;});
+if(rel.length){
+h+='<div class="card" style="padding:14px;margin-top:12px">';
+h+='<div style="font-size:12px;color:#6b7280;margin-bottom:6px">📰 اخبار مرتبط</div>';
+rel.slice(0,3).forEach(function(n){h+='<div style="padding:6px 0;border-bottom:1px solid rgba(255,255,255,.06);font-size:13px">'+tn(n)+'</div>';});
+h+='</div>';}
+document.getElementById('mdBody').innerHTML=h;
+document.getElementById('mdTitle').textContent=m.home+' vs '+m.away;
+document.getElementById('matchDetail').classList.add('on');
+}
+document.getElementById('mdBack').onclick=function(){document.getElementById('matchDetail').classList.remove('on');};
+
 </script>
+<div class="detail" id="matchDetail">
+<div class="dh"><span id="mdBack" style="cursor:pointer">← بازگشت</span><span id="mdTitle"></span></div>
+<div id="mdBody" style="padding:14px"></div></div>
 </body>
 </html>
