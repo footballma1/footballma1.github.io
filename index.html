@@ -306,19 +306,24 @@ if(rel.length){h+='<div class="ds2"><h3>📰 '+L('related')+'</h3>';rel.slice(0,
 document.getElementById('detBody').innerHTML=h;document.getElementById('detTitle').textContent=name;document.getElementById('det').classList.add('on');}
 
 async function load(){try{const r=await fetch('/data/news.json?'+Date.now());D=await r.json();rFav();rMatch();rNews();rMore();}catch(e){}}
-// Real timer based on Date.now()
-var FM_KEY='fm_lastupdate';
-if(!sessionStorage.getItem(FM_KEY)){localStorage.setItem(FM_KEY,Date.now());sessionStorage.setItem(FM_KEY,'1');}
-function tickTimer(){
-var last=parseInt(localStorage.getItem(FM_KEY)||Date.now());
-var diff=Math.floor((Date.now()-last)/1000);
-var remain=Math.max(0,60-diff);
-var el=document.getElementById('timerNum');
-if(el)el.textContent=remain+'s';
-if(remain<=0){localStorage.setItem(FM_KEY,Date.now());load();}
-}
-setInterval(tickTimer,1000);
-load();setInterval(load,60000);
+
 </script>
 </body>
 </html>
+// Timer - counts down from 60, persists via timestamp
+var FM_TS_KEY='fm_ts';
+function getRemain(){
+  var last=parseInt(localStorage.getItem(FM_TS_KEY)||'0');
+  if(!last){last=Date.now();localStorage.setItem(FM_TS_KEY,last);}
+  var diff=Math.floor((Date.now()-last)/1000);
+  return Math.max(0,60-(diff%60));
+}
+function resetTimer(){localStorage.setItem(FM_TS_KEY,Date.now());}
+function tickTimer(){
+  var r=getRemain();
+  var el=document.getElementById('timerNum');
+  if(el)el.textContent=r+'s';
+  if(r<=0){resetTimer();load();}
+}
+setInterval(tickTimer,1000);
+load();setInterval(load,60000);
