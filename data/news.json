@@ -1281,5 +1281,25 @@
       "desc_en": "Tottenham Hotspur manager Roberto de Zerbi says players who are not \"proud and happy to stay\" at the club should leave.",
       "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/371f/live/ec62a970-880c-11f1-afbe-b9a38c21b1d6.jpg"
     }
-  ]
+  ],
+  "team_logos": {
+    "آرسنال": "/logos/Arsenal_FC.svg",
+    "لیورپول": "/logos/Liverpool_FC.svg",
+    "چلسی": "/logos/Chelsea_FC.svg",
+    "منچسترسیتی": "/logos/Manchester_City_FC_badge.svg",
+    "منچستریونایتد": "/logos/Manchester_United_FC_crest.svg",
+    "تاتنهام": "/logos/Tottenham_Hotspur.svg",
+    "نیوکاسل": "/logos/Newcastle_United_Logo.svg",
+    "رئال مادرید": "/logos/Real_Madrid_CF.svg",
+    "بارسلونا": "/logos/FC_Barcelona_%28crest%29.svg",
+    "اتلتیکو مادرید": "/logos/Atletico_Madrid_logo_%282024%2.svg",
+    "اینترمیلان": "/logos/Inter_Milano_Logo.svg",
+    "آث میلان": "/logos/AC_Milan_%28crest%29.svg",
+    "یوونتوس": "/logos/Juventus_Turin_2017_logo.svg",
+    "ناپولی": "/logos/SSC_Napoli_logo_%282024%29.svg",
+    "بایرن مونیخ": "/logos/FC_Bayern_M%C3%BCnchen_logo_%2.svg",
+    "دورتموند": "/logos/Borussia_Dortmund_logo.svg",
+    "لورکوزن": "/logos/Bayer_04_Leverkusen_logo.svg",
+    "پاریسن‌ژرمن": "/logos/Paris_Saint-Germain_F.C..svg"
+  }
 }
