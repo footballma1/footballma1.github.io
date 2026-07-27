@@ -302,7 +302,8 @@ document.getElementById('detBody').innerHTML=h;document.getElementById('detTitle
 async function load(){try{const r=await fetch('/data/d.json?'+Date.now());D=await r.json();rFav();rMatch();rNews();rMore();}catch(e){}}
 load();setInterval(load,60000);
 
-function openMatch(idx){
+function openMatch(home,away,league,time,date){
+var m={home:home,away:away,league:league,time:time,_date:date};
 var fx=D.fixtures_by_date||{};
 var all=[];
 Object.keys(fx).sort().forEach(function(d){(fx[d].matches||[]).forEach(function(m){all.push(m);m._date=d;});});
