@@ -215,6 +215,27 @@ h+='<h2 style="font-size:16px;line-height:1.8;margin-bottom:10px">'+tn(n)+'</h2>
 document.getElementById('detBody').innerHTML=h;document.getElementById('detTitle').textContent=L('fullnews');document.getElementById('det').classList.add('on');}
 
 // More
+function rComp(){
+var st=D.standings||{};
+var h='<div class="st">🏆 رقابت‌ها</div>';
+var leagueColors={'لیگ برتر انگلیس':'#3d195b','لالیگا اسپانیا':'#ee8707','سری آ ایتالیا':'#024494','بوندس‌لیگا آلمان':'#d20515','لیگ ۱ فرانسه':'#091c3e','لیگ ایران':'#006633'};
+Object.keys(st).forEach(function(league){
+var teams=st[league]||[];
+var color=leagueColors[league]||'#1a1a2e';
+h+='<div style="background:'+color+';border-radius:12px;padding:12px;margin-bottom:10px">';
+h+='<div style="font-weight:700;color:#fff;font-size:14px;margin-bottom:8px">'+league+'</div>';
+teams.forEach(function(t,i){
+h+='<div style="display:flex;align-items:center;padding:6px 0;border-bottom:1px solid rgba(255,255,255,0.1)">';
+h+='<div style="width:24px;text-align:center;color:rgba(255,255,255,0.5);font-size:12px">'+(i+1)+'</div>';
+h+=tl(t.name,22);
+h+='<div style="flex:1;font-size:13px;color:#fff;margin-right:8px">'+t.name+'</div>';
+h+='<div style="font-size:13px;font-weight:700;color:#fff">'+(t.pts||0)+'</div>';
+h+='</div>';
+});
+h+='</div>';
+});
+document.getElementById('cnt').innerHTML=h;}
+
 function rMore(){let h='<div class="st" style="margin-top:16px">'+L('more')+'</div>';
 h+='<div class="sg-item" onclick="showTransfers()"><span class="icon">🔄</span><span class="label">'+L('transfers')+'</span><span class="arrow">←</span></div>';
 h+='<div class="sg-item" onclick="showStandings2()"><span class="icon">🏆</span><span class="label">'+L('standings')+'</span><span class="arrow">←</span></div>';
