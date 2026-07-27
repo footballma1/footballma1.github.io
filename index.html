@@ -20,7 +20,6 @@ body{font-family:'Vazirmatn',sans-serif;background:#000;color:#fff;max-width:480
 .search input::placeholder{color:#555}
 .pg{display:none;padding:0 12px 70px}.pg.on{display:block}
 .st{font-size:11px;font-weight:700;color:#555;margin:14px 0 6px;text-transform:uppercase;letter-spacing:.5px}
-/* Match */
 .mc{background:#111;border-radius:10px;margin-bottom:3px;padding:8px 12px;cursor:pointer}
 .mc:active{opacity:.7}
 .mc-row{display:flex;align-items:center;padding:3px 0}
@@ -30,7 +29,6 @@ body{font-family:'Vazirmatn',sans-serif;background:#000;color:#fff;max-width:480
 .mc-ct{text-align:center;min-width:45px}
 .mc-tm{font-size:11px;color:#666}
 .mc-lg{font-size:9px;color:#555;margin-bottom:2px}
-/* Date selector */
 .ds{display:flex;gap:4px;overflow-x:auto;padding:6px 0;margin-bottom:8px;-webkit-overflow-scrolling:touch}
 .ds::-webkit-scrollbar{display:none}
 .di{flex-shrink:0;text-align:center;padding:6px 10px;border-radius:8px;cursor:pointer;background:#111;border:1px solid #222;min-width:55px}
@@ -38,7 +36,6 @@ body{font-family:'Vazirmatn',sans-serif;background:#000;color:#fff;max-width:480
 .di .dw{font-size:8px;color:#666}.di.on .dw{color:#333}
 .di .dd{font-size:13px;font-weight:700;margin-top:1px}
 .di .dm{font-size:9px;color:#666}.di.on .dm{color:#555}
-/* News */
 .nf{border-radius:14px;overflow:hidden;cursor:pointer;margin-bottom:10px;position:relative}
 .nf img{width:100%;height:200px;object-fit:cover}
 .nf .ov{position:absolute;bottom:0;left:0;right:0;padding:14px;background:linear-gradient(transparent,rgba(0,0,0,.9))}
@@ -50,14 +47,12 @@ body{font-family:'Vazirmatn',sans-serif;background:#000;color:#fff;max-width:480
 .nh-body{flex:1;display:flex;flex-direction:column;justify-content:center}
 .nh-t{font-size:12px;font-weight:700;line-height:1.5}
 .nh-d{font-size:10px;color:#888;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-/* Search results */
 .sr{display:none;margin-bottom:10px}.sr.on{display:block}
 .src{background:#111;border-radius:10px;padding:12px;margin-bottom:5px;border-right:3px solid #3b82f6;cursor:pointer}
 .src:active{opacity:.7}
 .src h3{font-size:14px;font-weight:700;color:#3b82f6;margin-bottom:4px}
 .src p{font-size:11px;color:#888;line-height:1.7;margin-bottom:4px}
 .src .s{display:inline-block;background:#1a1a1a;padding:2px 6px;border-radius:3px;margin:1px;font-size:9px;color:#60a5fa}
-/* Detail page */
 .detail{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:#000;z-index:200;overflow-y:auto;max-width:480px;margin:0 auto}
 .detail.on{display:block}
 .dh{background:#0a0a0a;padding:10px 16px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:201;border-bottom:1px solid #1a1a1a}
@@ -72,22 +67,19 @@ body{font-family:'Vazirmatn',sans-serif;background:#000;color:#fff;max-width:480
 .di2{padding:5px 0;border-bottom:1px solid #1a1a1a;font-size:11px;color:#888;line-height:1.7}
 .di2:last-child{border:none}
 .di2 .l{color:#555;font-size:10px}
-/* Favorites */
 .fav-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
 .fav-tag{padding:6px 12px;border-radius:20px;font-size:11px;cursor:pointer;background:#111;color:#888;border:1px solid #333;transition:all .2s}
 .fav-tag.on{background:#3b82f6;color:#fff;border-color:#3b82f6}
 .fav-tag.g.on{background:#22c55e;border-color:#22c55e}
-/* Settings */
-.sg{background:#111;border-radius:10px;padding:12px;margin-bottom:8px}
-.sg-r{display:flex;align-items:center;justify-content:space-between;padding:8px 0;border-bottom:1px solid #1a1a1a}
-.sg-r:last-child{border:none}
-.tg2{width:40px;height:22px;border-radius:11px;background:#333;position:relative;cursor:pointer}
-.tg2.on{background:#3b82f6}
-.tg2::after{content:'';position:absolute;width:18px;height:18px;border-radius:50%;background:#fff;top:2px;right:2px;transition:right .2s}
-.tg2.on::after{right:20px}
+.sg{background:#111;border-radius:10px;padding:0;margin-bottom:8px;overflow:hidden}
+.sg-item{display:flex;align-items:center;justify-content:space-between;padding:12px 14px;border-bottom:1px solid #1a1a1a;cursor:pointer}
+.sg-item:last-child{border:none}
+.sg-item:active{opacity:.7}
+.sg-item .icon{font-size:18px;margin-left:10px}
+.sg-item .label{flex:1;font-size:13px;font-weight:600}
+.sg-item .arrow{color:#555;font-size:12px}
 .lb{background:#1a1a1a;border:1px solid #333;color:#fff;padding:5px 10px;border-radius:6px;font-family:'Vazirmatn';font-size:11px;cursor:pointer}
 .lb.on{background:#3b82f6;color:#fff;border-color:#3b82f6}
-/* Nav */
 .bn{position:fixed;bottom:0;left:0;right:0;max-width:480px;margin:0 auto;background:#0a0a0a;border-top:1px solid #1a1a1a;display:flex;z-index:100}
 .bi{flex:1;text-align:center;padding:6px 0;cursor:pointer;color:#555}
 .bi.on{color:#fff}
@@ -95,6 +87,15 @@ body{font-family:'Vazirmatn',sans-serif;background:#000;color:#fff;max-width:480
 .bi .bl{font-size:9px;margin-top:1px}
 .empty{text-align:center;color:#555;padding:20px;font-size:12px}
 .about{text-align:center;color:#555;font-size:10px;margin-top:20px}
+/* Transfer card */
+.tc{background:#111;border-radius:10px;padding:12px;margin-bottom:6px;display:flex;align-items:center;gap:8px}
+.tc:active{opacity:.7}
+.tc-arrow{color:#3b82f6;font-size:16px;font-weight:700}
+.tc-from,.tc-to{text-align:center;flex:1}
+.tc-from .nm,.tc-to .nm{font-size:11px;font-weight:700;margin-top:4px}
+.tc-from .tm,.tc-to .tm{font-size:9px;color:#888}
+.tc-player{font-size:13px;font-weight:700;color:#22c55e;text-align:center;min-width:70px}
+.tc-fee{font-size:9px;color:#888;text-align:center}
 </style>
 </head>
 <body>
@@ -106,16 +107,16 @@ body{font-family:'Vazirmatn',sans-serif;background:#000;color:#fff;max-width:480
 <div class="pg on" id="pg-fav"><div id="fvc"></div></div>
 <div class="pg" id="pg-match"><div id="dc"></div><div id="mc"></div></div>
 <div class="pg" id="pg-news"><div id="nc"></div></div>
-<div class="pg" id="pg-set"><div id="sgc"></div></div>
+<div class="pg" id="pg-more"><div id="moc"></div></div>
 <div class="sr" id="sr"></div>
 
-<div class="detail" id="det"><div class="dh"><button onclick="document.getElementById('det').classList.remove('on')">→</button><span style="font-weight:700;font-size:13px" id="detTitle">جزئیات</span><span></span></div><div class="dc" id="detBody"></div></div>
+<div class="detail" id="det"><div class="dh"><button onclick="closeDetail()">→</button><span style="font-weight:700;font-size:13px" id="detTitle"></span><span></span></div><div class="dc" id="detBody"></div></div>
 
 <div class="bn">
 <div class="bi on" data-p="fav"><svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg><div class="bl">Your Fav</div></div>
 <div class="bi" data-p="match"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/></svg><div class="bl">مسابقات</div></div>
 <div class="bi" data-p="news"><svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg><div class="bl">اخبار</div></div>
-<div class="bi" data-p="set"><svg viewBox="0 0 24 24"><path d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.07.62-.07.94s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"/></svg><div class="bl">تنظیمات</div></div>
+<div class="bi" data-p="more"><svg viewBox="0 0 24 24"><circle cx="12" cy="5" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="12" cy="19" r="2"/></svg><div class="bl">بیشتر</div></div>
 </div>
 
 <script>
@@ -124,31 +125,28 @@ const C={'آرسنال':'#EF0107','لیورپول':'#C8102E','چلسی':'#034694
 function tl(t,s){s=s||22;return '<div class="tl" style="width:'+s+'px;height:'+s+'px;background:'+(C[t]||'#333')+';font-size:'+(s*.45)+'px">'+t.charAt(0)+'</div>';}
 function tn(x){return curLang==='en'?(x.title_en||x.title):x.title;}
 function td(x){return curLang==='en'?(x.desc_en||x.desc):x.desc;}
+function closeDetail(){document.getElementById('det').classList.remove('on');}
 
 document.querySelectorAll('.bi').forEach(b=>{b.onclick=()=>{
 document.querySelectorAll('.bi').forEach(x=>x.classList.remove('on'));b.classList.add('on');
 document.querySelectorAll('.pg').forEach(p=>p.classList.remove('on'));
 document.getElementById('pg-'+b.dataset.p).classList.add('on');
 document.getElementById('sr').classList.remove('on');
-if(b.dataset.p==='fav')rFav();
 }});
 
 // Favorites
-const FAV='fm_fav';
-function gf(){try{return JSON.parse(localStorage.getItem(FAV))||{teams:[],players:[]};}catch(e){return{teams:[],players:[]};}}
-function sf(f){localStorage.setItem(FAV,JSON.stringify(f));}
+function gf(){try{return JSON.parse(localStorage.getItem('fm_fav'))||{teams:[],players:[]};}catch(e){return{teams:[],players:[]};}}
+function sf(f){localStorage.setItem('fm_fav',JSON.stringify(f));}
 function togTeam(t){const f=gf();const i=f.teams.indexOf(t);i>-1?f.teams.splice(i,1):f.teams.push(t);sf(f);rFav();}
 function togPlayer(p){const f=gf();const i=f.players.indexOf(p);i>-1?f.players.splice(i,1):f.players.push(p);sf(f);rFav();}
-
-const ALL_T=['آرسنال','لیورپول','چلسی','منچسترسیتی','منچستریونایتد','تاتنهام','نیوکاسل','استون ویلا','رئال مادرید','بارسلونا','اتلتیکو مادرید','اینترمیلان','آث میلان','یوونتوس','ناپولی','بایرن مونیخ','دورتموند','لورکوزن','پاریسن‌ژرمن','مارسی','پرسپولیس','استقلال','سپاهان','تراکتور'];
-const ALL_P=['امباپه','هالند','مسی','رونالدو','بنزما','صلاح','آزمون','طارمی','جهانبخش'];
-
+const AT=['آرسنال','لیورپول','چلسی','منچسترسیتی','منچستریونایتد','تاتنهام','نیوکاسل','استون ویلا','رئال مادرید','بارسلونا','اتلتیکو مادرید','اینترمیلان','آث میلان','یوونتوس','ناپولی','بایرن مونیخ','دورتموند','لورکوزن','پاریسن‌ژرمن','مارسی','پرسپولیس','استقلال','سپاهان','تراکتور'];
+const AP=['امباپه','هالند','مسی','رونالدو','بنزما','صلاح','آزمون','طارمی','جهانبخش'];
 function rFav(){
 const f=gf(),n=D.football_news||[],fx=D.fixtures||[];
 let h='<div class="st">⭐ تیم مورد علاقه</div><div class="fav-tags">';
-ALL_T.forEach(t=>{h+='<div class="fav-tag'+(f.teams.includes(t)?' on':'')+'" onclick="togTeam(\''+t+'\')">'+t+'</div>';});
+AT.forEach(t=>{h+='<div class="fav-tag'+(f.teams.includes(t)?' on':'')+'" onclick="togTeam(\''+t+'\')">'+t+'</div>';});
 h+='</div><div class="st">⭐ بازیکن مورد علاقه</div><div class="fav-tags">';
-ALL_P.forEach(p=>{h+='<div class="fav-tag g'+(f.players.includes(p)?' on':'')+'" onclick="togPlayer(\''+p+'\')">'+p+'</div>';});
+AP.forEach(p=>{h+='<div class="fav-tag g'+(f.players.includes(p)?' on':'')+'" onclick="togPlayer(\''+p+'\')">'+p+'</div>';});
 h+='</div>';
 if(f.teams.length&&n.length){h+='<div class="st">📰 اخبار تیم‌های مورد علاقه</div>';
 const fn=n.filter(x=>f.teams.some(t=>(x.title+' '+(x.title_en||'')).includes(t)));
@@ -158,52 +156,67 @@ if(f.teams.length&&fx.length){h+='<div class="st">🏟️ بازی‌های تی
 const fm=fx.filter(m=>f.teams.some(t=>m.home.includes(t)||m.away.includes(t)));
 if(fm.length)fm.slice(0,4).forEach(m=>{h+='<div class="mc"><div class="mc-lg">'+m.league+'</div><div class="mc-row"><div class="mc-team">'+tl(m.home)+'<div class="mc-nm">'+m.home+'</div></div><div class="mc-ct"><div class="mc-tm">'+m.time+'</div></div><div class="mc-team" style="justify-content:flex-end"><div class="mc-nm">'+m.away+'</div>'+tl(m.away)+'</div></div></div>';});
 else h+='<div style="color:#555;font-size:12px;padding:10px">بازی‌ای نیست</div>';}
-document.getElementById('fvc').innerHTML=h;
-}
+document.getElementById('fvc').innerHTML=h;}
 
 // Matches
-function rMatch(){
-const fxd=D.fixtures_by_date||{};
-const dates=Object.keys(fxd).sort();
+function rMatch(){const fxd=D.fixtures_by_date||{},dates=Object.keys(fxd).sort();
 if(!dates.length){document.getElementById('mc').innerHTML='<div class="empty">بازی نداریم</div>';return;}
-let dh='<div class="ds">';
-dates.forEach(d=>{const dt=new Date(d+'T00:00:00');const wd=['ی','س','چ','پ','ج','ش','ی'][dt.getDay()];dh+='<div class="di'+(d===selDate?' on':'')+'" onclick="selDate=\''+d+'\';rMatch()"><div class="dw">'+wd+'</div><div class="dd">'+dt.getDate()+'</div><div class="dm">'+(dt.getMonth()+1)+'/'+dt.getDate()+'</div></div>';});
-dh+='</div>';document.getElementById('dc').innerHTML=dh;
+let dh='<div class="ds">';dates.forEach(d=>{const dt=new Date(d+'T00:00:00');const wd=['ی','س','چ','پ','ج','ش','ی'][dt.getDay()];dh+='<div class="di'+(d===selDate?' on':'')+'" onclick="selDate=\''+d+'\';rMatch()"><div class="dw">'+wd+'</div><div class="dd">'+dt.getDate()+'</div><div class="dm">'+(dt.getMonth()+1)+'/'+dt.getDate()+'</div></div>';});dh+='</div>';document.getElementById('dc').innerHTML=dh;
 const info=fxd[selDate];if(!info||!info.matches.length){document.getElementById('mc').innerHTML='<div class="empty">بازی مهمی نیست</div>';return;}
 const g={};info.matches.forEach(m=>{if(!g[m.league])g[m.league]=[];g[m.league].push(m);});
 let h='';for(const[l,ms] of Object.entries(g)){h+='<div class="st">'+l+'</div>';ms.forEach(m=>{h+='<div class="mc" onclick="oMatch(\''+m.home+'|'+m.away+'|'+m.league+'|'+m.time+'\')"><div class="mc-lg">'+m.league+'</div><div class="mc-row"><div class="mc-team">'+tl(m.home)+'<div class="mc-nm">'+m.home+'</div></div><div class="mc-ct"><div class="mc-tm">'+m.time+'</div></div><div class="mc-team" style="justify-content:flex-end"><div class="mc-nm">'+m.away+'</div>'+tl(m.away)+'</div></div></div>';});}
-document.getElementById('mc').innerHTML=h;
-}
-
+document.getElementById('mc').innerHTML=h;}
 function oMatch(d){const[home,away,league,time]=d.split('|');
 const rel=(D.football_news||[]).filter(x=>(x.title+' '+(x.title_en||'')).includes(home)||(x.title+' '+(x.title_en||'')).includes(away));
 let h='<div class="dt"><div class="dt-t">'+tl(home,50)+'<div class="nm">'+home+'</div></div><div class="dt-vs">VS</div><div class="dt-t">'+tl(away,50)+'<div class="nm">'+away+'</div></div></div>';
-h+='<div class="ds2"><h3>📋 اطلاعات بازی</h3><div class="di2"><span class="l">🏆 لیگ:</span> '+league+'</div><div class="di2"><span class="l">⏰ ساعت:</span> '+time+' (تهران)</div><div class="di2"><span class="l">🏠 میزبان:</span> '+home+'</div><div class="di2"><span class="l">✈️ مهمان:</span> '+away+'</div></div>';
+h+='<div class="ds2"><h3>📋 اطلاعات بازی</h3><div class="di2"><span class="l">🏆 لیگ:</span> '+league+'</div><div class="di2"><span class="l">⏰ ساعت:</span> '+time+'</div><div class="di2"><span class="l">🏠 میزبان:</span> '+home+'</div><div class="di2"><span class="l">✈️ مهمان:</span> '+away+'</div></div>';
 if(rel.length){h+='<div class="ds2"><h3>📰 اخبار مرتبط</h3>';rel.slice(0,3).forEach(x=>{h+='<div class="di2"><strong>'+tn(x)+'</strong><br>'+td(x)+'</div>';});h+='</div>';}
-document.getElementById('detBody').innerHTML=h;document.getElementById('detTitle').textContent=home+' vs '+away;document.getElementById('det').classList.add('on');
-}
+document.getElementById('detBody').innerHTML=h;document.getElementById('detTitle').textContent=home+' vs '+away;document.getElementById('det').classList.add('on');}
 
 // News
-function rNews(){
-const n=D.football_news||[],tr=D.transfers||[];
+function rNews(){const n=D.football_news||[],tr=D.transfers||[];
 if(!n.length){document.getElementById('nc').innerHTML='<div class="empty">خبری نیست</div>';return;}
 let h='';
 if(n[0]){const x=n[0];h+='<div class="nf glass" onclick="oN(0)">'+(x.img?'<img src="'+x.img+'" onerror="this.style.display=\'none\'">':'')+'<div class="ov"><div class="tg">📰 '+(curLang==='en'?'Featured':'خبر ویژه')+'</div><div class="tt">'+tn(x)+'</div></div></div>';}
 n.slice(1,8).forEach((x,i)=>{const img=x.img?'<img src="'+x.img+'" loading="lazy" onerror="this.style.display=\'none\'">':'';h+='<div class="nh" onclick="oN('+(i+1)+')">'+img+'<div class="nh-body"><div class="nh-t">'+tn(x)+'</div><div class="nh-d">'+td(x)+'</div></div></div>';});
-if(tr.length){h+='<div class="st">🔄 '+(curLang==='en'?'Transfers':'نقل و انتقالات')+'</div>';tr.slice(0,5).forEach((x,i)=>{const img=x.img?'<img src="'+x.img+'" loading="lazy" onerror="this.style.display=\'none\'">':'';h+='<div class="nh glass" onclick="oN('+(8+i)+')">'+img+'<div class="nh-body"><div class="nh-t">'+tn(x)+'</div><div class="nh-d">'+td(x)+'</div></div></div>';});}
-document.getElementById('nc').innerHTML=h;
-}
+if(tr.length){h+='<div class="st">🔄 '+(curLang==='en'?'Transfers':'نقل و انتقالات')+'</div>';tr.slice(0,3).forEach((x,i)=>{const img=x.img?'<img src="'+x.img+'" loading="lazy" onerror="this.style.display=\'none\'">':'';h+='<div class="nh glass" onclick="oN('+(8+i)+')">'+img+'<div class="nh-body"><div class="nh-t">'+tn(x)+'</div><div class="nh-d">'+td(x)+'</div></div></div>';});}
+document.getElementById('nc').innerHTML=h;}
 function oN(i){const all=[...(D.football_news||[]),...(D.transfers||[])];const n=all[i];if(!n)return;
 let h='';if(n.img)h+='<img src="'+n.img+'" style="width:100%;max-height:250px;object-fit:cover;border-radius:10px;margin-bottom:10px" onerror="this.style.display=\'none\'">';
 h+='<h2 style="font-size:16px;line-height:1.7;margin-bottom:8px">'+tn(n)+'</h2><p style="font-size:12px;color:#888;line-height:2">'+td(n)+'</p>';
-document.getElementById('detBody').innerHTML=h;document.getElementById('detTitle').textContent='خبر کامل';document.getElementById('det').classList.add('on');
-}
+document.getElementById('detBody').innerHTML=h;document.getElementById('detTitle').textContent='خبر کامل';document.getElementById('det').classList.add('on');}
 
-// Settings
-function rSet(){let h='<div class="st" style="margin-top:14px">تنظیمات</div><div class="sg">';
-h+='<div class="sg-r"><div><b style="font-size:12px">🌐 زبان / Language</b></div><div><button class="lb'+(curLang==='fa'?' on':'')+'" onclick="setLang(\'fa\')">فارسی</button> <button class="lb'+(curLang==='en'?' on':'')+'" onclick="setLang(\'en\')">English</button></div></div>';
-h+='</div><div class="about">FootballMA v0.0.2<br>Made in Alireza 🔥</div>';document.getElementById('sgc').innerHTML=h;}
-function setLang(l){curLang=l;rSet();rNews();rFav();}
+// More page
+function rMore(){let h='<div class="st" style="margin-top:14px">بیشتر</div><div class="sg">';
+h+='<div class="sg-item" onclick="showTransfers()"><span class="icon">🔄</span><span class="label">نقل و انتقالات</span><span class="arrow">←</span></div>';
+h+='<div class="sg-item" onclick="showStandings2()"><span class="icon">🏆</span><span class="label">جدول لیگ‌ها</span><span class="arrow">←</span></div>';
+h+='<div class="sg-item" onclick="openLang()"><span class="icon">🌐</span><span class="label">زبان / Language</span><span class="arrow">←</span></div>';
+h+='</div><div class="about">FootballMA v0.0.2<br>Made in Alireza 🔥</div>';
+document.getElementById('moc').innerHTML=h;}
+
+function showTransfers(){const tr=D.transfers||[];
+let h='<div class="st" style="margin-top:14px">🔄 نقل و انتقالات جهان</div>';
+if(!tr.length){h+='<div class="empty">نقل و انتقالاتی نیست</div>';}
+tr.forEach(x=>{const img=x.img?'<img src="'+x.img+'" style="width:50px;height:50px;border-radius:50%;object-fit:cover" onerror="this.style.display=\'none\'">':'<div style="width:50px;height:50px;border-radius:50%;background:#1a1a1a"></div>';
+h+='<div class="tc glass" onclick="oN('+(D.football_news.indexOf(x)>=0?D.football_news.indexOf(x):8+D.transfers.indexOf(x))+')">'+img+'<div style="flex:1"><div class="nh-t">'+tn(x)+'</div><div class="nh-d">'+td(x)+'</div></div><div style="color:#3b82f6;font-size:16px">←</div></div>';});
+h+='<div style="margin-top:12px"><button onclick="rMore()" style="width:100%;padding:10px;background:#111;color:#fff;border:1px solid #333;border-radius:10px;font-family:Vazirmatn;cursor:pointer">← بازگشت</button></div>';
+document.getElementById('moc').innerHTML=h;}
+
+function showStandings2(){const t=D.standings||{};
+let h='<div class="st" style="margin-top:14px">🏆 جدول لیگ‌ها</div>';
+for(const[l,ts] of Object.entries(t)){h+='<div class="ds2"><h3>'+l+'</h3>';
+h+='<div style="display:flex;font-size:8px;color:#555;padding:2px 0;border-bottom:1px solid #1a1a1a"><div style="width:18px;text-align:center">#</div><div style="flex:1">تیم</div><div style="width:24px;text-align:center">ب</div><div style="width:24px;text-align:center">ب</div><div style="width:24px;text-align:center">م</div><div style="width:24px;text-align:center">ب</div><div style="width:24px;text-align:center">ا</div></div>';
+ts.forEach((x,i)=>{h+='<div style="display:flex;align-items:center;padding:3px 0;border-bottom:1px solid #1a1a1a;font-size:10px"><div style="width:18px;text-align:center;color:#666">'+(i+1)+'</div><div style="flex:1;display:flex;align-items:center;gap:4px">'+tl(x.name,14)+' '+x.name+'</div><div style="width:24px;text-align:center">'+(x.p||0)+'</div><div style="width:24px;text-align:center">'+(x.w||0)+'</div><div style="width:24px;text-align:center">'+(x.d||0)+'</div><div style="width:24px;text-align:center">'+(x.l||0)+'</div><div style="width:24px;text-align:center;font-weight:700">'+(x.pts||0)+'</div></div>';});
+h+='</div>';}
+h+='<div style="margin-top:12px"><button onclick="rMore()" style="width:100%;padding:10px;background:#111;color:#fff;border:1px solid #333;border-radius:10px;font-family:Vazirmatn;cursor:pointer">← بازگشت</button></div>';
+document.getElementById('moc').innerHTML=h;}
+
+function openLang(){let h='<div class="st" style="margin-top:14px">🌐 زبان / Language</div><div class="sg">';
+h+='<div class="sg-item" onclick="setLang(\'fa\')"><span class="icon">🇮🇷</span><span class="label">فارسی</span><span class="arrow">'+(curLang==='fa'?'✓':'')+'</span></div>';
+h+='<div class="sg-item" onclick="setLang(\'en\')"><span class="icon">🇬🇧</span><span class="label">English</span><span class="arrow">'+(curLang==='en'?'✓':'')+'</span></div>';
+h+='</div><div style="margin-top:12px"><button onclick="rMore()" style="width:100%;padding:10px;background:#111;color:#fff;border:1px solid #333;border-radius:10px;font-family:Vazirmatn;cursor:pointer">← بازگشت</button></div>';
+document.getElementById('moc').innerHTML=h;}
+function setLang(l){curLang=l;rMore();rFav();rNews();}
 
 // Search
 const DB={'آرسنال':{'i':'آرسنال - لندن | ۱۸۸۶ | امارات','s':'🏆 ۱۳ لیگ | ۱۴ جام حذفی | ۲ لیگ قهرمانان | ۱۷ جام اتحادیه','en':'Arsenal'},
@@ -221,27 +234,19 @@ const DB={'آرسنال':{'i':'آرسنال - لندن | ۱۸۸۶ | امارات
 'آث میلان':{'i':'آث میلان - ۱۸۹۹ | سن سیرو','s':'🏆 ۱۹ سری آ | ۷ لیگ قهرمانان | ۵ کوپا ایتالیا','en':'AC Milan'},
 'یوونتوس':{'i':'یوونتوس - ۱۸۹۷ | آلیانز','s':'🏆 ۳۶ سری آ | ۲ لیگ قهرمانان | ۱۴ کوپا ایتالیا','en':'Juventus'},
 'ناپولی':{'i':'ناپولی - ۱۹۲۶ | دیگو مارادونا','s':'🏆 ۳ سری آ | ۶ کوپا ایتالیا','en':'Napoli'},
-'آتالانتا':{'i':'آتالانتا - ۱۹۰۷ | گیوسپه مئاتزا','s':'🏆 ۱ سری آ | ۱ لیگ اروپا | ۱ کوپا ایتالیا','en':'Atalanta'},
-'آ اس رم':{'i':'آ اس رم - ۱۹۲۷ | المپیکو','s':'🏆 ۳ سری آ | ۱ لیگ قهرمانان | ۹ کوپا ایتالیا','en':'Roma'},
 'بایرن مونیخ':{'i':'بایرن مونیخ - ۱۹۰۰ | آلیانز آرنا','s':'🏆 ۳۳ بوندس‌لیگا | ۶ لیگ قهرمانان | ۲۰ جام حذفی','en':'Bayern Munich'},
 'دورتموند':{'i':'دورتموند - ۱۹۰۹ | سیگنال ایدونا پارک','s':'🏆 ۸ بوندس‌لیگا | ۱ لیگ قهرمانان | ۵ جام حذفی','en':'Borussia Dortmund'},
 'لورکوزن':{'i':'لورکوزن - ۱۹۰۴ | بای‌آرنا','s':'🏆 ۱ بوندس‌لیگا | ۱ جام حذفی | ۱ لیگ اروپا','en':'Bayer Leverkusen'},
 'پاریسن‌ژرمن':{'i':'پاریسن‌ژرمن - ۱۹۷۰ | پارک دو پرنس','s':'🏆 ۱۱ لیگ ۱ | ۱ لیگ قهرمانان | ۱۴ جام حذفی','en':'PSG'},
-'مارسی':{'i':'مارسی - ۱۸۹۹ | ولون','s':'🏆 ۹ لیگ ۱ | ۱ لیگ قهرمانان | ۱۰ جام حذفی','en':'Marseille'},
 'پرسپولیس':{'i':'پرسپولیس - تهران | ۱۳۴۲ | آزادی','s':'🏆 ۱۶ لیگ ایران | ۶ جام حذفی | ۲ آسیا','en':'Persepolis'},
 'استقلال':{'i':'استقلال - تهران | ۱۳۲۴ | آزادی','s':'🏆 ۸ لیگ ایران | ۷ جام حذفی | ۱ آسیا','en':'Esteghlal'},
-'سپاهان':{'i':'سپاهان - اصفهان | ۱۳۳۲ | نقش جهان','s':'🏆 ۵ لیگ ایران | ۴ جام حذفی','en':'Sepahan'},
-'تراکتور':{'i':'تراکتور - تبریز | یادگار امام','s':'🏆 ۱ لیگ ایران','en':'Tractor'},
-'امباپه':{'i':'کیلیان امباپه - ۲۰ دسامبر ۱۹۹۸ | پاریس | قد: ۱۷۸ | رئال مادرید','s':'🏟️ ۴۰+ گل ملی | ۱ جام جهانی | ۱ لیگ ملت‌ها','en':'Kylian Mbappe'},
-'هالند':{'i':'ارلینگ هالند - ۲۱ ژوئیه ۲۰۰۰ | لیدز | قد: ۱۹۴ | منچسترسیتی','s':'🏟️ آقای گل بوندس‌لیگا و PL | ۸۰+ گل در ۲ فصل','en':'Erling Haaland'},
-'مسی':{'i':'لیونل مسی - ۲۴ ژوئن ۱۹۸۷ | روساریو | قد: ۱۷۰ | اینتر میامی','s':'🏆 ۸ توپ طلا | ۱ جام جهانی | ۴ لیگ قهرمانان | ۸۰۰+ گل','en':'Lionel Messi'},
-'رونالدو':{'i':'کریستیانو رونالدو - ۵ فوریه ۱۹۸۵ | فونچال | قد: ۱۸۷ | النصر','s':'🏆 ۵ توپ طلا | ۵ لیگ قهرمانان | ۱۳۰+ گل ملی | ۹۰۰+ گل','en':'Cristiano Ronaldo'},
-'بنزما':{'i':'کریم بنزما - ۱۹ دسامبر ۱۹۸۷ | لیون | قد: ۱۸۵ | الاتحاد','s':'🏆 توپ طلا ۲۰۲۲ | ۵ لیگ قهرمانان | ۳۵۰+ گل رئال','en':'Karim Benzema'},
-'صلاح':{'i':'محمد صلاح - ۱۵ ژوئن ۱۹۹۲ | مصر | قد: ۱۷۵ | لیورپول','s':'🏆 ۳ بار آقای گل PL | ۱۶۰+ گل لیگ برتر | ۱ لیگ قهرمانان','en':'Mohamed Salah'},
-'آزمون':{'i':'سردار آزمون - ۱۱ نوامبر ۱۹۹۵ | گنجه | قد: ۱۸۶ | لورکوزن','s':'🏆 ۵۰+ گل ملی | ۸۰+ بازی ملی | آقای گل لیگ ایران','en':'Sardar Azmoun'},
-'طارمی':{'i':'مهدی طارمی - ۲۷ ژوئیه ۱۹۹۲ | بوشهر | قد: ۱۸۷ | اینترمیلان','s':'🏆 ۵۰+ بازی ملی | بهترین گلزن لیگ پرتغال ۲۰۲۲','en':'Mehdi Taremi'},
-'جهانبخش':{'i':'علیرضا جهانبخش - ۱۱ اوت ۱۹۹۳ | رامسر | قد: ۱۸۰ | برایتون','s':'🏆 ۷۰+ بازی ملی | ۲۰+ گل ملی','en':'Alireza Jahanbakhsh'},
-'عابدزاده':{'i':'امیر عابدزاده - ۲۶ آوریل ۱۹۹۳ | تهران | قد: ۱۸۶ | سامپدوریا','s':'🏆 ۳۰+ بازی ملی | بهترین دروازه‌بان لیگ پرتغال','en':'Amir Abedzadeh'}};
+'امباپه':{'i':'کیلیان امباپه - ۱۹۹۸ | رئال مادرید','s':'🏟️ ۴۰+ گل ملی | ۱ جام جهانی','en':'Mbappe'},
+'هالند':{'i':'ارلینگ هالند - ۲۰۰۰ | منچسترسیتی','s':'🏟️ آقای گل بوندس‌لیگا و PL','en':'Haaland'},
+'مسی':{'i':'لیونل مسی - ۱۹۸۷ | اینتر میامی','s':'🏆 ۸ توپ طلا | ۱ جام جهانی | ۸۰۰+ گل','en':'Messi'},
+'رونالدو':{'i':'کریستیانو رونالدو - ۱۹۸۵ | النصر','s':'🏆 ۵ توپ طلا | ۵ لیگ قهرمانان | ۱۳۰+ گل ملی','en':'Ronaldo'},
+'صلاح':{'i':'محمد صلاح - ۱۹۹۲ | لیورپول','s':'🏆 ۳ بار آقای گل PL | ۱۶۰+ گل','en':'Salah'},
+'آزمون':{'i':'سردار آزمون - ۱۹۹۵ | لورکوزن','s':'🏆 ۵۰+ گل ملی | ۸۰+ بازی ملی','en':'Azmoun'},
+'طارمی':{'i':'مهدی طارمی - ۱۹۹۲ | اینترمیلان','s':'🏆 ۵۰+ بازی ملی | بهترین گلزن لیگ پرتغال','en':'Taremi'}};
 
 function doSearch(q){const e=document.getElementById('sr');
 if(!q||q.length<1){e.classList.remove('on');return;}
@@ -251,16 +256,13 @@ if(!f)h='<div class="empty">نتیجه‌ای نیست</div>';e.innerHTML=h;e.cl
 
 function openDetail(name){const v=DB[name];if(!v)return;
 let h='<div style="text-align:center;padding:20px 0">'+(C[name]?'<div class="tl" style="width:80px;height:80px;font-size:32px;margin:0 auto 12px;background:'+C[name]+'">'+name.charAt(0)+'</div>':'')+'<h2 style="font-size:18px">'+name+'</h2><p style="color:#888;font-size:12px;margin-top:4px">'+v.i+'</p></div>';
-h+='<div class="ds2"><h3>🏆 افتخارات</h3>';
-v.s.split('|').forEach(s=>{h+='<div class="di2">'+s.trim()+'</div>';});
-h+='</div>';
-// Related news
+h+='<div class="ds2"><h3>🏆 افتخارات</h3>';v.s.split('|').forEach(s=>{h+='<div class="di2">'+s.trim()+'</div>';});h+='</div>';
 const n=D.football_news||[];
 const rel=n.filter(x=>(x.title+' '+(x.title_en||'')).includes(name)||(x.title+' '+(x.title_en||'')).includes(v.en||''));
 if(rel.length){h+='<div class="ds2"><h3>📰 اخبار مرتبط</h3>';rel.slice(0,3).forEach(x=>{h+='<div class="di2"><strong>'+tn(x)+'</strong><br>'+td(x)+'</div>';});h+='</div>';}
 document.getElementById('detBody').innerHTML=h;document.getElementById('detTitle').textContent=name;document.getElementById('det').classList.add('on');}
 
-async function load(){try{const r=await fetch('/data/news.json?'+Date.now());D=await r.json();rFav();rMatch();rNews();rSet();}catch(e){}}
+async function load(){try{const r=await fetch('/data/news.json?'+Date.now());D=await r.json();rFav();rMatch();rNews();rMore();}catch(e){}}
 load();setInterval(load,60000);
 </script>
 </body>
