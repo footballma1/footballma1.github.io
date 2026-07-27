@@ -323,7 +323,7 @@
         h+='<div class="sg-r"><div><div class="sg-l">🌙 حالت نمایش</div><div class="sg-d">دارک یا لایت</div></div><div class="tg '+(S.theme==='light'?'on':'')+'" onclick="toggleTh()"></div></div>';
         h+='<div class="sg-r"><div><div class="sg-l">🌐 زبان</div><div class="sg-d">فارسی یا English</div></div><div><button class="lb '+(S.lang==='fa'?'on':'')+'" onclick="setLn(\'fa\')">فارسی</button> <button class="lb '+(S.lang==='en'?'on':'')+'" onclick="setLn(\'en\')">EN</button></div></div>';
         h+='</div>';
-        h+='<div class="about"><h3>ℹ️ درباره FootballMA</h3><p>اخبار و نتایج زنده فوتبال جهان<br>پوشش ۶ لیگ معتبر + لیگ ایران<br>آپدیت خودکار هر دقیقه</p><div class="ver">v1.0 | Made in Alireza 🔥</div></div>';
+        h+='<div class="about"><h3>ℹ️ درباره FootballMA</h3><p>اخبار و نتایج زنده فوتبال جهان<br>پوشش ۶ لیگ معتبر + لیگ ایران<br>آپدیت خودکار هر دقیقه</p><div class="ver">v0.0.1 | Made in Alireza 🔥</div></div>';
         document.getElementById('sgc').innerHTML=h;
     }
     function toggleTh(){S.theme=S.theme==='dark'?'light':'dark';localStorage.setItem('fm',JSON.stringify(S));document.body.classList.toggle('light');rSet();}
