@@ -160,7 +160,26 @@
         .fc .ft{font-size:10px;color:#3b82f6;font-weight:700;margin-bottom:3px}
         .fc .fn{font-size:14px;font-weight:700;line-height:1.5}
         
-        .empty{text-align:center;color:#555;padding:20px;font-size:12px}
+        /* Liquid Glass */
+.glass{background:rgba(255,255,255,0.05);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,0.08);border-radius:16px}
+.light .glass{background:rgba(255,255,255,0.7);border:1px solid rgba(255,255,255,0.3)}
+.glass-card{background:rgba(255,255,255,0.06);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border:1px solid rgba(255,255,255,0.08);border-radius:14px;overflow:hidden}
+.light .glass-card{background:rgba(255,255,255,0.7);border-color:rgba(200,200,200,0.3)}
+/* Featured News - Big */
+.nf{margin-bottom:10px;cursor:pointer;border-radius:14px;overflow:hidden;position:relative}
+.nf img{width:100%;height:220px;object-fit:cover}
+.nf .nf-overlay{position:absolute;bottom:0;left:0;right:0;padding:14px;background:linear-gradient(transparent,rgba(0,0,0,0.9))}
+.nf .nf-tag{font-size:10px;color:#3b82f6;font-weight:700;margin-bottom:4px}
+.nf .nf-title{font-size:16px;font-weight:700;line-height:1.5;color:#fff}
+/* Small News - horizontal */
+.nh{display:flex;gap:10px;margin-bottom:6px;padding:8px;border-radius:10px;cursor:pointer;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.05)}
+.light .nh{background:rgba(0,0,0,0.03);border-color:rgba(0,0,0,0.08)}
+.nh:active{opacity:.7}
+.nh img{width:90px;height:70px;border-radius:8px;object-fit:cover;flex-shrink:0}
+.nh-body{flex:1;display:flex;flex-direction:column;justify-content:center}
+.nh-t{font-size:12px;font-weight:700;line-height:1.5;margin-bottom:3px}
+.nh-d{font-size:10px;color:#888;line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.empty{text-align:center;color:#555;padding:20px;font-size:12px}
         .lb-live{background:#0a1a0a;border:1px solid #22c55e;border-radius:10px;padding:10px;margin-bottom:10px;display:none}
         .lb-live.on{display:block}
         .lb-live .ll{color:#22c55e;font-size:11px;font-weight:700}
@@ -220,7 +239,7 @@
         let h='<div class="lb-ann"><h2>⚽ FootballMA</h2><p>اخبار و نتایج فوتبال جهان</p></div>';
         h+='<div class="qs"><div class="qsc"><div class="n">'+n.length+'</div><div class="l">اخبار</div></div><div class="qsc"><div class="n">'+f.length+'</div><div class="l">بازی</div></div><div class="qsc"><div class="n">'+l.length+'</div><div class="l">زنده</div></div></div>';
         if(n.length){h+='<div class="st">📰 آخرین اخبار</div>';n.slice(0,3).forEach((x,i)=>{const img=x.img?'<img src="'+x.img+'" onerror="this.style.display=\'none\'">':'';h+='<div class="fc" onclick="oN('+i+')">'+img+'<div class="fb"><div class="ft">-footballma</div><div class="fn">'+x.title+'</div></div></div>';});}
-        if(f.length){h+='<div class="st">🏟️ بازی‌های پیش رو</div>';f.slice(0,4).forEach(m=>{h+='<div class="mc"><div class="mc-lg">'+m.league+'</div><div class="mc-row"><div class="mc-team">'+tl(m.home,22)+'<div class="mc-nm">'+m.home+'</div></div><div class="mc-ct"><div class="mc-tm">'+m.time+'</div></div><div class="mc-team" style="justify-content:flex-end"><div class="mc-nm">'+m.away+'</div>'+tl(m.away,22)+'</div></div></div>';});}
+        if(f.length){h+='<div class="st">🏟️ بازی‌های پیش رو</div>';f.slice(0,4).forEach(m=>{h+='<div class="mc glass-card"><div class="mc-lg">'+m.league+'</div><div class="mc-row"><div class="mc-team">'+tl(m.home,22)+'<div class="mc-nm">'+m.home+'</div></div><div class="mc-ct"><div class="mc-tm">'+m.time+'</div></div><div class="mc-team" style="justify-content:flex-end"><div class="mc-nm">'+m.away+'</div>'+tl(m.away,22)+'</div></div></div>';});}
         document.getElementById('hc').innerHTML=h;
     }
     
@@ -319,7 +338,7 @@
     }
     
     function rSet(){
-        let h='<div class="st" style="margin-top:14px">تنظیمات</div><div class="sg">';
+        let h='<div class="st" style="margin-top:14px">تنظیمات</div><div class="sg glass">';
         h+='<div class="sg-r"><div><div class="sg-l">🌙 حالت نمایش</div><div class="sg-d">دارک یا لایت</div></div><div class="tg '+(S.theme==='light'?'on':'')+'" onclick="toggleTh()"></div></div>';
         h+='<div class="sg-r"><div><div class="sg-l">🌐 زبان</div><div class="sg-d">فارسی یا English</div></div><div><button class="lb '+(S.lang==='fa'?'on':'')+'" onclick="setLn(\'fa\')">فارسی</button> <button class="lb '+(S.lang==='en'?'on':'')+'" onclick="setLn(\'en\')">EN</button></div></div>';
         h+='</div>';
@@ -331,12 +350,38 @@
         if(l==='en'){if(!document.getElementById('gts')){var s=document.createElement('script');s.id='gts';s.src='https://translate.google.com/translate_a/element.js?cb=gtInit';document.head.appendChild(s);window.gtInit=function(){new google.translate.TranslateElement({pageLanguage:'fa',includedLanguages:'en',layout:google.translate.TranslateElement.InlineLayout.SIMPLE},'gtd');};var d=document.createElement('div');d.id='gtd';d.style.cssText='position:fixed;bottom:55px;left:50%;transform:translateX(-50%);z-index:999;background:#fff;padding:4px 8px;border-radius:6px;box-shadow:0 2px 8px rgba(0,0,0,.3)';document.body.appendChild(d);}}else{var e=document.getElementById('gtd');if(e)e.remove();var s=document.getElementById('gts');if(s)s.remove();}
     }
     
-    const DB={'آرسنال':{'i':'آرسنال - لندن | ۱۸۸۶ | امارات','s':'🏆 ۱۳ لیگ | ۱۴ جام حذفی | ۲ لیگ قهرمانان'},'لیورپول':{'i':'لیورپول - ۱۸۹۲ | آنفیلد','s':'🏆 ۱۹ لیگ | ۶ لیگ قهرمانان'},'چلسی':{'i':'چلسی - ۱۹۰۵ | استمفورد بریج','s':'🏆 ۶ لیگ | ۲ لیگ قهرمانان'},'منچسترسیتی':{'i':'منچسترسیتی - ۱۸۸۰ | اتحاد','s':'🏆 ۱۰ لیگ'},'منچستریونایتد':{'i':'منچستریونایتد - ۱۸۷۸ | اولدترافورد','s':'🏆 ۲۰ لیگ | ۳ لیگ قهرمانان'},'رئال مادرید':{'i':'رئال مادرید - ۱۹۰۲ | برنابئو','s':'🏆 ۳۶ لالیگا | ۲۰ لیگ قهرمانان'},'بارسلونا':{'i':'بارسلونا - ۱۸۹۹ | نیوکمپ','s':'🏆 ۲۷ لالیگا | ۵ لیگ قهرمانان'},'اینترمیلان':{'i':'اینترمیلان - ۱۹۰۸ | مئاتزا','s':'🏆 ۱۹ سری آ | ۳ لیگ قهرمانان'},'آث میلان':{'i':'آث میلان - ۱۸۹۹ | سن سیرو','s':'🏆 ۱۹ سری آ | ۷ لیگ قهرمانان'},'یوونتوس':{'i':'یوونتوس - ۱۸۹۷ | آلیانز','s':'🏆 ۳۶ سری آ | ۲ لیگ قهرمانان'},'بایرن مونیخ':{'i':'بایرن مونیخ - ۱۹۰۰ | آلیانز آرنا','s':'🏆 ۳۳ بوندس‌لیگا | ۶ لیگ قهرمانان'},'دورتموند':{'i':'دورتموند - ۱۹۰۹','s':'🏆 ۸ بوندس‌لیگا'},'پاریسن‌ژرمن':{'i':'پاریسن‌ژرمن - ۱۹۷۰','s':'🏆 ۱۱ لیگ ۱'},'پرسپولیس':{'i':'پرسپولیس - تهران | ۱۳۴۲ | آزادی','s':'🏆 ۱۶ لیگ ایران | ۲ آسیا'},'استقلال':{'i':'استقلال - تهران | ۱۳۲۴','s':'🏆 ۸ لیگ ایران'},'امباپه':{'i':'امباپه - ۱۹۹۸ | پاریس | قد: ۱۷۸ | رئال مادرید','s':'🏟️ ۴۰+ گل ملی'},'هالند':{'i':'هالند - ۲۰۰۰ | لیدز | قد: ۱۹۴ | سیتی','s':'🏟️ آقای گل ۲۳/۲۴'},'مسی':{'i':'مسی - ۱۹۸۷ | روساریو | قد: ۱۷۰ | اینتر میامی','s':'🏆 ۸ توپ طلا'},'رونالدو':{'i':'رونالدو - ۱۹۸۵ | فونچال | قد: ۱۸۷ | النصر','s':'🏆 ۵ توپ طلا'},'آزمون':{'i':'سردار آزمون - ۱۹۹۵ | لورکوزن','s':'🏟️ ۵۰+ گل ملی'},'طارمی':{'i':'مهدی طارمی - ۱۹۹۲ | اینترمیلان','s':'🏟️ ۵۰+ بازی ملی'},'جهانبخش':{'i':'جهانبخش - ۱۹۹۳ | برایتون','s':'🏟️ ۷۰+ بازی ملی'}};
+    const DB={'آرسنال':{'i':'آرسنال - لندن | ۱۸۸۶ | امارات','s':'🏆 ۱۳ لیگ | ۱۴ جام حذفی | ۲ لیگ قهرمانان'},'لیورپول':{'i':'لیورپول - ۱۸۹۲ | آنفیلد','s':'🏆 ۱۹ لیگ | ۶ لیگ قهرمانان'},'چلسی':{'i':'چلسی - ۱۹۰۵ | استمفورد بریج','s':'🏆 ۶ لیگ | ۲ لیگ قهرمانان'},'منچسترسیتی':{'i':'منچسترسیتی - ۱۸۸۰ | اتحاد','s':'🏆 ۱۰ لیگ'},'منچستریونایتد':{'i':'منچستریونایتد - ۱۸۷۸ | اولدترافورد','s':'🏆 ۲۰ لیگ | ۳ لیگ قهرمانان'},'رئال مادرید':{'i':'رئال مادرید - ۱۹۰۲ | برنابئو','s':'🏆 ۳۶ لالیگا | ۲۰ لیگ قهرمانان'},'بارسلونا':{'i':'بارسلونا - ۱۸۹۹ | نیوکمپ','s':'🏆 ۲۷ لالیگا | ۵ لیگ قهرمانان'},'اینترمیلان':{'i':'اینترمیلان - ۱۹۰۸ | مئاتزا','s':'🏆 ۱۹ سری آ | ۳ لیگ قهرمانان'},'آث میلان':{'i':'آث میلان - ۱۸۹۹ | سن سیرو','s':'🏆 ۱۹ سری آ | ۷ لیگ قهرمانان'},'یوونتوس':{'i':'یوونتوس - ۱۸۹۷ | آلیانز','s':'🏆 ۳۶ سری آ | ۲ لیگ قهرمانان'},'بایرن مونیخ':{'i':'بایرن مونیخ - ۱۹۰۰ | آلیانز آرنا','s':'🏆 ۳۳ بوندس‌لیگا | ۶ لیگ قهرمانان'},'دورتموند':{'i':'دورتموند - ۱۹۰۹','s':'🏆 ۸ بوندس‌لیگا'},'پاریسن‌ژرمن':{'i':'پاریسن‌ژرمن - ۱۹۷۰','s':'🏆 ۱۱ لیگ ۱'},'پرسپولیس':{'i':'پرسپولیس - تهران | ۱۳۴۲ | آزادی','s':'🏆 ۱۶ لیگ ایران | ۲ آسیا'},'استقلال':{'i':'استقلال - تهران | ۱۳۲۴','s':'🏆 ۸ لیگ ایران'},'امباپه':{'i':'امباپه - ۱۹۹۸ | پاریس | قد: ۱۷۸ | رئال مادرید','s':'🏟️ ۴۰+ گل ملی'},'هالند':{'i':'هالند - ۲۰۰۰ | لیدز | قد: ۱۹۴ | سیتی','s':'🏟️ آقای گل ۲۳/۲۴'},'مسی':{'i':'مسی - ۱۹۸۷ | روساریو | قد: ۱۷۰ | اینتر میامی','s':'🏆 ۸ توپ طلا'},'رونالدو':{'i':'رونالدو - ۱۹۸۵ | فونچال | قد: ۱۸۷ | النصر','s':'🏆 ۵ توپ طلا'},'آزمون':{'i':'سردار آزمون - ۱۹۹۵ | لورکوزن','s':'🏟️ ۵۰+ گل ملی'},'طارمی':{'i':'مهدی طارمی - ۱۹۹۲ | اینترمیلان','s':'🏟️ ۵۰+ بازی ملی'},'جهانبخش':{'i':'جهانبخش - ۱۹۹۳ | برایتون','s':'🏟️ ۷۰+ بازی ملی'},
+        'Arsenal':{'i':'Arsenal - London | 1886 | Emirates','s':'13x League | 14x FA Cup | 2x Champions League','en':'Arsenal'},
+        'Liverpool':{'i':'Liverpool - 1889 | Anfield','s':'19x League | 6x Champions League','en':'Liverpool'},
+        'Chelsea':{'i':'Chelsea - London | 1905 | Stamford Bridge','s':'6x League | 2x Champions League','en':'Chelsea'},
+        'Man City':{'i':'Man City - Manchester | 1880 | Etihad','s':'10x League','en':'Manchester City'},
+        'Man Utd':{'i':'Man Utd - Manchester | 1878 | Old Trafford','s':'20x League | 3x Champions League','en':'Manchester United'},
+        'Real Madrid':{'i':'Real Madrid - Madrid | 1902 | Bernabeu','s':'36x La Liga | 20x Champions League','en':'Real Madrid'},
+        'Barcelona':{'i':'Barcelona - 1899 | Camp Nou','s':'27x La Liga | 5x Champions League','en':'Barcelona'},
+        'Inter Milan':{'i':'Inter Milan - 1908 | Meazza','s':'19x Serie A | 3x Champions League','en':'Inter Milan'},
+        'AC Milan':{'i':'AC Milan - 1899 | San Siro','s':'19x Serie A | 7x Champions League','en':'AC Milan'},
+        'Juventus':{'i':'Juventus - Turin | 1897 | Allianz','s':'36x Serie A | 2x Champions League','en':'Juventus'},
+        'Bayern Munich':{'i':'Bayern Munich - 1900 | Allianz Arena','s':'33x Bundesliga | 6x Champions League','en':'Bayern Munich'},
+        'Borussia Dortmund':{'i':'Borussia Dortmund - 1909','s':'8x Bundesliga','en':'Borussia Dortmund'},
+        'PSG':{'i':'PSG - Paris | 1970','s':'11x Ligue 1','en':'Paris Saint-Germain'},
+        'Persepolis':{'i':'Persepolis - Tehran | 1963 | Azadi','s':'16x Iran League | 2x AFC','en':'Persepolis'},
+        'Esteghlal':{'i':'Esteghlal - Tehran | 1945 | Azadi','s':'8x Iran League','en':'Esteghlal'},
+        'Mbappe':{'i':'Mbappe - 1998 | Paris | H:178 | Real Madrid','s':'40+ international goals','en':'Kylian Mbappe'},
+        'Haaland':{'i':'Haaland - 2000 | Leeds | H:194 | Man City','s':'PL top scorer 23/24','en':'Erling Haaland'},
+        'Messi':{'i':'Messi - 1987 | Rosario | H:170 | Inter Miami','s':'8x Ballon dOr','en':'Lionel Messi'},
+        'Ronaldo':{'i':'Ronaldo - 1985 | Funchal | H:187 | Al Nassr','s':'5x Ballon dOr','en':'Cristiano Ronaldo'},
+        'Benzema':{'i':'Benzema - 1987 | Lyon | H:185 | Al Ittihad','s':'Ballon dOr 2022','en':'Karim Benzema'},
+        'Salah':{'i':'Salah - 1992 | Egypt | H:175 | Liverpool','s':'160+ PL goals','en':'Mohamed Salah'},
+        'Azmoun':{'i':'Sardar Azmoun - 1995 | Leverkusen','s':'50+ international goals','en':'Sardar Azmoun'},
+        'Taremi':{'i':'Mehdi Taremi - 1992 | Inter Milan','s':'50+ caps Iran','en':'Mehdi Taremi'}};
     function search(q){
         const e=document.getElementById('sr');
         if(!q||q.length<1){e.classList.remove('on');return;}
+        const ql=q.toLowerCase();
         let h='';let f=false;
-        for(const[k,v] of Object.entries(DB)){if(k.includes(q)||v.i.includes(q)){h+='<div class="src"><h3>🔍 '+k+'</h3><p>'+v.i+'</p><div>'+v.s.split('|').map(s=>'<span class="s">'+s.trim()+'</span>').join('')+'</div></div>';f=true;}}
+        for(const[k,v] of Object.entries(DB)){
+            const searchIn=(k+' '+v.i+' '+(v.en||'')).toLowerCase();
+            if(searchIn.includes(ql)){h+='<div class="src"><h3>🔍 '+k+'</h3><p>'+v.i+'</p><div>'+v.s.split('|').map(s=>'<span class="s">'+s.trim()+'</span>').join('')+'</div></div>';f=true;}}
         if(!f)h='<div class="empty">نتیجه‌ای نیست</div>';
         e.innerHTML=h;e.classList.add('on');
     }
