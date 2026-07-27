@@ -1,90 +1,66 @@
 {
   "today_fixtures": [],
-  "updated": "2026-07-27 17:54",
+  "updated": "2026-07-27 17:57",
   "football_news": [
     {
-      "title": "چلسی مذاکرات خود را برای جذب ولبک مهاجم برایتون آغاز کرد",
-      "title_en": "Chelsea open talks to sign Brighton striker Welbeck",
-      "desc": "چلسی در حال مذاکره برای جذب دنی ولبک، مهاجم برایتون اند هاو آلبیون است و این بازیکن 35 ساله مشتاق پیوستن به سرمربی جدید ژابی آلونسو در استمفوردبریج است.",
-      "desc_en": "Chelsea are in talks to sign Brighton & Hove Albion striker Danny Welbeck, with the 35-year-old keen to join new manager Xabi Alonso at Stamford Bridge.",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/337d/live/5210b680-89bc-11f1-965a-d70ca8fc6275.jpg"
+      "title": "لباس خارج از خانه جدید آرسنال، کبودی های فرقه ای را برمی گرداند...",
+      "desc": "آرسنال از لباس خارج از خانه 2026-27 خود رونمایی کرد و بار دیگر الهام بخش این طرح، پیراهن قدیمی \"موز کبود\" در اوایل دهه 1990 است.",
+      "img": ""
     },
     {
-      "title": "فوتبال انگلیس با محاکمه برای پایان تایم اوت های تاکتیکی دروازه بان ها موافقت کرد",
-      "title_en": "English football agrees trial to end goalkeeper tactical timeouts",
-      "desc": "بی‌بی‌سی اسپورت می‌گوید فوتبال انگلیس قرار است یک آزمایش رادیکال را برای از بین بردن تاکتیکی دروازه‌بان در این فصل اجرا کند.",
-      "desc_en": "English football is set to implement a radical trial to try to eradicate the goalkeeper tactical timeout this season, BBC Sport can reveal.",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/441f/live/daf7c2b0-850f-11f1-a08a-6d526d664753.jpg"
+      "title": "لباس خارج از خانه جدید رئال مادرید اولین پیراهن سبز رنگ...",
+      "desc": "رئال مادرید امیدوار است ژوزه مورینیو بتواند جوانه های سبز ریکاوری را به برنابئو بیاورد، بنابراین مناسب است که تیم یک لباس سبز جدید برای مسابقه داشته باشد.",
+      "img": ""
     },
     {
-      "title": "مذاکرات قرارداد رئال مادرید و علاقه آرسنال - آینده وینیسیوس جونیور چیست؟",
-      "title_en": "Real Madrid contract talks and Arsenal interest - what is Vinicius Jr's future?",
-      "desc": "با تمدید مذاکرات رئال مادرید و ابراز علاقه آرسنال، ممکن است در حال حاضر هیچ موقعیت جذاب تر از آینده وینیسیوس جونیور در نقل و انتقالات وجود نداشته باشد.",
-      "desc_en": "With Real Madrid renewing contract talks and Arsenal showing interest, there may be no more intriguing transfer situation right now than Vinicius Jr's future.",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/5d30/live/def92a80-89a0-11f1-b2ab-0dd01740f9f6.jpg"
+      "title": "آیا می توانید 15 گلزن برتر بلکبرن در لیگ برتر را نام ببرید؟",
+      "desc": "یک باشگاه معروف قدیمی\nThe post آیا می توانید 15 گلزن برتر بلکبرن در لیگ برتر را نام ببرید؟ اولین بار در سیاره فوتبال ظاهر شد.",
+      "img": ""
     },
     {
-      "title": "به جای نفرت پراکنی مراقبه، دعا کنید یا فوتبال تماشا کنید - اینفانتینو",
-      "title_en": "Meditate, pray or watch football instead of spreading hate - Infantino",
-      "desc": "جیانی اینفانتینو، رئیس فیفا به منتقدان می‌گوید به جای «نفرت پراکنی و شایعات نادرست» درباره او و جام جهانی، «مدیتیشن، دعا یا تماشای یک مسابقه فوتبال» را انجام دهند.",
-      "desc_en": "Fifa president Gianni Infantino tells critics to \"meditate, pray or watch a football match\" instead of \"spreading hate and false rumours\" about him and the World Cup.",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/d0be/live/28678820-8987-11f1-88b2-635548373e92.jpg"
+      "title": "یان دیوماند قرار است به یازده شگفت‌انگیز فروخته‌شده توسط RB Laipzig در طول سال‌ها بپیوندد",
+      "desc": "آنها نام های بزرگی را در طول سال ها فروخته اند.\nThe post یان دیوماند در حال پیوستن به یازده شگفت‌انگیز فروخته‌شده توسط RB Laipzig در طول سال‌ها ظاهر شد اولین در Planet Football.",
+      "img": ""
     },
     {
-      "title": "دیوماند با دور شدن پاری سن ژرمن با شرایط رئال مادرید موافقت کرد",
-      "title_en": "Diomande agrees Real Madrid terms as PSG step away",
-      "desc": "یان دیوماند، وینگر آر بی لایپزیگ پس از انصراف پاریسن ژرمن، با شرایط شخصی رئال مادرید موافقت کرد.",
-      "desc_en": "RB Leipzig winger Yan Diomande agrees personal terms with Real Madrid after Paris St-Germain withdraw their interest.",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/5633/live/e88d1110-8964-11f1-b5c7-f34a712b7d61.jpg"
+      "title": "آیا می توانید هر بازیکنی را نام ببرید که در فصل 01-2000 بیش از 10 گل در لیگ برتر به ثمر برساند؟",
+      "desc": "هفده تا گرفتن.\nThe post آیا می توانید هر بازیکنی را که در فصل 01-2000 بیش از 10 گل لیگ برتر به ثمر رسانده است نام ببرید؟ اولین بار در سیاره فوتبال ظاهر شد.",
+      "img": ""
     },
     {
-      "title": "رکورد هزینه اسپرز جاه طلبی جدیدی را نشان می دهد - ون دی ون",
-      "title_en": "Record Spurs spend shows new ambition - Van de Ven",
-      "desc": "میکی ون دی ون می گوید رکورد هزینه های تاتنهام نشان دهنده یک \"جاه طلبی جدید\" پس از یک فصل \"غیر قابل قبول\" است.",
-      "desc_en": "Micky van de Ven says Tottenham's record spending highlights a \"new ambition\" after an \"unacceptable\" season.",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/f2a2/live/b16d1670-8988-11f1-88b2-635548373e92.jpg"
+      "title": "آیا می توانید نام هرکسی را برای بازی در منچستریونایتد و لیدز از سال 1992 ذکر کنید؟",
+      "desc": "مسابقه خوشمزه، این یکی\nThe post آیا می توانید نام همه را برای بازی در منچستریونایتد و لیدز از سال 1992 بفرمایید؟ اولین بار در سیاره فوتبال ظاهر شد.",
+      "img": ""
     },
     {
-      "title": "راجرز و پالمر می توانند با هم بازی کنند - آلونسو",
-      "title_en": "Rogers and Palmer can play together - Alonso",
-      "desc": "ژابی آلونسو، سرمربی چلسی می‌گوید که برنامه‌ای برای بازی کردن با مورگان راجرز به ارزش 117 میلیون پوند در کنار کول پالمر دارد.",
-      "desc_en": "Chelsea manager Xabi Alonso says he has a \"plan\" to play club record £117m signing Morgan Rogers alongside Cole Palmer.",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/bd8d/live/9cd85070-897f-11f1-b8ee-9b3c26ad07bb.jpg"
+      "title": "پنج گزینه جایگزین وینیسیوس جونیور اگر آرسنال نتواند فوق ستاره برزیلی را به ارمغان بیاورد باید هدف قرار دهد.",
+      "desc": "او تنها گزینه ای نیست که می تواند گزینه اول میکل آرتتا را بهبود بخشد.\nThe post پنج گزینه جایگزین وینیسیوس جونیور اگر آرسنال نتواند فوق ستاره برزیلی را به ارمغان بیاورد، باید هدف قرار بگیرد appeared first on Pl",
+      "img": ""
     },
     {
-      "title": "پیرلو به دلیل ارتباط با شرکت شرط بندی روسی، برای استخدام در ایتالیا نامزد نمی شود",
-      "title_en": "Pirlo out of running for Italy job over link to Russian betting company",
-      "desc": "آندره آ پیرلو پس از چند روز بحث و جدل بر سر ارتباطش با یک شرکت شرط بندی روسی، می گوید که دیگر نامزد سرمربیگری ایتالیا نیست.",
-      "desc_en": "Andrea Pirlo says he is no longer a candidate to coach Italy following days of controversy over his link to a Russian betting company.",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/01fc/live/7b3dc190-89a5-11f1-8a9d-b9e590fcf96d.jpg"
+      "title": "آیا می توانید هر بازیکنی را که بیش از 50 گل در لیگ برتر به ثمر رسانده است نام ببرید؟",
+      "desc": "144 مورد برای دریافت وجود دارد - موفق باشید. \nThe post آیا می توانید هر بازیکنی را که بیش از 50 گل در لیگ برتر به ثمر رسانده است نام ببرید؟ اولین بار در سیاره فوتبال ظاهر شد.",
+      "img": ""
     },
     {
-      "title": "مارتین و روباه باید پس از مبارزات \"راه خود را پیدا کنند\".",
-      "title_en": "Martin & Foxes must 'find own way' after struggles",
-      "desc": "راسل مارتین، سرمربی لسترسیتی می گوید که نباید از تاریخ برای قضاوت در مورد دستاوردهای او با قهرمان سابق لیگ برتر استفاده کرد.",
-      "desc_en": "Leicester City manager Russell Martin says history should not be used to judge what he can achieve with the former Premier League champions.",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/23ee/live/9c9c8ab0-89a5-11f1-8a9d-b9e590fcf96d.jpg"
+      "title": "مقایسه دستمزد فعلی وینیسیوس جونیور با سایر اعضای تیم آرسنال",
+      "desc": "آرسنال باید بانک را شکست دهد.\nThe post مقایسه دستمزد فعلی وینیسیوس جونیور با سایر اعضای تیم آرسنال اولین بار در Planet Football ظاهر شد.",
+      "img": ""
     },
     {
-      "title": "من کی هستم؟ ستاره شماره 7 لیگ برتر را حدس بزنید",
-      "title_en": "Who am I? Guess Premier League star No 7",
-      "desc": "آیا بازیکن امروز را در کمترین تلاش ممکن به دست خواهید آورد؟",
-      "desc_en": "Will you get today's player in as few attempts as possible?",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/bbc4/live/8fe12a80-85b1-11f1-926f-c90d1bcfbc84.png"
+      "title": "آیا می توانید هر بازیکن ژاپنی را برای بازی در لیگ برتر نام ببرید؟",
+      "desc": "اگر بتوانید نمرات کامل بگیرید، تحت تأثیر قرار خواهیم گرفت. \nThe post آیا می توانید هر بازیکن ژاپنی را برای بازی در لیگ برتر نام ببرید؟ اولین بار در سیاره فوتبال ظاهر شد.",
+      "img": ""
     },
     {
-      "title": "رنجرز پس از تابستان شلوغ استخدام به چند هافبک نیاز دارد؟",
-      "title_en": "How many midfielders do Rangers need after busy summer of recruitment?",
-      "desc": "رنجرز تیمی پر از هافبک میانی دارد، اما آیا آنقدر خوب هستند که مهمات کافی برای مهاجمان خود فراهم کنند؟",
-      "desc_en": "Rangers have a team full of central midfielders, but are they good enough to provide enough ammunition for their strikers?",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/39c1/live/ad6cffb0-8940-11f1-b8ee-9b3c26ad07bb.png"
+      "title": "آیا می توانید هر بازیکنی را برای شکستن رکورد نقل و انتقالات انگلیس از سال 1992 نام ببرید؟",
+      "desc": "امتیاز کامل در این مورد قابل دستیابی است.\nThe post آیا می توانید نام هر بازیکنی را برای شکستن رکورد نقل و انتقالات انگلیس از سال 1992 ذکر کنید؟ اولین بار در سیاره فوتبال ظاهر شد.",
+      "img": ""
     },
     {
-      "title": "سیموندز کاپیتان برایتون قرارداد بلندمدت جدیدی امضا کرد",
-      "title_en": "Brighton captain Symonds signs new 'long-term' deal",
-      "desc": "میزی سیموندز، کاپیتان برایتون، قرارداد جدیدی را امضا کرد که باشگاه آن را بلندمدت توصیف کرد.",
-      "desc_en": "Brighton captain Maisie Symonds signs a new contract, described by the club as long-term.",
-      "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/7ca0/live/00c939c0-89a6-11f1-a85a-79136c2d298e.jpg"
+      "title": "Sportword: بازی روزانه کلمات فوتبال را در Planet Sport انجام دهید",
+      "desc": "پاسخ Planet Football به Wordle را پخش کنید.\nThe post Sportword: بازی روزانه کلمه فوتبال را در سیاره اسپورت انجام دهید اولین بار در سیاره فوتبال پدیدار شد.",
+      "img": ""
     }
   ],
   "fixtures": [
@@ -1157,58 +1133,42 @@
   "transfers": [
     {
       "title": "چلسی مذاکرات خود را برای جذب ولبک مهاجم برایتون آغاز کرد",
-      "title_en": "Chelsea open talks to sign Brighton striker Welbeck",
       "desc": "چلسی در حال مذاکره برای جذب دنی ولبک، مهاجم برایتون اند هاو آلبیون است و این بازیکن 35 ساله مشتاق پیوستن به سرمربی جدید ژابی آلونسو در استمفوردبریج است.",
-      "desc_en": "Chelsea are in talks to sign Brighton & Hove Albion striker Danny Welbeck, with the 35-year-old keen to join new manager Xabi Alonso at Stamford Bridge.",
       "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/337d/live/5210b680-89bc-11f1-965a-d70ca8fc6275.jpg"
     },
     {
       "title": "فوتبال انگلیس با محاکمه برای پایان تایم اوت های تاکتیکی دروازه بان ها موافقت کرد",
-      "title_en": "English football agrees trial to end goalkeeper tactical timeouts",
       "desc": "بی‌بی‌سی اسپورت می‌گوید فوتبال انگلیس قرار است یک آزمایش رادیکال را برای از بین بردن تاکتیکی دروازه‌بان در این فصل اجرا کند.",
-      "desc_en": "English football is set to implement a radical trial to try to eradicate the goalkeeper tactical timeout this season, BBC Sport can reveal.",
       "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/441f/live/daf7c2b0-850f-11f1-a08a-6d526d664753.jpg"
     },
     {
       "title": "مذاکرات قرارداد رئال مادرید و علاقه آرسنال - آینده وینیسیوس جونیور چیست؟",
-      "title_en": "Real Madrid contract talks and Arsenal interest - what is Vinicius Jr's future?",
       "desc": "با تمدید مذاکرات رئال مادرید و ابراز علاقه آرسنال، ممکن است در حال حاضر هیچ موقعیت جذاب تر از آینده وینیسیوس جونیور در نقل و انتقالات وجود نداشته باشد.",
-      "desc_en": "With Real Madrid renewing contract talks and Arsenal showing interest, there may be no more intriguing transfer situation right now than Vinicius Jr's future.",
       "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/5d30/live/def92a80-89a0-11f1-b2ab-0dd01740f9f6.jpg"
     },
     {
       "title": "دیوماند با دور شدن پاری سن ژرمن با شرایط رئال مادرید موافقت کرد",
-      "title_en": "Diomande agrees Real Madrid terms as PSG step away",
       "desc": "یان دیوماند، وینگر آر بی لایپزیگ پس از انصراف پاریسن ژرمن، با شرایط شخصی رئال مادرید موافقت کرد.",
-      "desc_en": "RB Leipzig winger Yan Diomande agrees personal terms with Real Madrid after Paris St-Germain withdraw their interest.",
       "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/5633/live/e88d1110-8964-11f1-b5c7-f34a712b7d61.jpg"
     },
     {
       "title": "سیموندز کاپیتان برایتون قرارداد بلندمدت جدیدی امضا کرد",
-      "title_en": "Brighton captain Symonds signs new 'long-term' deal",
       "desc": "میزی سیموندز، کاپیتان برایتون، قرارداد جدیدی را امضا کرد که باشگاه آن را بلندمدت توصیف کرد.",
-      "desc_en": "Brighton captain Maisie Symonds signs a new contract, described by the club as long-term.",
       "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/7ca0/live/00c939c0-89a6-11f1-a85a-79136c2d298e.jpg"
     },
     {
       "title": "اسکالونی، سرمربی آرژانتین کنفرانس مطبوعاتی را با گریه ترک کرد",
-      "title_en": "Argentina boss Scaloni leaves press conference in tears",
       "desc": "لیونل اسکالونی، سرمربی تیم ملی آرژانتین، پس از شکست روز یکشنبه در فینال جام جهانی مقابل اسپانیا، کنفرانس خبری پس از بازی خود را با گریه ترک کرد و درباره آینده خود صحبت کرد.",
-      "desc_en": "Argentina manager Lionel Scaloni leaves his post-match news conference in tears when talking about his future after Sunday's World Cup final defeat by Spain.",
       "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/0fe8/live/acf179d0-842c-11f1-bee8-53ce494e1abc.jpg"
     },
     {
       "title": "در حال حرکت - جوانترین کارآموزان فوتبال",
-      "title_en": "On the move - football's youngest journeymen",
       "desc": "بازیکنانی که تا تولد 23 سالگی خود در تعداد قابل توجهی از باشگاه ها ظاهر شده بودند.",
-      "desc_en": "The players who had appeared for a remarkable number of clubs by their 23rd birthday.",
       "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/2415/live/043bf610-87a8-11f1-b4f4-2f10373ed74c.jpg"
     },
     {
       "title": "مک‌اینز به رنجرز مبنی بر امضای قرارداد ظرف 48 ساعت اذیت می‌کند",
-      "title_en": "McInnes teases Rangers signing within 48 hours",
       "desc": "رنجرز امیدوار است تا ظرف 48 ساعت آینده یک خرید دیگر را اعلام کند، و درک مک‌اینز، سرمربی تیم، یک ثانیه هم تا زمانی که تیمش فصل خود را در خارج از خانه مقابل داندی یونایتد در روز جمعه باز می‌کند، یک ثانیه اذیت می‌کند.",
-      "desc_en": "Rangers hope to announce another signing within 48 hours, with manager Derek McInnes teasing a second by the time his side open their season away to Dundee United on Friday.",
       "img": "https://ichef.bbci.co.uk/ace/standard/960/cpsprodpb/f5a8/live/8a2f6cd0-8932-11f1-8854-83ac9c49426d.jpg"
     }
   ]

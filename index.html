@@ -194,11 +194,11 @@
 </head>
 <body>
     <div class="hd">
-        <div class="hd-logo">⚽ Football<b>MA</b></div>
+        <div class="hd-logo">⚽ Football<b>MA</b><span style="font-size:9px;color:#555;margin-right:4px">v0.0.2</span></div>
         <div class="hd-search"><input class="hd-input" id="si" placeholder="🔍 جستجو..." data-p="search" oninput="search(this.value)"></div>
     </div>
     
-    <div class="pg on" id="pg-home"><div id="hc"></div></div>
+    <div class="pg on" id="pg-fav"><div id="fvc"></div></div>
     <div class="pg" id="pg-match"><div id="dc"></div><div id="mc"></div></div>
     <div class="pg" id="pg-news"><div id="nc"></div></div>
     <div class="pg" id="pg-std"><div id="sc"></div></div>
@@ -209,7 +209,7 @@
     <div class="mo" id="nm"><div class="mo-h"><button class="mo-b" onclick="cm('nm')">→</button><span style="font-weight:700;font-size:13px">خبر کامل</span><span></span></div><div class="mo-c" id="nb"></div></div>
     
     <div class="bn">
-        <div class="bi on" data-p="home"><svg viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg><div class="bl" data-t="home">خانه</div></div>
+        <div class="bi on" data-p="fav"><svg viewBox="0 0 24 24"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg><div class="bl">Your Fav</div></div>
         <div class="bi" data-p="match"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg><div class="bl" data-t="match">مسابقات</div></div>
         <div class="bi" data-p="news"><svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg><div class="bl" data-t="news">اخبار</div></div>
         <div class="bi" data-p="std"><svg viewBox="0 0 24 24"><path d="M3 3v18h18V3H3zm8 16H5v-6h6v6zm0-8H5V5h6v6zm8 8h-6v-6h6v6zm0-8h-6V5h6v6z"/></svg><div class="bl" data-t="standings">جدول</div></div>
@@ -347,7 +347,7 @@
     }
     function toggleTh(){S.theme=S.theme==='dark'?'light':'dark';localStorage.setItem('fm',JSON.stringify(S));document.body.classList.toggle('light');rSet();}
     function setLn(l){S.lang=l;localStorage.setItem('fm',JSON.stringify(S));rSet();
-        if(l==='en'){if(!document.getElementById('gts')){var s=document.createElement('script');s.id='gts';s.src='https://translate.google.com/translate_a/element.js?cb=gtInit';document.head.appendChild(s);window.gtInit=function(){new google.translate.TranslateElement({pageLanguage:'fa',includedLanguages:'en',layout:google.translate.TranslateElement.InlineLayout.SIMPLE},'gtd');};var d=document.createElement('div');d.id='gtd';d.style.cssText='position:fixed;bottom:55px;left:50%;transform:translateX(-50%);z-index:999;background:#fff;padding:4px 8px;border-radius:6px;box-shadow:0 2px 8px rgba(0,0,0,.3)';document.body.appendChild(d);}}else{var e=document.getElementById('gtd');if(e)e.remove();var s=document.getElementById('gts');if(s)s.remove();}
+        if(l==='en'){if(!document.getElementById('gts')){}}else{var e=document.getElementById('gtd');if(e)e.remove();var s=document.getElementById('gts');if(s)s.remove();}
     }
     
     const DB={'آرسنال':{'i':'آرسنال - لندن | ۱۸۸۶ | امارات','s':'🏆 ۱۳ لیگ | ۱۴ جام حذفی | ۲ لیگ قهرمانان'},'لیورپول':{'i':'لیورپول - ۱۸۹۲ | آنفیلد','s':'🏆 ۱۹ لیگ | ۶ لیگ قهرمانان'},'چلسی':{'i':'چلسی - ۱۹۰۵ | استمفورد بریج','s':'🏆 ۶ لیگ | ۲ لیگ قهرمانان'},'منچسترسیتی':{'i':'منچسترسیتی - ۱۸۸۰ | اتحاد','s':'🏆 ۱۰ لیگ'},'منچستریونایتد':{'i':'منچستریونایتد - ۱۸۷۸ | اولدترافورد','s':'🏆 ۲۰ لیگ | ۳ لیگ قهرمانان'},'رئال مادرید':{'i':'رئال مادرید - ۱۹۰۲ | برنابئو','s':'🏆 ۳۶ لالیگا | ۲۰ لیگ قهرمانان'},'بارسلونا':{'i':'بارسلونا - ۱۸۹۹ | نیوکمپ','s':'🏆 ۲۷ لالیگا | ۵ لیگ قهرمانان'},'اینترمیلان':{'i':'اینترمیلان - ۱۹۰۸ | مئاتزا','s':'🏆 ۱۹ سری آ | ۳ لیگ قهرمانان'},'آث میلان':{'i':'آث میلان - ۱۸۹۹ | سن سیرو','s':'🏆 ۱۹ سری آ | ۷ لیگ قهرمانان'},'یوونتوس':{'i':'یوونتوس - ۱۸۹۷ | آلیانز','s':'🏆 ۳۶ سری آ | ۲ لیگ قهرمانان'},'بایرن مونیخ':{'i':'بایرن مونیخ - ۱۹۰۰ | آلیانز آرنا','s':'🏆 ۳۳ بوندس‌لیگا | ۶ لیگ قهرمانان'},'دورتموند':{'i':'دورتموند - ۱۹۰۹','s':'🏆 ۸ بوندس‌لیگا'},'پاریسن‌ژرمن':{'i':'پاریسن‌ژرمن - ۱۹۷۰','s':'🏆 ۱۱ لیگ ۱'},'پرسپولیس':{'i':'پرسپولیس - تهران | ۱۳۴۲ | آزادی','s':'🏆 ۱۶ لیگ ایران | ۲ آسیا'},'استقلال':{'i':'استقلال - تهران | ۱۳۲۴','s':'🏆 ۸ لیگ ایران'},'امباپه':{'i':'امباپه - ۱۹۹۸ | پاریس | قد: ۱۷۸ | رئال مادرید','s':'🏟️ ۴۰+ گل ملی'},'هالند':{'i':'هالند - ۲۰۰۰ | لیدز | قد: ۱۹۴ | سیتی','s':'🏟️ آقای گل ۲۳/۲۴'},'مسی':{'i':'مسی - ۱۹۸۷ | روساریو | قد: ۱۷۰ | اینتر میامی','s':'🏆 ۸ توپ طلا'},'رونالدو':{'i':'رونالدو - ۱۹۸۵ | فونچال | قد: ۱۸۷ | النصر','s':'🏆 ۵ توپ طلا'},'آزمون':{'i':'سردار آزمون - ۱۹۹۵ | لورکوزن','s':'🏟️ ۵۰+ گل ملی'},'طارمی':{'i':'مهدی طارمی - ۱۹۹۲ | اینترمیلان','s':'🏟️ ۵۰+ بازی ملی'},'جهانبخش':{'i':'جهانبخش - ۱۹۹۳ | برایتون','s':'🏟️ ۷۰+ بازی ملی'},
@@ -426,7 +426,7 @@ function applyLang(l){
     });
 }
 async function load(){
-        try{const r=await fetch('/data/news.json?'+Date.now());D=await r.json();rHome();rMatch();rNews();rStd();rSet();applyLang(S.lang);}catch(e){}
+        try{const r=await fetch('/data/news.json?'+Date.now());D=await r.json();rFav();rMatch();rNews();rStd();rSet();applyLang(S.lang);}catch(e){}
     }
     load();setInterval(load,60000);
     setInterval(()=>{if(D.live_matches&&D.live_matches.length)load();},1000);
