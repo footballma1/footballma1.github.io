@@ -195,7 +195,7 @@
 <body>
     <div class="hd">
         <div class="hd-logo">⚽ Football<b>MA</b></div>
-        <div class="hd-search"><input class="hd-input" id="si" placeholder="🔍 جستجو..." oninput="search(this.value)"></div>
+        <div class="hd-search"><input class="hd-input" id="si" placeholder="🔍 جستجو..." data-p="search" oninput="search(this.value)"></div>
     </div>
     
     <div class="pg on" id="pg-home"><div id="hc"></div></div>
@@ -209,11 +209,11 @@
     <div class="mo" id="nm"><div class="mo-h"><button class="mo-b" onclick="cm('nm')">→</button><span style="font-weight:700;font-size:13px">خبر کامل</span><span></span></div><div class="mo-c" id="nb"></div></div>
     
     <div class="bn">
-        <div class="bi on" data-p="home"><svg viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg><div class="bl">خانه</div></div>
-        <div class="bi" data-p="match"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg><div class="bl">مسابقات</div></div>
-        <div class="bi" data-p="news"><svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg><div class="bl">اخبار</div></div>
-        <div class="bi" data-p="std"><svg viewBox="0 0 24 24"><path d="M3 3v18h18V3H3zm8 16H5v-6h6v6zm0-8H5V5h6v6zm8 8h-6v-6h6v6zm0-8h-6V5h6v6z"/></svg><div class="bl">جدول</div></div>
-        <div class="bi" data-p="set"><svg viewBox="0 0 24 24"><path d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.07.62-.07.94s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"/></svg><div class="bl">تنظیمات</div></div>
+        <div class="bi on" data-p="home"><svg viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg><div class="bl" data-t="home">خانه</div></div>
+        <div class="bi" data-p="match"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" fill="none" stroke="currentColor" stroke-width="1.5"/></svg><div class="bl" data-t="match">مسابقات</div></div>
+        <div class="bi" data-p="news"><svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg><div class="bl" data-t="news">اخبار</div></div>
+        <div class="bi" data-p="std"><svg viewBox="0 0 24 24"><path d="M3 3v18h18V3H3zm8 16H5v-6h6v6zm0-8H5V5h6v6zm8 8h-6v-6h6v6zm0-8h-6V5h6v6z"/></svg><div class="bl" data-t="standings">جدول</div></div>
+        <div class="bi" data-p="set"><svg viewBox="0 0 24 24"><path d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.07.62-.07.94s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"/></svg><div class="bl" data-t="settings">تنظیمات</div></div>
     </div>
 
     <script>
@@ -342,7 +342,7 @@
         h+='<div class="sg-r"><div><div class="sg-l">🌙 حالت نمایش</div><div class="sg-d">دارک یا لایت</div></div><div class="tg '+(S.theme==='light'?'on':'')+'" onclick="toggleTh()"></div></div>';
         h+='<div class="sg-r"><div><div class="sg-l">🌐 زبان</div><div class="sg-d">فارسی یا English</div></div><div><button class="lb '+(S.lang==='fa'?'on':'')+'" onclick="setLn(\'fa\')">فارسی</button> <button class="lb '+(S.lang==='en'?'on':'')+'" onclick="setLn(\'en\')">EN</button></div></div>';
         h+='</div>';
-        h+='<div class="about"><h3>ℹ️ درباره FootballMA</h3><p>اخبار و نتایج زنده فوتبال جهان<br>پوشش ۶ لیگ معتبر + لیگ ایران<br>آپدیت خودکار هر دقیقه</p><div class="ver">v0.0.1 | Made in Alireza 🔥</div></div>';
+        h+='<div class="about"><h3>ℹ️ درباره FootballMA</h3><p>اخبار و نتایج زنده فوتبال جهان<br>پوشش ۶ لیگ معتبر + لیگ ایران<br>آپدیت خودکار هر دقیقه</p><div class="ver">v0.0.2 | Made in Alireza 🔥</div></div>';
         document.getElementById('sgc').innerHTML=h;
     }
     function toggleTh(){S.theme=S.theme==='dark'?'light':'dark';localStorage.setItem('fm',JSON.stringify(S));document.body.classList.toggle('light');rSet();}
@@ -386,8 +386,47 @@
         e.innerHTML=h;e.classList.add('on');
     }
     
-    async function load(){
-        try{const r=await fetch('/data/news.json?'+Date.now());D=await r.json();rHome();rMatch();rNews();rStd();rSet();}catch(e){}
+    const LANG={
+fa:{
+    home:'خانه',match:'مسابقات',news:'اخبار',standings:'جدول',settings:'تنظیمات',
+    search:'🔍 جستجو...',featured:'خبر ویژه',transfers:'نقل و انتقالات',
+    info:'اطلاعات بازی',league:'🏆 لیگ:',time:'⏰ ساعت:',host:'🏠 میزبان:',guest:'✈️ مهمان:',
+    fullnews:'خبر کامل',about:'درباره FootballMA',desc:'اخبار و نتایج زنده فوتبال جهان',
+    coverage:'پوشش ۶ لیگ معتبر + لیگ ایران',update:'آپدیت خودکار هر دقیقه',
+    version:'نسخه',made:'ساخته شده توسط',theme:'حالت نمایش',darklight:'دارک یا لایت',
+    lang:'زبان',persian:'فارسی',english:'English',
+    nolive:'بازی مهمی نیست 🤷',nonews:'خبری نیست',nostandings:'فصل جدید به‌زودی',
+    newscount:'اخبار',matchcount:'بازی',livecount:'زنده',bignews:'📰 آخرین اخبار',
+    upcoming:'🏟️ بازی‌های پیش رو',related:'📰 اخبار مرتبط',date:'📅 تاریخ:',noresult:'نتیجه‌ای نیست',
+    playerprofile:'پروفایل بازیکن'
+},
+en:{
+    home:'Home',match:'Matches',news:'News',standings:'Table',settings:'Settings',
+    search:'🔍 Search...',featured:'Featured',transfers:'Transfers',
+    info:'Match Info',league:'🏆 League:',time:'⏰ Time:',host:'🏠 Home:',guest:'✈️ Away:',
+    fullnews:'Full News',about:'About FootballMA',desc:'Live football scores & news',
+    coverage:'6 major leagues + Iran Pro League',update:'Auto update every minute',
+    version:'Version',made:'Made by',theme:'Theme',darklight:'Dark / Light',
+    lang:'Language',persian:'فارسی',english:'English',
+    nolive:'No live matches',nonews:'No news yet',nostandings:'Season starting soon',
+    newscount:'News',matchcount:'Matches',livecount:'Live',bignews:'📰 Latest News',
+    upcoming:'🏟️ Upcoming',related:'📰 Related News',date:'📅 Date:',noresult:'No results',
+    playerprofile:'Player Profile'
+}};
+let currentLang='fa';
+function applyLang(l){
+    currentLang=l;
+    document.querySelectorAll('[data-t]').forEach(el=>{
+        const key=el.getAttribute('data-t');
+        if(LANG[l]&&LANG[l][key])el.textContent=LANG[l][key];
+    });
+    document.querySelectorAll('[data-p]').forEach(el=>{
+        const key=el.getAttribute('data-p');
+        if(LANG[l]&&LANG[l][key])el.placeholder=LANG[l][key];
+    });
+}
+async function load(){
+        try{const r=await fetch('/data/news.json?'+Date.now());D=await r.json();rHome();rMatch();rNews();rStd();rSet();applyLang(S.lang);}catch(e){}
     }
     load();setInterval(load,60000);
     setInterval(()=>{if(D.live_matches&&D.live_matches.length)load();},1000);
