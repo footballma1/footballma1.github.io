@@ -162,7 +162,7 @@ document.getElementById('pg-'+b.dataset.p).classList.add('on');
 document.getElementById('sr').classList.remove('on');
 }});
 
-// Timer
+
 let timerSec=60;
 function updateTimer(){timerSec--;if(timerSec<=0){timerSec=60;load();}
 const el=document.getElementById('timerNum');if(el)el.textContent=timerSec+'s';}
@@ -310,7 +310,7 @@ async function load(){try{const r=await fetch('/data/news.json?'+Date.now());D=a
 </script>
 </body>
 </html>
-// Timer - counts down from 60, persists via timestamp
+ - counts down from 60, persists via timestamp
 var FM_TS_KEY='fm_ts';
 function getRemain(){
   var last=parseInt(localStorage.getItem(FM_TS_KEY)||'0');
