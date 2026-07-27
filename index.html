@@ -200,11 +200,14 @@ if(rel.length){h+='<div class="ds2"><h3>📰 '+L('related')+'</h3>';rel.slice(0,
 document.getElementById('detBody').innerHTML=h;document.getElementById('detTitle').textContent=home+' vs '+away;document.getElementById('det').classList.add('on');}
 
 // News
+var newsShown=6;
+function showMore(){newsShown+=6;rNews();}
 function rNews(){const n=D.football_news||[],tr=D.transfers||[];
 if(!n.length){document.getElementById('nc').innerHTML='<div class="empty">'+L('nonews')+'</div>';return;}
 let h='';
 if(n[0]){const x=n[0];h+='<div class="nf glass" onclick="oN(0)">'+(x.img?'<img src="'+x.img+'" onerror="this.style.display=\'none\'">':'')+'<div class="ov"><div class="tg">📰 '+(curLang==='en'?'Featured':'خبر ویژه')+'</div><div class="tt">'+tn(x)+'</div></div></div>';}
 n.slice(1,8).forEach((x,i)=>{h+='<div class="nh" onclick="oN('+(i+1)+')">'+(x.img?'<img src="'+x.img+'" loading="lazy" onerror="this.style.display=\'none\'">':'')+'<div class="nh-body"><div class="nh-t">'+tn(x)+'</div><div class="nh-d">'+td(x)+'</div></div></div>';});
+if(all.length>shown){h+='<div style="text-align:center;padding:16px"><button onclick="showMore()" style="background:#3b82f6;color:#fff;border:none;padding:10px 24px;border-radius:12px;font-size:14px;cursor:pointer">ادامه اخبار</button></div>';}
 document.getElementById('nc').innerHTML=h;}
 function oN(i){const all=[...(D.football_news||[]),...(D.transfers||[])];const n=all[i];if(!n)return;
 let h='';if(n.img)h+='<img src="'+n.img+'" style="width:100%;max-height:250px;object-fit:cover;border-radius:14px;margin-bottom:12px" onerror="this.style.display=\'none\'">';
@@ -217,7 +220,7 @@ h+='<div class="sg-item" onclick="showTransfers()"><span class="icon">🔄</span
 h+='<div class="sg-item" onclick="showStandings2()"><span class="icon">🏆</span><span class="label">'+L('standings')+'</span><span class="arrow">←</span></div>';
 h+='<div class="sg-item" onclick="openLang()"><span class="icon">🌐</span><span class="label">'+L('lang')+'</span><span class="arrow">←</span></div>';
 h+='<div class="timer"><div class="num" id="timerNum">60s</div><div class="lbl">آخرین آپدیت</div></div>';
-h+='<div class="about">FootballMA v0.0.3.1<br>Made in Alireza 🔥</div>';
+h+='<div class="about">FootballMA v0.0.3.2<br>Made in Alireza 🔥</div>';
 document.getElementById('moc').innerHTML=h;}
 
 function showTransfers(){const tr=D.transfers||[];
@@ -301,7 +304,11 @@ if(rel.length){h+='<div class="ds2"><h3>📰 '+L('related')+'</h3>';rel.slice(0,
 document.getElementById('detBody').innerHTML=h;document.getElementById('detTitle').textContent=name;document.getElementById('det').classList.add('on');}
 
 async function load(){try{const r=await fetch('/data/news.json?'+Date.now());D=await r.json();rFav();rMatch();rNews();rMore();}catch(e){}}
-load();setInterval(load,60000);
+load();
+
+if('Notification' in window && Notification.permission === 'default') {
+  Notification.requestPermission();
+}
 
 if('Notification' in window && Notification.permission === 'default') {
   Notification.requestPermission();
