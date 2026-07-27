@@ -1,181 +1,356 @@
 {
   "today_fixtures": [],
-  "updated": "2026-07-27 20:45",
+  "updated": "2026-07-27 20:51",
   "football_news": [
+    {
+      "title": "آیا اگر بهترین ورزشکارانش فوتبال بازی می کردند، ایالات متحده واقعاً برنده جام جهانی می شد؟",
+      "title_en": "Would the U.S. actually win the World Cup if its best athletes played soccer?",
+      "desc": "هر بار که USMNT از جام جهانی حذف می شود، این سوال پیش می آید: اگر بهترین ورزشکاران آمریکایی ما فوتبال بازی می کردند چه می شد؟ اینجاست که چرا آن پرواز خیالی هرگز عملی نمی شود.",
+      "desc_en": "Every time the USMNT gets knocked out of a World Cup, the question comes up: What if our best U.S. athletes played soccer? Here's why that flight of fancy would never actually work out.",
+      "source": "ESPN"
+    },
+    {
+      "title": "انتقاد اینفانتینو از منتقدان WC به دلیل \"نفرت پراکنی\"",
+      "title_en": "Infantino slams WC critics for 'spreading hate'",
+      "desc": "جیانی اینفانتینو، رئیس فیفا، منتقدان جام جهانی 2026 را به شدت مورد انتقاد قرار داد و آنها را متهم کرد که \"محور نفرت هستند\" و گفته است که باید \"تعمل کنند، مراقبه کنند، دعا کنند، یا تماشای یک فال را ببینند.\"",
+      "desc_en": "FIFA president Gianni Infantino has launched a scathing attack on critics of the 2026 World Cup, accusing them of being \"consumed by hate\" and saying they should \"reflect, meditate, pray, or watch a f",
+      "source": "ESPN"
+    },
+    {
+      "title": "منابع: مادرید دیوماند را با قراردادی 153 میلیون دلاری به خدمت گرفت",
+      "title_en": "Sources: Madrid to sign Diomande in $153m deal",
+      "desc": "منابع به ESPN گفتند که رئال مادرید انتظار دارد در ساعات آینده قراردادی را برای جذب یان دیوماند از RB Laipzig انجام دهد.",
+      "desc_en": "Real Madrid expect to complete a deal to sign Yan Diomande from RB Leipzig in the coming hours, sources have told ESPN.",
+      "source": "ESPN"
+    },
+    {
+      "title": "منبع: بارسا به کروپی بورنموث علاقه مند است",
+      "title_en": "Source: Barça interested in Bournemouth's Kroupi",
+      "desc": "یک منبع به ESPN گفت: بارسلونا احتمال جذب الی جونیور کروپی، مهاجم بورنموث را شنیده است، اگرچه جولیان آلوارز همچنان هدف اصلی قهرمان اسپانیا در تابستان امسال است.",
+      "desc_en": "Barcelona have sounded out the possibility of signing Bournemouth striker Eli Junior Kroupi, although Julián Álvarez remains the Spanish champions' top target this summer, a source told ESPN.",
+      "source": "ESPN"
+    },
+    {
+      "title": "گاتهام و گونزالس با فسخ قرارداد موافقت کردند",
+      "title_en": "Gotham, González agree to terminate contract",
+      "desc": "گاتهام اف سی، استر گونزالس با فسخ قرارداد متقابل موافقت کردند",
+      "desc_en": "Gotham FC, Esther González agree to mutually terminate contract",
+      "source": "ESPN"
+    },
+    {
+      "title": "پیرلو می‌گوید در شرایط شرط‌بندی، سرمربی ایتالیا نخواهد شد",
+      "title_en": "Pirlo says he won't coach Italy amid betting ties",
+      "desc": "آندره آ پیرلو در بحبوحه نگرانی های سیاسی در مورد قرارداد حمایت مالی با شرکت شرط بندی روسی Fonbet، از رقابت برای پست ایتالیا خارج است.",
+      "desc_en": "Andrea Pirlo is out of contention for the Italy job amid political concerns over a sponsorship deal with Russian betting firm Fonbet.",
+      "source": "ESPN"
+    },
+    {
+      "title": "اولمو عذرخواهی آیالا را برای رویارویی با WC رد کرد",
+      "title_en": "Olmo rejects Ayala apology for WC confrontation",
+      "desc": "دنی اولمو عذرخواهی روبرتو آیالا دستیار سرمربی تیم ملی آرژانتین را به خاطر درگیری این دو پس از پیروزی اسپانیا در فینال جام جهانی رد کرد.",
+      "desc_en": "Dani Olmo has rejected Argentina assistant coach Roberto Ayala's apology for the pair's altercation after Spain's World Cup final victory.",
+      "source": "ESPN"
+    },
+    {
+      "title": "امباپه خطاب به فرانسه: پایان بهتری را مدیون شما بودیم",
+      "title_en": "Mbappé to France: 'We owed you a better ending'",
+      "desc": "کیلیان امباپه با انتشار پستی در شبکه های اجتماعی از هواداران به خاطر حمایت آنها در جام جهانی تشکر کرد و اعتراف کرد که شکست فرانسه در بردن جام \"آزار است و برای مدتی دردناک خواهد بود.\"",
+      "desc_en": "Kylian Mbappé has thanked fans for their support during the World Cup in a post on social media, admitting that France's failure to lift the trophy \"hurts, and will hurt for a while.\"",
+      "source": "ESPN"
+    },
+    {
+      "title": "با شروع سلطنت چلسی، آلونسو صبر می خواهد",
+      "title_en": "Alonso asks for patience as Chelsea reign begins",
+      "desc": "ژابی آلونسو در حالی که دوران مربیگری جدید او در راس چلسی از این هفته در سیدنی آغاز می شود، درخواست صبر کرده است.",
+      "desc_en": "Xabi Alonso has asked for patience as his new coaching era at the helm of Chelsea kicks off in Sydney this week.",
+      "source": "ESPN"
+    },
+    {
+      "title": "👀 بارسلونا، برند کوبه برای کیت جدید خارج از خانه همکاری کردند",
+      "title_en": "👀 Barcelona, Kobe brand collab for new away kit",
+      "desc": "بارسلونا از لباس خارج از خانه فصل 2026-27 خود در فصل دوم همکاری مشترک باشگاه با برند معتبر کوبی برایانت رونمایی کرد.",
+      "desc_en": "Barcelona have unveiled their 2026-27 away kit in what is the second chapter of the club's collaborative partnership with Kobe Bryant's signature brand.",
+      "source": "ESPN"
+    },
+    {
+      "title": "گول کلوپ، بازیکن جدید زیدان را نخورید...",
+      "title_en": "Don't be fooled by Klopp's, Zidane's new internati...",
+      "desc": "علیرغم هجوم استخدام‌های نام‌های بزرگ، مشاغل بین‌المللی همچنان راهی برای رستگاری یا زندگی آرام‌تر به دور از شدت نقش باشگاهی نخبگان هستند.",
+      "desc_en": "Despite the flurry of big-name hires, international jobs remain a route to redemption or a quieter life away from the intensity of an elite club role.",
+      "source": "ESPN"
+    },
+    {
+      "title": "فراموش کنید که آیا آلمان به کلوپ نیاز دارد یا خیر. آیا کلوپ به ...",
+      "title_en": "Forget whether Germany need Klopp. Does Klopp need...",
+      "desc": "یورگن کلوپ با بیان اینکه برای ادامه بازی خیلی خسته است، به حضور خود در لیورپول پایان داد. آیا او دوباره برای مربیگری بازی می کند؟",
+      "desc_en": "Jürgen Klopp ended his run with Liverpool by saying he was too tired to carry on. Is he game to coach again?",
+      "source": "ESPN"
+    },
+    {
+      "title": "رتبه بندی قدرت MLS: آیا لواندوفسکی می تواند شیکاگو را به پیش ببرد...",
+      "title_en": "MLS Power Rankings: Can Lewandowski propel Chicago...",
+      "desc": "رابرت لواندوفسکی دو بازی از دوران حرفه‌ای خود در MLS هنوز با شیکاگو فایر برنده نشده است، بنابراین آنها را در رتبه‌بندی قدرت MLS ESPN قرار می‌دهد؟",
+      "desc_en": "Two games into his MLS career, Robert Lewandowski has yet to win with the Chicago Fire, so where does that leave them in ESPN's MLS Power Rankings?",
+      "source": "ESPN"
+    },
+    {
+      "title": "شایعات نقل و انتقالات، اخبار: لیورپول و پاری سن ژرمن B...",
+      "title_en": "Transfer rumors, news: Liverpool and PSG to open B...",
+      "desc": "پاری سن ژرمن قرار است مذاکرات خود را با لیورپول در مورد انتقال احتمالی بردلی بارکولا به آنفیلد آغاز کند.",
+      "desc_en": "Paris Saint-Germain are set to open talks with Liverpool over Bradley Barcola's potential transfer to Anfield Transfer Talk has the latest.",
+      "source": "ESPN"
+    },
+    {
+      "title": "نمرات نقل و انتقالات مردان: من سیتی B- را برای کلوپ-re...",
+      "title_en": "Men's transfer grades: Man City get B- for club-re...",
+      "desc": "پنجره نقل و انتقالات تابستانی 2026 باز است. در اینجا نحوه رتبه بندی ما به بزرگترین معاملات آمده است.",
+      "desc_en": "The 2026 summer transfer window is open. Here is how we rated the biggest deals.",
+      "source": "ESPN"
+    },
+    {
+      "title": "NWSL Power Rankings: Spirit رتبه اول را پس از...",
+      "title_en": "NWSL Power Rankings: Spirit reclaim No. 1 spot aft...",
+      "desc": "واشینگتن اسپریت با پنجمین برد خود در شش بازی، جایگاه اول را در رتبه بندی قدرت NWSL ESPN پس گرفت، زیرا گاتهام اف سی در جاده امتیازات را کاهش داد.",
+      "desc_en": "The Washington Spirit took back the top spot in ESPN's NWSL Power Rankings with their fifth win in six games, as Gotham FC dropped points on the road.",
+      "source": "ESPN"
+    },
+    {
+      "title": "رده بندی تمامی 23 جام جهانی از بدترین به بهترین... wh...",
+      "title_en": "Ranking all 23 World Cups from worst to best... wh...",
+      "desc": "صعود اسپانیا به پیروزی در سال 2026 یک جام جهانی درخشان را رقم زد. اما این تابستان در کجای رکورد تاریخ قرار گرفت؟",
+      "desc_en": "Spain's romp to victory in 2026 capped a brilliant World Cup. But where did this summer rank in the all-time record?",
+      "source": "ESPN"
+    },
+    {
+      "title": "آیا MLS می تواند از شور و شوق جام جهانی در ایالات متحده استفاده کند؟",
+      "title_en": "Can MLS capitalize on World Cup fervor in the U.S....",
+      "desc": "MLS در یک دوراهی قرار دارد. لیگ حاضر است در فصل بعدی خود چه چیزی را به خطر بیندازد؟",
+      "desc_en": "The MLS is at a crossroads. What is the league willing to risk in its next chapter?",
+      "source": "ESPN"
+    },
+    {
+      "title": "Legends only: مایکل جردن، دیوید بکهام به شما پیوند می دهند...",
+      "title_en": "Legends only: Michael Jordan, David Beckham link u...",
+      "desc": "این دو نماد ورزشی توسط همسرانشان برای یک جلسه ناهار پیوستند، جایی که این دو در آغوش گرفته شدند.",
+      "desc_en": "The two sporting icons were joined by their wives for a lunch meetup, where the duo was seen embracing.",
+      "source": "ESPN"
+    },
+    {
+      "title": "لباس خارج از خانه جدید آرسنال، کبودی های فرقه ای را برمی گرداند...",
+      "title_en": "Arsenal's new away kit brings back cult 'bruised b...",
+      "desc": "آرسنال از لباس خارج از خانه 2026-27 خود رونمایی کرد و بار دیگر الهام بخش این طرح، پیراهن قدیمی \"موز کبود\" در اوایل دهه 1990 است.",
+      "desc_en": "Arsenal have unveiled their 2026-27 away kit and once more the inspiration for the design is their old \"Bruised Banana\" jersey of the early 1990s.",
+      "source": "ESPN"
+    },
+    {
+      "title": "لباس خارج از خانه جدید رئال مادرید اولین پیراهن سبز رنگ...",
+      "title_en": "Real Madrid's new away kit first green jersey sinc...",
+      "desc": "رئال مادرید امیدوار است ژوزه مورینیو بتواند جوانه های سبز ریکاوری را به برنابئو بیاورد، بنابراین مناسب است که تیم یک لباس سبز جدید برای مسابقه داشته باشد.",
+      "desc_en": "Real Madrid hope José Mourinho can bring the green shoots of recovery to the Bernabéu, so it's fitting the team have a new green away kit to match.",
+      "source": "ESPN"
+    },
     {
       "title": "حکم براندل در مورد نوریس \"بی امان\"، حادثه پیاستری-ساینز و بازگشت مالزی",
       "title_en": "Brundle's verdict on 'relentless' Norris, Piastri-Sainz incident and Malaysia return",
       "desc": "گرندپری مجارستان راهی سرگرم‌کننده برای به پایان رساندن قسمت اول فصل F1 2026 قبل از تعطیلات تابستانی بود. چهار یا پنج دونده برتر اغلب همه در یک عکس دوربین قابل مشاهده بودند",
       "desc_en": "The Hungarian Grand Prix was an entertaining way to finish the first part of the 2026 F1 season before the summer break. The top four or five runners were often all visible in the same camera shot, an",
-      "img": "/img/n0.jpg"
+      "source": "Sky Sports"
     },
     {
       "title": "انگلیس با عبور از مالاوی در گلاسکو از شکست استرالیا برگشت",
       "title_en": "England bounce back from Australia defeat by breezing past Malawi in Glasgow",
       "desc": "انگلیس پس از شکست بازی های مشترک المنافع خود در نت بال مقابل استرالیا با پیروزی بسیار مورد نیاز مقابل مالاوی در گلاسکو برگشت.",
       "desc_en": "England bounced back from their Commonwealth Games Netball defeat at the hands of Australia with a much-needed victory against Malawi in Glasgow.",
-      "img": "/img/n1.jpg"
+      "source": "Sky Sports"
     },
     {
       "title": "\"فشار روی آنتونلی است\" - نوریس احتمال مبارزه با عنوان قهرمانی را رد نمی کند",
       "title_en": "'Pressure is on Antonelli' - Norris not ruling out title fightback",
       "desc": "لاندو نوریس احتمال مبارزه با عنوان قهرمانی را رد نکرده است و می گوید تمام فشارها روی رهبر قهرمانی فرمول 1، کیمی آنتونلی است.",
       "desc_en": "Lando Norris has not ruled out mounting a title fightback and says all the pressure is on Formula 1 championship leader Kimi Antonelli.",
-      "img": "/img/n2.jpg"
+      "source": "Sky Sports"
     },
     {
       "title": "علاقه آرسنال و پیگیری دیوماند از رئال چه معنایی برای وینی جونیور دارد",
       "title_en": "What Arsenal's interest and Real's Diomande pursuit mean for Vini Jr",
       "desc": "آینده وینیسیوس جونیور در رئال مادرید موضوع شایعات اخیر بوده و آرسنال در حال بررسی قراردادی برای این مهاجم است، اما در ادامه چه اتفاقی می‌افتد؟",
       "desc_en": "Vinicius Junior's Real Madrid future has been the subject of recent speculation, with Arsenal exploring a deal for the forward, but what could happen next?",
-      "img": "/img/n3.jpg"
+      "source": "Sky Sports"
     },
     {
       "title": "چلسی مذاکرات مثبتی با برایتون بر سر ولبک دارد",
       "title_en": "Chelsea hold positive talks with Brighton over Welbeck",
       "desc": "چلسی مذاکرات اولیه مثبتی با برایتون در مورد قرارداد دنی ولبک داشته است.",
       "desc_en": "Chelsea have held positive initial talks with Brighton about a deal for Danny Welbeck.",
-      "img": "/img/n4.jpg"
+      "source": "Sky Sports"
     },
     {
       "title": "راننده مرسدس، لاگرو را جستجو می کند تا به عنوان جانشین مارکو به ردبول بپیوندد",
       "title_en": "Mercedes driver scout Lagrue to join Red Bull as Marko replacement",
       "desc": "",
       "desc_en": "",
-      "img": "/img/n5.jpg"
+      "source": "Sky Sports"
     },
     {
       "title": "اخبار فوتبال: اینفانتینو به منتقدان جام جهانی می‌گوید \"مدیتیشن و دعا کنید\"",
       "title_en": "Football news: Infantino tells World Cup critics to 'meditate and pray'",
       "desc": "",
       "desc_en": "",
-      "img": "/img/n6.jpg"
+      "source": "Sky Sports"
     },
     {
       "title": "داستان \"ورکسام غیر لیگ\" که اکنون رویای EFL را دنبال می کند",
       "title_en": "The story of the 'non-League Wrexham' now chasing the EFL dream",
       "desc": "هری هوگو با فروش 40 درصد از آژانس اینفلوئنسر مارکتینگ، Goat، در سال 2021، در 26 سالگی ثروت خود را به دست آورد - و او متوجه شد که در سن 30 سالگی، تجملات نادری را خواهد داشت که نیازی به این کار نداشته باشد.",
       "desc_en": "Having sold 40 per cent of influencer marketing agency, Goat, in 2021, Harry Hugo had made his fortune at 26 - and he realised that, by the age of 30, he would have the rare luxury of not needing to w",
-      "img": "/img/n7.jpg"
+      "source": "Sky Sports"
     },
     {
       "title": "رئال این هفته مذاکرات بیشتری در مورد آینده وینیسیوس جونیور انجام خواهد داد",
       "title_en": "Real to hold further talks over Vinicius Jr's future this week",
       "desc": "رئال مادرید در این هفته با نمایندگان وینسیوس جونیور درباره آینده او مذاکرات بیشتری خواهد داشت.",
       "desc_en": "Real Madrid will hold further talks with Vincius Junior's representatives about his future this week.",
-      "img": "/img/n8.jpg"
+      "source": "Sky Sports"
     },
     {
       "title": "پاکسازی؟ بقیه سال 2026 برای Littler چگونه به نظر می رسد",
       "title_en": "Clean sweep? What the rest of 2026 looks like for Littler",
       "desc": "زمانی که لوک لیتلر برای مسابقات جهانی به بلکپول وارد شد، یک چیز را روشن کرد: نتیجه این مسابقات تعیین می کند که بقیه سال 2026 او چگونه پیش می رود.",
       "desc_en": "When Luke Littler arrived in Blackpool for the World Matchplay he made one thing clear: the outcome of this tournament would determine how the rest of his 2026 unfolded.",
-      "img": "/img/n9.jpg"
+      "source": "Sky Sports"
     },
     {
       "title": "بری برای رویارویی با تلز در آندرکارد مایر در مقابل کامرون، زنده از اسکای",
       "title_en": "Barry to face Tellez on Mayer vs Cameron undercard, live on Sky",
       "desc": "جسیکا بری، بوکسور بریتانیایی، در 29 اوت در بیرمنگام، زنده از اسکای اسپورت، با نامزد اصلی تگزاسی، رینا تلز، در آندرکارت برای میکائلا مایر در برابر شانتل کامرون مبارزه خواهد کرد.",
       "desc_en": "British boxer Jessica Barry will fight Texan top contender Reina Tellez on the undercard for Mikaela Mayer against Chantelle Cameron on August 29 in Birmingham, live on Sky Sports.",
-      "img": "/img/n10.jpg"
+      "source": "Sky Sports"
     },
     {
       "title": "دویل: اسکاندیناوی می تواند با قهرمانی در جام گودوود از کیپریوس تقلید کند",
       "title_en": "Doyle: Scandinavia can emulate Kyprios with Goodwood Cup win",
       "desc": "سفیر ما در حال پیش‌نمایش تمام پنج روز گودوود است که با یک روز افتتاحیه جذاب در روز سه‌شنبه آغاز می‌شود که شامل جام گودوود است.",
       "desc_en": "Our ambassador is previewing all five days of the Goodwood, beginning with an enthralling opening day on Tuesday, featuring the Goodwood Cup.",
-      "img": "/img/n11.jpg"
+      "source": "Sky Sports"
     },
     {
       "title": "جدیدترین چلسی: رای دهید! آیا ولبک نوع مهاجم مناسبی در استمفوردبریج است؟",
       "title_en": "Chelsea latest: VOTE! Is Welbeck the right type of striker at Stamford Bridge?",
       "desc": "",
       "desc_en": "",
-      "img": "/img/n12.jpg"
+      "source": "Sky Sports"
     },
     {
       "title": "شگفت انگیز! | بهترین شوت های باز زنان AIG تا کنون!",
       "title_en": "'AMAZING!' | The best ever AIG Women's Open shots!",
       "desc": "بهترین شوت‌های تاریخ مسابقات، از جمله Lottie Woad، Mimi Rhodes و Anna Nordqvist را تماشا کنید.",
       "desc_en": "Watch our pick of the best shots in the history of tournament, including Lottie Woad, Mimi Rhodes and Anna Nordqvist.",
-      "img": "/img/n13.jpg"
+      "source": "Sky Sports"
     },
     {
       "title": "آیا جوانترین سرمربی پریمیرشیپ می تواند مادرول را به موفقیت برساند؟",
       "title_en": "Can Premiership's youngest manager lead Motherwell to success?",
       "desc": "آلفرد یوهانسون تنها 35 سال دارد، اما چه انتظاری از مادرول زیر نظر جوان ترین سرمربی در لیگ برتر اسکاتلند می توان داشت؟",
       "desc_en": "Alfred Johansson is only 35, but what can be expected from Motherwell under the youngest manager in the Scottish Premiership?",
-      "img": "/img/n14.jpg"
+      "source": "Sky Sports"
     },
     {
       "title": "هم تیمی F1 2026 رودررو در تعطیلات تابستانی",
       "title_en": "F1 2026 team-mate head-to-heads at summer break",
       "desc": "رودرروی فرمول 1 2026 با تمام آخرین امتیازات مسابقات مقدماتی، اسپرینت و جایزه بزرگ در هر یک از 11 تیم.",
       "desc_en": "The 2026 Formula 1 head-to-heads with all of the latest Qualifying, Sprint and Grand Prix scores in each of the 11 teams.",
-      "img": "/img/n15.jpg"
+      "source": "Sky Sports"
     },
     {
       "title": "نلسون: Fury vs AJ من را بیشتر از همیشه هیجان زده می کند و فیوری برتری دارد",
       "title_en": "Nelson: Fury vs AJ excites me more than ever and Fury has the edge",
       "desc": "این مبارزه بیش از هر زمان دیگری مرا هیجان زده می کند و فکر می کنم تایسون فیوری برتری دارد.",
       "desc_en": "This fight excites me more than it ever has, and I think Tyson Fury has the edge.",
-      "img": "/img/n16.jpg"
+      "source": "Sky Sports"
     },
     {
       "title": "حماسه سرمربی ایتالیا در حالی ادامه دارد که پیرلو در بحبوحه پیوندهای قرارداد شرط بندی روسیه از بازی خارج شد",
       "title_en": "Italy head coach saga continues as Pirlo ruled out amid Russian betting deal links",
       "desc": "آندره آ پیرلو پس از انتقاد از روابط تجاری اش با یک شرکت شرط بندی روسی اعلام کرد که دیگر برای سرمربیگری بعدی ایتالیا رقابتی ندارد.",
       "desc_en": "Andrea Pirlo has announced he is no longer in contention to become the next Italy head coach following criticism of his commercial links with a Russian betting company.",
-      "img": "/img/n17.jpg"
+      "source": "Sky Sports"
     },
     {
       "title": "به نظر می رسد رویای آمازون در ویندزور پشت سر هم باز شود",
       "title_en": "Amazonian Dream looks to go back-to-back at Windsor",
       "desc": "ما در روز دوشنبه یک مسابقه پرمشغله داریم با اکشن مسطح از Ripon، Southwell و Windsor، به صورت زنده در Sky Sports Racing...",
       "desc_en": "We have a busy day&#8217;s racing on Monday with flat action from Ripon, Southwell and Windsor, live on Sky Sports Racing...",
-      "img": "/img/n18.jpg"
+      "source": "Sky Sports"
     },
     {
       "title": "لیتلر می خواهد \"بزرگترین بازیکن دارت تا کنون\" باشد - چقدر به تیلور نزدیک است؟",
       "title_en": "Littler wants to be 'greatest darts player ever' - how close is he to Taylor?",
       "desc": "لوک لیتلر رویای خود را برای تبدیل شدن به \"بزرگترین بازیکن دارت تا کنون\" پس از دفاع غالب خود در مسابقات جهانی بتفرد، با آخرین برد شماره 1 جهان تکرار کرده است.",
       "desc_en": "Luke Littler has reiterated his dream to become the &#8216;greatest darts player ever&#8217; after his dominant Betfred World Matchplay title defence, with the world No 1&#8217;s latest win drawing fu",
-      "img": "/img/n19.jpg"
+      "source": "Sky Sports"
     },
     {
       "title": "منچسترسیتی امیدوار است رودری با بررسی پیشنهاد رئال مادرید، قرارداد جدیدی امضا کند",
       "title_en": "Manchester City hope Rodri will sign new deal as Real Madrid weigh up offer",
       "desc": "رئال مادرید علاقه مند به اجرای جام جهانی است. قرارداد هافبک با سیتی در ژوئن 2027 به پایان می رسد منچسترسیتی امیدوار است رودری قرارداد جدیدی را امضا کند، اما باشگاه برای پیشنهادی آماده است.",
       "desc_en": "Real Madrid interested after World Cup performanceMidfielder’s contract at City expires in June 2027Manchester City are hopeful that Rodri will sign a new contract, but the club are braced for a bid f",
-      "img": "/img/n20.jpg"
+      "source": "Guardian"
     },
     {
       "title": "چلسی در حال بررسی اقدام غافلگیرکننده برای جذب دنی ولبک از برایتون است",
       "title_en": "Chelsea explore surprise move to sign Danny Welbeck from Brighton",
       "desc": "کهنه سرباز فصل گذشته در 37 بازی لیگ 13 گل به ثمر رساند. علایق نشان می دهد که استراتژی نقل و انتقالات استمفوردبریج تغییر کرده است چلسی در حال مذاکره برای جذب دنی ولبک از برایتون است.",
       "desc_en": "Veteran scored 13 goals in 37 league games last seasonInterest signals shift in Stamford Bridge transfer strategyChelsea are understood to be in talks over a move to sign Danny Welbeck from Brighton.W",
-      "img": "/img/n21.jpg"
+      "source": "Guardian"
     },
     {
-      "title": "چرا زنان تاتنهام باعث حواس پرتی از تاریکی تماشای تیم مردان شده اند | مارک برتون",
-      "title_en": "Why Tottenham Women have provided distraction from the gloom of watching men’s team | Mark Burton",
-      "desc": "ارتباط رو به رشد با هواداران به تیم زنان کمک کرده است تا لذت بخش ترین بخش حمایت از اسپرز باشد.",
-      "desc_en": "A growing connection with fans has helped make the women’s team by far the most enjoyable part of supporting SpursThe exciting football played by Tottenham’s women last season provided a much-needed a",
-      "img": "/img/n22.jpg"
+      "title": "\"متولد از کیفیت\": وب قول داد که مقامات مسابقات را از گروه های اقلیت افزایش دهد",
+      "title_en": "‘Born out of quality’: Webb vows to increase match officials from minority groups",
+      "desc": "بدن داوران از طرح‌های تنوع حمایت می‌کند وب معتقد است که استخرهای استعدادهای مختلف استانداردها را افزایش می‌دهد.",
+      "desc_en": "Referees’ body stands by diversity initiativesWebb believes diverse talent pool will ‘raise standards’Howard Webb, England’s chief refereeing officer, has vowed to continue increasing the talent pool ",
+      "source": "Guardian"
     },
     {
       "title": "فوتبال روزانه | وینیسیوس به آرسنال؟ مجموعه صنعتی نظامی فوتبال باشگاهی دوباره شروع به کار کرد",
       "title_en": "Football Daily | Vinícius to Arsenal? Club football’s military industrial complex kicks back into gear",
       "desc": "اکنون ثبت نام کنید! اکنون ثبت نام کنید! اکنون ثبت نام کنید؟ هم اکنون ثبت نام کنید! اگر این یک اقتصاد توجه است، هیچ توجه جوینده ای بیشتر از فوتبال باشگاهی وجود ندارد. به تسلط بر برنامه ورزشی برای 11 ماه راضی نیستم",
       "desc_en": "Sign up now! Sign up now! Sign up now? Sign up now!If this is an attention economy, there is no greater attention-seeker than club football. Not content with dominating the sporting agenda for 11 mont",
-      "img": "/img/n23.jpg"
+      "source": "Guardian"
     },
     {
       "title": "جیانی اینفانتینو، رئیس فیفا، منتقدان را به گسترش نفرت در جام جهانی متهم کرد",
       "title_en": "Fifa president Gianni Infantino accuses critics of spreading hate at World Cup",
       "desc": "اینفانتینو مدعی شد منتقدان جام جهانی «همه چیز را از دست داده اند» او باز هم از ماجرای بالوگون و رفتار با ایران دفاع می کند.",
       "desc_en": "Infantino claims critics of World Cup ‘missed it all’ He again defends Balogun affair and treatment of IranThe Fifa president, Gianni Infantino, has hit back at critics of the World Cup, accusing them",
-      "img": "/img/n24.jpg"
+      "source": "Guardian"
+    },
+    {
+      "title": "آندره آ پیرلو برای شغل ایتالیایی نامزد نمی شود اما از قرارداد با شرکت شرط بندی روسی دفاع می کند",
+      "title_en": "Andrea Pirlo out of running for Italy job but defends deal with Russian betting firm",
+      "desc": "سیاستمداران ایتالیایی نگران انتصاب روبرتو مانچینی و آنتونیو کونته در حال حاضر در رقابت هستند آندره آ پیرلو تایید کرد که با قرارداد اسپانسرینگ خود دیگر در صف سرمربیگری ایتالیا نیست.",
+      "desc_en": "Italian politicians had raised concern over appointmentRoberto Mancini and Antonio Conte now in contentionAndrea Pirlo has confirmed he is no longer in line to coach Italy, with his sponsorship deal w",
+      "source": "Guardian"
+    },
+    {
+      "title": "چرا زنان تاتنهام باعث حواس پرتی از تاریکی تماشای تیم مردان شده اند | مارک برتون",
+      "title_en": "Why Tottenham Women have provided distraction from the gloom of watching men’s team | Mark Burton",
+      "desc": "ارتباط رو به رشد با هواداران به تیم زنان کمک کرده است تا لذت بخش ترین بخش حمایت از اسپرز باشد.",
+      "desc_en": "A growing connection with fans has helped make the women’s team by far the most enjoyable part of supporting SpursThe exciting football played by Tottenham’s women last season provided a much-needed a",
+      "source": "Guardian"
+    },
+    {
+      "title": "شایعات نقل و انتقالات فوتبال: آرسنال و لیورپول برای برادلی بارکولا می جنگند؟",
+      "title_en": "Football transfer rumours: Arsenal and Liverpool battle it out for Bradley Barcola?",
+      "desc": "شایعات امروزی با انتقام برگشته اند، مانند شلوارهای گشاد، عینک آفتابی کوچک و طرح پلنگی، شایعات نقل و انتقالات به شکل گسترده ای بازگشته اند. و در جاه طلبی پرم برای انتقال هیچ شکی وجود ندارد",
+      "desc_en": "Today’s rumours are back with a vengeanceLike baggy trousers, small sunglasses and leopard print, transfer rumours are back in a big way. And there can be no doubting the transfer ambition of the Prem",
+      "source": "Guardian"
+    },
+    {
+      "title": "رئال مادرید آماده است تا پس از کناره گیری پاری سن ژرمن با یان دیوماند، قرارداد خود را امضا کند",
+      "title_en": "Real Madrid ready to seal deal for Yan Diomande after PSG pull out of move",
+      "desc": "پاری سن ژرمن رسما از رقابت برای جذب وینگر کناره گیری کرد. نوجوانی که انتظار می رود تغییر برنابئو را تکمیل کند، به نظر می رسد رئال مادرید پس از پاری سن ژرمه، یان دیوماند، وینگر محبوب RB لایپزیگ، پیروز شده است.",
+      "desc_en": "PSG formally withdraw from race to sign wingerTeenager expected to complete Bernabéu switchReal Madrid look to have won the race for RB Leipzig’s coveted winger, Yan Diomande, after Paris Saint-Germai",
+      "source": "Guardian"
     }
   ],
   "fixtures": [
